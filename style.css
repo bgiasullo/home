@@ -7,6 +7,11 @@ body {
     flex-direction: column;
 }
 
+.header-top {
+    max-height: 250px;
+    background-image: url("./images/header-top-background.jpg");
+}
+
 .header2, .content1, .content2, .content3 {
     min-height: 30vh;
 }
@@ -28,7 +33,7 @@ body {
     object-fit: cover;
 }
 
-.right-links {
+.nav-links {
     display: flex;
     list-style: none;
     margin: 0px;
