@@ -10,6 +10,8 @@ body {
 .nav {
     text-align: center;
     padding: 25px;
+    font-family: "Trirong", serif;
+    font-size: 18px;
 }
 
 a:link {
@@ -49,12 +51,18 @@ a:active {
     
 .left {
     background-color: #d1cec5;
-    min-width: 80vh;
+    min-width: 60vh;
+    margin: 18px;
+    font-family: "Trirong", serif;
+    font-size: 18px;
 }
 
 .right {
     background-color: bisque;
-    min-width: 60vh;
+    min-width: 90vh;
+    margin: 18px;
+    font-family: "Trirong", serif;
+    font-size: 18px;
 }
 
 .footer {
