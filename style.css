@@ -2,7 +2,7 @@ body {
     margin: 0px;
     }
 
-.top, .nav, .footer {
+.top, .right, .footer {
     text-align: center;
     background-color: #7c8491;
     font-family: 'Cormorant Garamond', serif;
@@ -13,11 +13,6 @@ body {
     font-size: 48px;
     color: #f5e2d0;
     padding-bottom: 15px;
-}
-
-.nav {
-    font-size: 28px;
-    padding-bottom: 30px;
 }
 
 a:link, a:visited {
@@ -47,25 +42,26 @@ a:active {
     gap: 26px;
     min-height: 80vh;
     align-items: stretch;
-    padding: 26px 50px;;
+    padding: 26px 50px;
     background-color: #f5e2d0;
 }
 
 .left, .right {
+    padding: 25px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
-    padding: 20px;
 }
     
 .left {
-    background-color: #d7e1e5;
-    flex-shrink: 2;
-    max-width: 400px;
+    background-color: white;
+    min-width: 55%;
+    max-width: 70%;
 }
 
 .right {
-    background-color: white;
-    min-width: 55%;
+    font-size: 28px;
+    padding-bottom: 30px;
+    max-width: 400px;
+    min-width: 15%;
 }
 
 .footer {
@@ -78,5 +74,10 @@ a:active {
     .wrapper { 
         display: flex;
         flex-direction: column;
+        padding: 26px 18px;
        }
+
+    .right {
+        max-width: 100%;
+        }
     }
