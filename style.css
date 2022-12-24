@@ -58,6 +58,7 @@ a:active {
 .left {
     background-color: #d1cec5;
     min-width: 60vh;
+    max-width: 60vh;
 }
 
 .right {
