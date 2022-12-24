@@ -11,7 +11,7 @@ body {
     text-align: center;
     padding: 25px;
     font-family: "Trirong", serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 a:link {
@@ -35,7 +35,6 @@ a:active {
 .banner {
     background-image: url("./images/IMG_0329.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     min-height: 200px;
     max-height: 250px;
@@ -43,26 +42,27 @@ a:active {
 
 .wrapper {
     display: flex;
-    justify-content: space-evenly;
-    gap: 16px;
+    justify-content: center;
+    gap: 26px;
     min-height: 80vh;
     align-items: stretch;
+    padding: 26px;
+}
+
+.left, .right {
+    font-family: "Trirong", serif;
+    font-size: 18px;
+    padding: 20px;
 }
     
 .left {
     background-color: #d1cec5;
     min-width: 60vh;
-    margin: 18px;
-    font-family: "Trirong", serif;
-    font-size: 18px;
 }
 
 .right {
     background-color: bisque;
-    min-width: 90vh;
-    margin: 18px;
-    font-family: "Trirong", serif;
-    font-size: 18px;
+    min-width: 95vh;
 }
 
 .footer {
