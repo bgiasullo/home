@@ -2,7 +2,7 @@ body {
     margin: 0px;
     }
 
-.top, .right, .footer {
+.top, .footer {
     text-align: center;
     background-color: #7c8491;
     font-family: 'Cormorant Garamond', serif;
@@ -22,7 +22,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #f5e2d0;
+    color: #2c3646;
 }
 
 a:active {
@@ -47,21 +47,20 @@ a:active {
 }
 
 .left, .right {
-    padding: 25px;
+    padding: 2%;
     font-family: 'Cormorant Garamond', serif;
 }
     
 .left {
     background-color: white;
-    min-width: 55%;
-    max-width: 70%;
+    width: 55%;
 }
 
 .right {
-    font-size: 28px;
-    padding-bottom: 30px;
-    max-width: 400px;
-    min-width: 15%;
+    font-size: 22px;
+    width: 15%;
+    text-align: center;
+    background-color: #9b887d;
 }
 
 .footer {
@@ -75,9 +74,10 @@ a:active {
         display: flex;
         flex-direction: column;
         padding: 26px 18px;
+        align-items: center;
        }
 
-    .right {
-        max-width: 100%;
-        }
+       .left, .right {
+        width: 80%;
+       }
     }
