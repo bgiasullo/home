@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     }
@@ -52,18 +56,18 @@ a:active {
 .left, .right {
     font-family: 'Cormorant Garamond', serif;
     box-shadow: 2px 2px 9px #7c8491;
-    border-radius: 6px;
+    border-radius: 3px;
 }
     
 .left {
     background-color: white;
-    width: 57%;
+    width: 60%;
     padding: 3%;
 }
 
 .right {
     font-size: 22px;
-    width: 18%;
+    width: 20%;
     text-align: center;
     background-color: #9b887d;
     padding: 1%;
@@ -79,11 +83,11 @@ a:active {
     .wrapper { 
         display: flex;
         flex-direction: column;
-        padding: 26px 18px;
+        padding: 26px 12px;
         align-items: center;
        }
 
        .left, .right {
-        width: 80%;
+        width: 82%;
        }
     }
