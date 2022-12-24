@@ -53,19 +53,19 @@ a:active {
     background-color: #f5e2d0;
 }
 
-.left, .right {
+.main, .nav {
     font-family: 'Cormorant Garamond', serif;
     box-shadow: 2px 2px 9px #7c8491;
     border-radius: 3px;
 }
     
-.left {
+.main {
     background-color: white;
     width: 60%;
     padding: 3%;
 }
 
-.right {
+.nav {
     font-size: 22px;
     width: 20%;
     text-align: center;
@@ -87,7 +87,7 @@ a:active {
         align-items: center;
        }
 
-       .left, .right {
+       .main, .nav {
         width: 82%;
        }
     }
