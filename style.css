@@ -9,7 +9,8 @@ body {
 
 .header-top {
     max-height: 250px;
-    background-image: url("./images/header-top-background.jpg");
+    background-image: url("./images/IMG_0329.jpg");
+    background-attachment: fixed;
 }
 
 .header2, .content1, .content2, .content3 {
