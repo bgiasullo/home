@@ -12,18 +12,10 @@ body {
     padding: 25px;
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    gap: 16px;
-    align-items: center;
-}
-
 a:link {
     color: #2e1e08;
     text-decoration: none;
+    margin: 20px;
 }
 
 a:visited {
@@ -38,19 +30,31 @@ a:active {
     color: #997c67;
 }
 
+.banner {
+    background-image: url("./images/IMG_0329.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 200px;
+    max-height: 250px;
+}
+
 .wrapper {
     display: flex;
+    justify-content: space-evenly;
     gap: 16px;
+    min-height: 80vh;
+    align-items: stretch;
 }
     
 .left {
     background-color: #d1cec5;
-    max-width: 80vh;
+    min-width: 80vh;
 }
 
 .right {
     background-color: bisque;
-    max-width: 60vh;
+    min-width: 60vh;
 }
 
 .footer {
