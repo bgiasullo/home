@@ -35,11 +35,10 @@ a:active {
 }
 
 .banner {
-    background-image: url("./images/IMG_0329.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./images/IMG_1500.jpg");
     background-size: cover;
-    min-height: 200px;
-    max-height: 250px;
+    min-height: 300px;
+    max-height: 400px;
 }
 
 .wrapper {
