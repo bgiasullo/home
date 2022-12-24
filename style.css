@@ -4,14 +4,14 @@ body {
 
 .top, .nav, .footer {
     text-align: center;
-    background-color: #2f4f4f;
+    background-color: #7c8491;
     font-family: 'Cormorant Garamond', serif;
 }
 
  .top {
     padding-top: 30px;
     font-size: 48px;
-    color: white;
+    color: #f5e2d0;
     padding-bottom: 15px;
 }
 
@@ -21,17 +21,17 @@ body {
 }
 
 a:link, a:visited {
-    color: lightskyblue;
+    color: white;
     text-decoration: none;
     margin: 20px;
 }
 
 a:hover {
-    color: #997c67;
+    color: #f5e2d0;
 }
 
 a:active {
-    color: #997c67;
+    color: #f5e2d0;
 }
 
 .banner {
@@ -49,22 +49,23 @@ a:active {
     min-height: 80vh;
     align-items: stretch;
     padding: 26px;
+    background-color: #f5e2d0;
 }
 
 .left, .right {
-    font-family: "Trirong", serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
     padding: 20px;
 }
     
 .left {
-    background-color: #d1cec5;
+    background-color: #d7e1e5;
     min-width: 60vh;
     max-width: 60vh;
 }
 
 .right {
-    background-color: bisque;
+    background-color: white;
     min-width: 95vh;
 }
 
