@@ -2,26 +2,29 @@ body {
     margin: 0px;
     }
 
- .top {
+.top, .nav {
     text-align: center;
-    padding: 50px;
+    background-color: #2f4f4f;
+}
+
+ .top {
+    padding-top: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    color: white;
+    padding-bottom: 15px;
 }
 
 .nav {
-    text-align: center;
-    padding: 25px;
-    font-family: "Trirong", serif;
-    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    padding-bottom: 30px;
 }
 
-a:link {
-    color: #2e1e08;
+a:link, a:visited {
+    color: lightskyblue;
     text-decoration: none;
     margin: 20px;
-}
-
-a:visited {
-    color: #2e1e08;
 }
 
 a:hover {
