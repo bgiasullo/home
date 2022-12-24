@@ -51,7 +51,8 @@ a:active {
 
 .left, .right {
     font-family: 'Cormorant Garamond', serif;
-    box-shadow: 5px 6px 10px #7c8491;
+    box-shadow: 2px 2px 9px #7c8491;
+    border-radius: 6px;
 }
     
 .left {
