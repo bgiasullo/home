@@ -2,21 +2,20 @@ body {
     margin: 0px;
     }
 
-.top, .nav {
+.top, .nav, .footer {
     text-align: center;
     background-color: #2f4f4f;
+    font-family: 'Cormorant Garamond', serif;
 }
 
  .top {
     padding-top: 30px;
-    font-family: 'Cormorant Garamond', serif;
     font-size: 48px;
     color: white;
     padding-bottom: 15px;
 }
 
 .nav {
-    font-family: 'Cormorant Garamond', serif;
     font-size: 28px;
     padding-bottom: 30px;
 }
@@ -70,9 +69,7 @@ a:active {
 }
 
 .footer {
-    background-color: #2e1e08;
-    text-align: center;
     padding: 50px 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #997c67;
+    color: white;
+    font-size: 18px;
 }
