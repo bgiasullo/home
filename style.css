@@ -41,7 +41,7 @@ a:active {
     height: 60vh;
     border-style: hidden hidden solid hidden;
     border-color: #2c3646;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .wrapper {
@@ -54,7 +54,7 @@ a:active {
     background-color: #f5e2d0;
     border-style: hidden hidden solid hidden;
     border-color: #2c3646;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .main, .nav {
@@ -95,7 +95,7 @@ ul {
     max-height: 100vh;
 }
 
-div.nav a:link, a:visited {
+div.nav a:link, div.nav a:visited {
     color: white;
     text-decoration: none;
     margin: 20px;
