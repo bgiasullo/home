@@ -83,8 +83,9 @@ a:active {
     .wrapper { 
         display: flex;
         flex-direction: column;
-        padding: 26px 12px;
+        padding: 20px 12px;
         align-items: center;
+        gap: 13px;
        }
 
        .main, .nav {
