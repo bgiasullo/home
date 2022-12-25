@@ -6,7 +6,7 @@ body {
     margin: 0px;
     }
 
-.top, .footer {
+.top, .footer, .banner {
     text-align: center;
     background-color: #7c8491;
     font-family: 'Cormorant Garamond', serif;
@@ -19,17 +19,20 @@ body {
 }
 
 a:link, a:visited {
-    color: white;
+    color: #9b887d;
     text-decoration: none;
     margin: 20px;
+    font-weight: bold;
 }
 
 a:hover {
     color: #2c3646;
+    font-weight: bold;
 }
 
 a:active {
-    color: #f5e2d0;
+    color: #9b887d;
+    font-weight: bold;
 }
 
 .banner {
@@ -65,7 +68,8 @@ a:active {
     background-color: white;
     width: 60%;
     padding: 3%;
-    color: #2c3646;
+    color: #14171b;
+    font-size: 18px;
 }
 
 .artwrapper {
@@ -78,6 +82,10 @@ a:active {
     max-width: 400px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .nav {
     font-size: 22px;
     width: 20%;
@@ -85,6 +93,23 @@ a:active {
     background-color: #9b887d;
     padding: 1%;
     max-height: 100vh;
+}
+
+div.nav a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+div.nav a:hover {
+    color: #2c3646;
+    font-weight: bold;
+}
+
+div.nav a:active {
+    color: white;
+    font-weight: bold;
 }
 
 .footer {
