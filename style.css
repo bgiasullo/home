@@ -49,6 +49,9 @@ a:active {
     align-items: stretch;
     padding: 26px 50px;
     background-color: #f5e2d0;
+    border-style: hidden hidden solid hidden;
+    border-color: #2c3646;
+    border-width: 2px;
 }
 
 .main, .nav {
