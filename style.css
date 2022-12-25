@@ -67,6 +67,16 @@ a:active {
     color: #2c3646;
 }
 
+.artwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.artwork {
+    max-width: 400px;
+}
+
 .nav {
     font-size: 22px;
     width: 20%;
