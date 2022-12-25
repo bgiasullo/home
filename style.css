@@ -56,7 +56,7 @@ a:active {
 
 .main, .nav {
     font-family: 'Cormorant Garamond', serif;
-    box-shadow: 2px 2px 9px #2c3646;
+    box-shadow: 2px 5px 8px #2c3646;
     border-radius: 3px;
 }
     
@@ -83,6 +83,7 @@ a:active {
     text-align: center;
     background-color: #9b887d;
     padding: 1%;
+    max-height: 100vh;
 }
 
 .footer {
