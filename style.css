@@ -13,10 +13,9 @@ body {
 }
 
  .top {
-    padding-top: 30px;
+    padding: 30px;
     font-size: 48px;
     color: #f5e2d0;
-    padding-bottom: 15px;
 }
 
 a:link, a:visited {
@@ -35,11 +34,10 @@ a:active {
 
 .banner {
     background-image: url("./images/IMG_1500.jpg");
-    background-size: cover;
-    min-height: 300px;
-    max-height: 400px;
+    background-size: contain;
+    height: 60vh;
     border-style: hidden hidden solid hidden;
-    border-color: #9b887d;
+    border-color: #2c3646;
     border-width: 2px;
 }
 
