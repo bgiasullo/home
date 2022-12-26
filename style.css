@@ -47,7 +47,7 @@ a:active {
 .wrapper {
     display: flex;
     justify-content: center;
-    gap: 26px;
+    gap: 18px;
     min-height: 80vh;
     align-items: stretch;
     padding: 26px 50px;
@@ -125,6 +125,7 @@ div.nav a:active {
         padding: 20px 12px;
         align-items: center;
         gap: 13px;
+        justify-content: space-evenly;
        }
 
        .main, .nav {
