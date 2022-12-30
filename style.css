@@ -14,8 +14,8 @@ body {
 
  .top {
     padding: 30px;
-    font-size: 48px;
-    color: #f5e2d0;
+    font-size: 56px;
+    color: #f5e2d0 !important;
 }
 
 a:link, a:visited {
@@ -124,11 +124,14 @@ div.nav a:active {
         flex-direction: column;
         padding: 20px 12px;
         align-items: center;
-        gap: 13px;
         justify-content: space-evenly;
        }
 
        .main, .nav {
         width: 82%;
+       }
+
+       .main {
+        margin-bottom: 6px;
        }
     }
