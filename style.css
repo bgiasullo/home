@@ -15,18 +15,16 @@ body {
  .top {
     padding: 30px;
     font-size: 56px;
-    color: #f5e2d0 !important;
 }
 
 a:link, a:visited {
-    color: #9b887d;
+    color: #7d959d;
     text-decoration: none;
-    margin: 20px;
     font-weight: bold;
 }
 
 a:hover {
-    color: #2c3646;
+    color: #a1bac1;
     font-weight: bold;
 }
 
@@ -69,7 +67,7 @@ a:active {
     width: 60%;
     padding: 3%;
     color: #14171b;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .artwrapper {
@@ -95,7 +93,7 @@ ul {
     max-height: 100vh;
 }
 
-div.nav a:link, div.nav a:visited {
+.nav a:link, .nav a:visited {
     color: white;
     text-decoration: none;
     margin: 20px;
@@ -103,7 +101,7 @@ div.nav a:link, div.nav a:visited {
 }
 
 div.nav a:hover {
-    color: #2c3646;
+    color: #efad9f;
     font-weight: bold;
 }
 
