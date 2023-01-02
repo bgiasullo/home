@@ -64,7 +64,7 @@ a:active {
     
 .main {
     background-color: white;
-    width: 60%;
+    width: 65%;
     padding: 3%;
     color: #14171b;
     font-size: 20px;
@@ -85,7 +85,7 @@ ul {
 }
 
 .nav {
-    font-size: 22px;
+    font-size: 24px;
     width: 20%;
     text-align: center;
     background-color: #9b887d;
@@ -96,7 +96,7 @@ ul {
 .nav a:link, .nav a:visited {
     color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 28px;
     font-weight: bold;
 }
 
