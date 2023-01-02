@@ -90,7 +90,7 @@ ul {
     text-align: center;
     background-color: #9b887d;
     padding: 1%;
-    max-height: 100vh;
+    max-height: 80vh;
 }
 
 .nav a:link, .nav a:visited {
