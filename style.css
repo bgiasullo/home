@@ -14,7 +14,7 @@ body {
 
  .top {
     padding: 30px;
-    font-size: 56px;
+    font-size: 66px;
 }
 
 a:link, a:visited {
@@ -24,19 +24,19 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #a1bac1;
+    color: #efad9f;
     font-weight: bold;
 }
 
 a:active {
-    color: #9b887d;
+    color: #efad9f;
     font-weight: bold;
 }
 
 .banner {
     background-image: url("./images/IMG_1500.jpg");
     background-size: cover;
-    height: 60vh;
+    height: 40vh;
     border-style: hidden hidden solid hidden;
     border-color: #2c3646;
     border-width: 1px;
@@ -77,7 +77,7 @@ a:active {
 }
 
 .artwork {
-    max-width: 100%;
+    max-width: 60%;
 }
 
 ul {
