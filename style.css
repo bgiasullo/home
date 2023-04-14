@@ -3,15 +3,19 @@ body {
     margin: 0px;
     }
 
-.top, .footer, .banner {
-    text-align: center;
-    background-color: #7c8491;
-    font-family: 'Cormorant Garamond', serif;
+.banner, .footer {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
 }
 
- .top {
-    padding: 30px;
-    font-size: 66px;
+.top {
+    color: #efad9f;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 5vw;
+    padding: 1%;
 }
 
 a:link, a:visited {
@@ -30,30 +34,15 @@ a:active {
     font-weight: bold;
 }
 
-.banner {
-    height: 10vh;
-    border-style: hidden hidden solid hidden;
-    border-color: #2c3646;
-    border-width: 1px;
-}
-
 .wrapper {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
-    gap: 20px;
-    min-height: 80vh;
-    padding: 26px 40px;
-    background-color: #f5e2d0;
-    border-style: hidden hidden solid hidden;
-    border-color: #2c3646;
-    border-width: 1px;
+    gap: 1%;
 }
 
 .main, .nav {
     font-family: 'Cormorant Garamond', serif;
-    border-color: #2c3646;
-    border-width: 1px;
-    border-style: solid;
 }
     
 .main {
@@ -67,7 +56,7 @@ a:active {
 .artwrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .artwork {
@@ -79,51 +68,44 @@ ul {
 }
 
 .nav {
-    font-size: 24px;
+    font-size: 26px;
     width: 25%;
-    text-align: center;
-    background-color: #9b887d;
-    padding: 1%;
-    max-height: 80vh;
+    text-align: left;
+    background-color: white;
+    padding: 2%;
 }
 
-.nav a:link, .nav a:visited {
-    color: white;
+.nav a:link, .nav a:visited, .nav a:active {
+    color: rgb(20, 62, 68);
     text-decoration: none;
     margin: 28px;
     font-weight: bold;
 }
 
-div.nav a:hover {
+.nav a:hover {
     color: #efad9f;
     font-weight: bold;
-}
-
-div.nav a:active {
-    color: white;
-    font-weight: bold;
-}
-
-.footer {
-    padding: 50px 20px;
-    color: white;
-    font-size: 20px;
 }
 
 @media only screen and (max-width: 700px) {
     .wrapper { 
         display: flex;
-        flex-direction: column;
-        padding: 20px 12px;
-        align-items: center;
-        justify-content: space-evenly;
+        flex-direction: column-reverse;
        }
 
-       .main, .nav {
-        width: 82%;
-       }
+    .main, .nav {
+        width: 90%;
+    }
+    
+    .top {
+        font-size: 10vh;
+        text-align: center;
+    }
 
-       .main {
-        margin-bottom: 6px;
-       }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+   
     }
