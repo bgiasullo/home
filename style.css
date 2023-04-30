@@ -3,22 +3,25 @@ body {
     color: #2a2124;
     font-family: "Ysabeau", sans-serif;
     overflow-x: hidden; /* Hide horizontal scrollbar */
+    font-size: 30px;
 }
 
 .container {
     display: flex;
-    gap: 80px;
+    gap: 20px;
+    float: right;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    max-width: 60%;
   }
 
-.item1 { 
+.nav {
     position: fixed;
-    text-align: left;
-    font-size: 30px;
-    top: 0;
-    left: 0;
-    max-width: 30%;
-    padding: 30px;
-}
+    top: 1%;
+    left: 3%;
+    max-width: 20%;
+  }
 
 h1 {
     font-size: 49px;
@@ -35,12 +38,6 @@ ul {
     padding: 0;
 }
 
-.item2 { 
-    position: relative;
-    flex-wrap: wrap;
-    text-align: left;
-}
-
 a:link, a:visited, a:active {
     color: #2a2124;
     text-decoration: none;
@@ -51,15 +48,8 @@ a:hover {
     color: #8ed6ee;
 }
 
-.container2 {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    position: relative;
-}
-
 .artwork {
-    max-width: 50%;
+    max-width: 80%;
 }
 
 figcaption {
@@ -69,24 +59,7 @@ figcaption {
 
 @media only screen and (max-width: 700px) {
 
-.grid-container {
-    display: grid;
-    grid-template-areas: 'nav' 
-    'main';
-    gap: 10px;
-    padding: 10px;
-}
 
-.item1 {
-    position: static;
-    padding: 2px;
-    max-width: 100%;
-}
-
-.item2 {
-    position: static;
-    padding: 2px;
-}
 
 .artwork {
     max-width: 100%;
