@@ -1,6 +1,7 @@
 body {
     background-color: #f0e6e3;
     color: #2a2124;
+    font-family: "Ysabeau", sans-serif
 }
 
 .item1 { 
@@ -11,6 +12,8 @@ body {
 
 h1 {
     font-size: 49px;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
 }
 
 ul {
@@ -39,6 +42,7 @@ ul {
 a:link, a:visited, a:active {
     color: #2a2124;
     text-decoration: none;
+    padding: 8px 15px;
 }
 
 a:hover {
@@ -62,6 +66,7 @@ a:hover {
 
 ul {
     display: flex;
+    flex-wrap: wrap;
 }
    
     }
