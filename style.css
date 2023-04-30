@@ -7,9 +7,7 @@ body {
 
 .container {
     display: flex;
-    grid-template-areas: 'nav main';
-    gap: 50px;
-    padding: 40px;
+    gap: 80px;
   }
 
 .item1 { 
@@ -18,8 +16,8 @@ body {
     font-size: 30px;
     top: 0;
     left: 0;
-    max-width: 25%;
-    padding: 50px;
+    max-width: 30%;
+    padding: 30px;
 }
 
 h1 {
@@ -38,10 +36,9 @@ ul {
 }
 
 .item2 { 
-    max-width: 80%;
     position: relative;
-    top: 100px;
-    left: 300px;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
 a:link, a:visited, a:active {
@@ -54,11 +51,11 @@ a:hover {
     color: #8ed6ee;
 }
 
-.wrapper {
+.container2 {
     display: flex;
-    gap: 6px;
-    justify-content: center;
+    gap: 8px;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .artwork {
