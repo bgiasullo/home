@@ -8,18 +8,18 @@ body {
 
 .container {
     display: flex;
-    gap: 20px;
+    gap: 2%;
     float: right;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 3%;
     max-width: 60%;
   }
 
 .nav {
     position: fixed;
     top: 1%;
-    left: 3%;
+    left: 3.5%;
     max-width: 20%;
   }
 
@@ -27,12 +27,12 @@ h1 {
     font-size: 49px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    padding: 8px 0px;
+    padding: 2% 0%;
     text-shadow: -1px 1px 2px #8ed6ee;
 }
 
 ul {
-    text-decoration: non;
+    text-decoration: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@ ul {
 a:link, a:visited, a:active {
     color: #2a2124;
     text-decoration: none;
-    padding: 8px 15px;
+    padding: 1%;
 }
 
 a:hover {
@@ -59,7 +59,21 @@ figcaption {
 
 @media only screen and (max-width: 700px) {
 
+.container {
+    display: block;
+    float: none;
+    max-width: 100%;
+    padding: 1%;
+}
 
+.nav {
+    position: static;
+    max-width: 100%;
+}
+
+a:link {
+    padding: 1px 8px;
+}
 
 .artwork {
     max-width: 100%;
