@@ -1,56 +1,45 @@
 
 body {
-    margin: 0px;
+    background-color: white;
     }
 
-.banner, .footer {
-    visibility: hidden;
-    position: absolute;
-    top: 0px;
+.wrapper {
+    display: flex;
+    gap: 18px;
 }
 
-.top {
-    color: #efad9f;
+.nav {
+    flex-shrink: 0;
+}
+
+.name {
+    color: coral;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     text-align: left;
-    font-size: 5vw;
-    padding: 1%;
+    font-size: 48px;
 }
 
-a:link, a:visited {
-    color: #7d959d;
+.links {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+}
+
+a:link, a:visited, a:active {
+    color: olive;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #efad9f;
+    color: coral;
     font-weight: bold;
 }
 
-a:active {
-    color: #efad9f;
-    font-weight: bold;
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 1%;
-}
-
-.main, .nav {
+.content {
     font-family: 'Cormorant Garamond', serif;
-}
-    
-.main {
-    background-color: white;
-    width: 65%;
-    padding: 3%;
-    color: #14171b;
-    font-size: 20px;
+    color: rgb(15, 15, 15);
+    font-size: 19px;
 }
 
 .artwrapper {
@@ -67,45 +56,19 @@ ul {
     list-style-type: none;
 }
 
-.nav {
-    font-size: 26px;
-    width: 25%;
-    text-align: left;
-    background-color: white;
-    padding: 2%;
-}
 
-.nav a:link, .nav a:visited, .nav a:active {
-    color: rgb(20, 62, 68);
-    text-decoration: none;
-    margin: 28px;
-    font-weight: bold;
-}
-
-.nav a:hover {
-    color: #efad9f;
-    font-weight: bold;
-}
 
 @media only screen and (max-width: 700px) {
-    .wrapper { 
+  
+    .wrapper {
         display: flex;
-        flex-direction: column-reverse;
-       }
-
-    .main, .nav {
-        width: 90%;
-    }
-    
-    .top {
-        font-size: 10vh;
-        text-align: center;
+        flex-direction: column;
     }
 
-    .nav {
+    .links {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        gap: 18px;
     }
    
     }
