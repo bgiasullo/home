@@ -1,25 +1,25 @@
 body {
     background-color: #f0e6e3;
     color: #2a2124;
-    font-family: "Ysabeau", sans-serif
+    font-family: "Ysabeau", sans-serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
-.grid-container {
-    display: grid;
+.container {
+    display: flex;
     grid-template-areas: 'nav main';
     gap: 50px;
     padding: 40px;
   }
 
 .item1 { 
-    grid-area: nav; 
     position: fixed;
     text-align: left;
     font-size: 30px;
     top: 0;
     left: 0;
-    width: 25%;
-    padding: 30px 50px 20px 50px;
+    max-width: 25%;
+    padding: 50px;
 }
 
 h1 {
@@ -38,7 +38,10 @@ ul {
 }
 
 .item2 { 
-    grid-area: main; 
+    max-width: 80%;
+    position: relative;
+    top: 100px;
+    left: 300px;
 }
 
 a:link, a:visited, a:active {
@@ -53,14 +56,13 @@ a:hover {
 
 .wrapper {
     display: flex;
-    flex-wrap: wrap;
     gap: 6px;
     justify-content: center;
-    padding: 60px 10px 10px 50px;
+    flex-wrap: wrap;
 }
 
 .artwork {
-    max-width: 600px;
+    max-width: 50%;
 }
 
 figcaption {
@@ -72,14 +74,25 @@ figcaption {
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'nav nav nav nav nav nav'
-        'main main main main main main';
+    grid-template-areas: 'nav' 
+    'main';
     gap: 10px;
     padding: 10px;
 }
 
 .item1 {
     position: static;
+    padding: 2px;
+    max-width: 100%;
+}
+
+.item2 {
+    position: static;
+    padding: 2px;
+}
+
+.artwork {
+    max-width: 100%;
 }
 
 ul {
