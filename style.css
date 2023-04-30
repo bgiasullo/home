@@ -7,19 +7,19 @@ body {
 .grid-container {
     display: grid;
     grid-template-areas: 'nav main';
-    gap: 10px;
-    padding: 10px;
+    gap: 50px;
+    padding: 40px;
   }
 
 .item1 { 
     grid-area: nav; 
     position: fixed;
     text-align: left;
-    padding: 20px 25px 20px 50px;
     font-size: 30px;
     top: 0;
     left: 0;
     width: 25%;
+    padding: 30px 50px 20px 50px;
 }
 
 h1 {
@@ -39,8 +39,6 @@ ul {
 
 .item2 { 
     grid-area: main; 
-    padding: 20px 25px 20px 50px;
-    width: 90%;
 }
 
 a:link, a:visited, a:active {
@@ -58,10 +56,11 @@ a:hover {
     flex-wrap: wrap;
     gap: 6px;
     justify-content: center;
+    padding: 60px 10px 10px 50px;
 }
 
 .artwork {
-    max-width: 500px;
+    max-width: 600px;
 }
 
 figcaption {
