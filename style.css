@@ -23,6 +23,10 @@ body {
     max-width: 20%;
   }
 
+  .content {
+    padding-left: 4%;
+  }
+
 h1 {
     font-size: 5vw;
     text-transform: uppercase;
@@ -42,8 +46,15 @@ ul {
     padding: 0;
 }
 
+h2 {
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+    padding: 1% 0%;
+    text-shadow: -1px 1px 1px #8ed6ee; 
+}
+
 .writing {
-    list-style-type: georgian;
+    font-size: 25px;
 }
 
 a:link, a:visited, a:active {
