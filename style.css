@@ -3,7 +3,7 @@ body {
     color: #2a2124;
     font-family: "Ysabeau", sans-serif;
     overflow-x: hidden; /* Hide horizontal scrollbar */
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 .container {
