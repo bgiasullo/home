@@ -60,13 +60,13 @@ h2 {
 a:link, a:visited, a:active {
     color: #2a2124;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.2s;
     margin: 1%
 }
 
 a:hover {
-    background-color: #8ed6ee;
-    transition: 0.3s;    
+    color: #8ed6ee;    
+    text-shadow: -1px 1px 1px #2a2124;
 }
 
 .artwork {
