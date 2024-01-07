@@ -13,6 +13,7 @@ body {
   align-items: center;
   margin: 18px auto;
   text-align: center;
+  gap: 10px;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h1 {
 }
 
 .art {
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .words {
@@ -30,7 +31,7 @@ h1 {
   font-family: "Mukta", "Colibri", sans-serif;
   color: DarkSlateGray;
   font-size: 14px;
-  max-width: 300px;
+  max-width: 350px;
   border: 3px double Teal;
   padding: 8px;
   text-align: center;
