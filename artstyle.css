@@ -25,8 +25,9 @@ h1 {
 }
 
 .frame {
-  border: 10px solid transparent;
-  border-image: url("artexp/solariaframe.png") 17 round; 
+  border: 40px solid transparent;
+  border-image: url("artexp/solariaframe.png") 50 round;
+  border-image-outset: 10px; 
 } 
 
 .art {
