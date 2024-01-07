@@ -1,9 +1,9 @@
 
 body {
-  background-image: url('artexp/artbg.png');
+  background-image: url("artexp/artbg.png");
   background-attachment: fixed; 
   text-align: center;
-  padding: 4px;
+  padding: 8px;
 }
 
 .gallery {
@@ -17,8 +17,8 @@ body {
 }
 
 h1 {
-  color: LightSlateGray;
-  font-family: "Delius", "Colibri", sans-serif;
+  color: Teal;
+  font-family: "Mukta", "Colibri", sans-serif;
   font-size: 22px;
 }
 
@@ -33,6 +33,6 @@ h1 {
   font-size: 14px;
   max-width: 350px;
   border: 3px double Teal;
-  padding: 8px;
+  padding: 9px;
   text-align: center;
 }
