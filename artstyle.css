@@ -17,7 +17,6 @@ body {
   align-items: center;
   margin: 18px auto;
   gap: 16px;
-  box-shadow: 2px 2px 3px DarkSlateGray;
 }
 
 h1 {
@@ -28,6 +27,7 @@ h1 {
 
 .frame {
   padding: 0;
+  box-shadow: 2px 2px 3px DarkSlateGray;
 } 
 
 .art {
