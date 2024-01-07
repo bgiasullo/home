@@ -25,9 +25,8 @@ h1 {
 }
 
 .frame {
-  border: 40px solid transparent;
-  padding: 0;
-  border-image: url("artexp/frame.png") 30 round;
+  border: 10px solid transparent;
+  border-image: url("artexp/frame.png") 17 round; 
 } 
 
 .art {
