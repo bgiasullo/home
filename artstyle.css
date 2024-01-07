@@ -1,5 +1,5 @@
 body {
-  background-image: url("artexp/artbg.png");
+  background-image: url("artexp/bgpixel.png");
   background-attachment: fixed; 
   text-align: center;
 }
@@ -8,6 +8,19 @@ body {
   margin: auto;
   text-align: center;
   padding: 10px;
+}
+
+.header {
+  font-family: "Parisienne", "Times New Roman", serif;
+  font-size: 48px;
+  color: white;
+  background-image: url("headimg.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  min-height: 225px;
+  max-width: 474px;
+  background-size: contain;
+  margin: auto;
 }
 
 .gallery {
