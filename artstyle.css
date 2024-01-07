@@ -1,24 +1,21 @@
-* {
-  box-sizing: border-box;
-}
-
-
 body {
-  background-image: url("artexp/artbg.png");
+  background-image: url("fur.png");
   background-attachment: fixed; 
-  padding: 8px;
+  text-align: center;
 }
 
 .content {
-  margin: 18px auto;
+  margin: auto;
   text-align: center;
+  padding: 10px;
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
 }
 
 h1 {
@@ -28,11 +25,15 @@ h1 {
 }
 
 .frame {
-  border: 3px double Teal;
+  max-width: 300px;
+  border: 34px solid transparent;
+  border: 6px double wheat;
+  box-shadow: 3px 3px 3px DarkSlateGray;
 } 
 
 .art {
-  max-height: 350px;
+  max-width: 100%;
+  display: block;
 }
 
 .words {
@@ -41,14 +42,14 @@ h1 {
   color: DarkSlateGray;
   font-size: 14px;
   max-width: 350px;
-  border: 3px double Teal;
+  border: 6px double Teal;
   padding: 9px;
   text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
   
- img {
+ .art {
    max-width: 100%;
  }
   
