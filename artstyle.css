@@ -2,12 +2,12 @@
 body {
   background-image: url("artexp/artbg.png");
   background-attachment: fixed; 
-  text-align: center;
   padding: 8px;
 }
 
 .content {
   margin: auto;
+  text-align: center;
 }
 
 .gallery {
@@ -16,8 +16,7 @@ body {
   justify-content: space-evently;
   align-items: center;
   margin: 18px auto;
-  text-align: center;
-  gap: 10px;
+  gap: 16px;
 }
 
 h1 {
@@ -27,11 +26,12 @@ h1 {
 }
 
 .frame {
-  border: 3px double Teal;
   padding: 0;
 } 
+
 .art {
-  max-width: 400px;
+  max-width: 350px;
+  border: 3px double Teal;
 }
 
 .words {
