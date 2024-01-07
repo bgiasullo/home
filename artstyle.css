@@ -27,8 +27,9 @@ h1 {
 
 .frame {
   padding: 0;
-  box-shadow: 0 0 5px 5px RosyBrown inset;
-} 
+  border: 40px solid transparent;
+  border-image: url"artexp/frame.png") 326px 304px round;
+  border-image-outset: 20px 10px; } 
 
 .art {
   max-width: 350px;
