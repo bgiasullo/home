@@ -27,7 +27,6 @@ h1 {
 
 .frame {
   padding: 0;
-  box-shadow: 2px 2px 3px RosyBrown;  
   box-shadow: 0 0 5px 5px RosyBrown inset;
 } 
 
