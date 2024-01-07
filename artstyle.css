@@ -20,7 +20,7 @@ h1 {
 }
 
 .art {
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .words {
@@ -30,4 +30,5 @@ h1 {
   font-size: 14px;
   max-width: 300px;
   border: 3px double Teal;
+  padding: 8px;
 }
