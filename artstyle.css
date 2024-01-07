@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 
 body {
   background-image: url("artexp/artbg.png");
@@ -27,7 +31,6 @@ h1 {
 .frame {
   border: 40px solid transparent;
   border-image: url("artexp/solariaframe.png") 50 round;
-  border-image-outset: 10px; 
 } 
 
 .art {
