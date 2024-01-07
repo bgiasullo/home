@@ -14,7 +14,9 @@ body {
 }
 
 h1 {
-  color: DarkSlateGray;
+  color: Crimson;
+  font-family: "Mukta", "Colibri", sans-serif;
+  font-size: 22px;
 }
 
 .art {
@@ -24,8 +26,8 @@ h1 {
 .words {
   background-color: Wheat;
   font-family: "Mukta", "Colibri", sans-serif;
-  color: black;
-  font-size: 13px;
+  color: DarkSlateGray;
+  font-size: 14px;
   max-width: 300px;
   border: 3px double Teal;
 }
