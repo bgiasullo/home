@@ -10,3 +10,14 @@ body {
   justify-content: space-evently;
   align-items: center;
 }
+
+h1 {
+  color: DarkSlateGray;
+}
+
+.words {
+  background-color: Wheat;
+  font-family: "Mukta", "Colibri", sans-serif;
+  color: black;
+  font-size: 13px;
+}
