@@ -30,7 +30,7 @@ h1 {
 
 .frame {
   border: 40px solid transparent;
-  border-image: url("artexp/solariaframe.png") 50 round;
+  border-image: url("artexp/solariaframe.png") 33 round;
 } 
 
 .art {
