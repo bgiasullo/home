@@ -6,7 +6,7 @@ body {
 }
 
 .content {
-  margin: auto;
+  margin: 18px auto;
   text-align: center;
 }
 
@@ -15,8 +15,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evently;
   align-items: center;
-  margin: 18px auto;
-  gap: 16px;
+  gap: 5px;
 }
 
 h1 {
@@ -33,7 +32,7 @@ h1 {
 } 
 
 .art {
-  max-width: 350px;
+  max-height: 350px;
 }
 
 .words {
