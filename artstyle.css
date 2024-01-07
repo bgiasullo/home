@@ -3,3 +3,10 @@ body {
   background-image: url('artexp/artbg.png');
   background-attachment: fixed; 
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evently;
+  align-items: center;
+}
