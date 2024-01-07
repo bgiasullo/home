@@ -2,7 +2,8 @@
 body {
   background-image: url('artexp/artbg.png');
   background-attachment: fixed; 
-  margin: auto;
+  text-align: center;
+  padding: 4px;
 }
 
 .gallery {
@@ -10,12 +11,12 @@ body {
   flex-wrap: wrap;
   justify-content: space-evently;
   align-items: center;
-  margin: auto;
+  margin: 18px auto;
 }
 
 h1 {
-  color: Crimson;
-  font-family: "Mukta", "Colibri", sans-serif;
+  color: LightSlateGray;
+  font-family: "Delius", "Colibri", sans-serif;
   font-size: 22px;
 }
 
