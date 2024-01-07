@@ -1,1 +1,5 @@
 
+body {
+  background-image: url('artexp/artbg.png');
+  background-attachment: fixed; 
+}
