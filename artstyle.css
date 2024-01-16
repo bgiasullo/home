@@ -1,78 +1,68 @@
 body {
-  background-image: url("artexp/artbg.png");
-  background-attachment: fixed; 
-  text-align: center;
+     background-image: url("artexp/artbg.png");
+     background-attachment: fixed;
+     text-align: center;
 }
-
-.content {
-  margin: auto;
-  text-align: center;
-  padding: 10px;
+ .content {
+     margin: auto;
+     text-align: center;
+     padding: 10px;
 }
-
-.header {
-  font-family: "Parisienne", "Times New Roman", serif;
-  font-size: 48px;
-  color: white;
-  background-image: url("artexp/headimg.png");
-  background-repeat: no-repeat;
-  text-align: center;
-  min-height: 225px;
-  max-width: 474px;
-  background-size: contain;
-  margin: auto;
+ .header {
+     font-family: "Parisienne", "Times New Roman", serif;
+     font-size: 48px;
+     color: white;
+     background-image: url("artexp/headimg.png");
+     background-repeat: no-repeat;
+     text-align: center;
+     min-height: 225px;
+     max-width: 474px;
+     background-size: contain;
+     margin: auto;
 }
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+ .gallery {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
 }
-
-h1 {
-  color: Teal;
-  font-family: "Mukta", "Colibri", sans-serif;
-  font-size: 22px;
+ h1 {
+     color: Teal;
+     font-family: "Mukta", "Colibri", sans-serif;
+     font-size: 22px;
 }
-
-.frame {
-  max-width: 300px;
-  border: 34px solid transparent;
-  border: 6px double wheat;
-  box-shadow: 3px 3px 3px DarkSlateGray;
-} 
-
-.art {
-  max-width: 100%;
-  display: block;
+ .frame {
+     max-width: 300px;
+     border: 34px solid transparent;
+     border: 6px double wheat;
+     box-shadow: 3px 3px 3px DarkSlateGray;
 }
-
-.words {
-  background-color: Wheat;
-  font-family: "Mukta", "Colibri", sans-serif;
-  color: DarkSlateGray;
-  font-size: 14px;
-  max-width: 350px;
-  border: 6px double Teal;
-  padding: 9px;
-  text-align: center;
-}
-
-.zoom {
-  transition: transform .2s; /* Animation */
-}
-
-.zoom:hover {
-  transform: scale(1.8); /* (180% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-
-@media only screen and (max-width: 600px) {
-  
  .art {
-   max-width: 100%;
- }
-  
+     max-width: 100%;
+     display: block;
 }
+ .words {
+     background-color: Wheat;
+     font-family: "Mukta", "Colibri", sans-serif;
+     color: DarkSlateGray;
+     font-size: 14px;
+     max-width: 350px;
+     border: 6px double Teal;
+     padding: 9px;
+     text-align: center;
+}
+ .zoom {
+     transition: transform .2s;
+    /* Animation */
+}
+ .zoom:hover {
+     transform: scale(1.5);
+    /* (180% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+ @media only screen and (max-width: 600px) {
+     .art {
+         max-width: 100%;
+    }
+}
+ 
