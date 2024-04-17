@@ -35,7 +35,6 @@ body {
  .frame {
      border: 10px solid;
      border-image: url(artexp/plain.png) 10 round;
-     padding: 5px;
      margin: 5px;
      max-width: 400px;
 }
