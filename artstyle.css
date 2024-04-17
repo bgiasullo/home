@@ -33,9 +33,10 @@ body {
      font-size: 22px;
 }
  .frame {
-  border: 30px solid transparent;
-  border-image: url(artexp/floral.png) 30 30 round;  overflow: auto;
-  margin: 5px;
+     border: 10px solid;
+     border-image: url(artexp/plain.png) 10 round;
+     padding: 5px;
+     margin: 5px;
 }
  .art {
      max-width: 100%;
