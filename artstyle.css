@@ -28,7 +28,10 @@ body {
      max-width: 400px;
      box-shadow: 2px 2px 8px #141319; /* darkblue */
 }
-
+ .art {
+      max-width: 100%;
+      display: block;
+ }
  .words {
      background-color: #AB9182; /* gray */
      font-family: "Mukta", "Colibri", sans-serif;
