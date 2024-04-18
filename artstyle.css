@@ -15,8 +15,8 @@ body {
      background-image: url("artexp/gartspring.png");
      background-repeat: no-repeat;
      text-align: center;
-     min-height: 335;
-     max-width: 610;
+     height: 335;
+     width: 610;
      background-size: contain;
      margin: auto;
 }
