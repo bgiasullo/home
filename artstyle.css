@@ -33,7 +33,7 @@ body {
      font-size: 22px;
 }
  .frame {
-     border: 4px double #ABDEBF; /* babyblue */
+     border: 6px double #ABDEBF; /* babyblue */
      max-width: 400px;
 }
  .art {
