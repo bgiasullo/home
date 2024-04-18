@@ -28,7 +28,7 @@ body {
      gap: 15px;
 }
  h1 {
-     color: Teal;
+     color: #C3953D; /* ochre */
      font-family: "Mukta", "Colibri", sans-serif;
      font-size: 22px;
 }
@@ -43,7 +43,7 @@ body {
  .words {
      background-color: #AB9182; /* gray */
      font-family: "Mukta", "Colibri", sans-serif;
-     color: #141319; /* darkdarkblue */
+     color: white;
      font-size: 14px;
      max-width: 350px;
      border: 6px double #EEB0E2; /* pink */
