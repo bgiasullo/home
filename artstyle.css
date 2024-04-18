@@ -7,6 +7,7 @@ body {
      margin: auto;
      text-align: center;
      padding: 10px;
+     box-shadow: 2px 2px 8px #141319; /* darkblue */
 }
  .header {
      height: 335;
@@ -28,7 +29,7 @@ body {
  .frame {
      border: 6px double #ABDEBF; /* babyblue */
      max-width: 400px;
-     box-shadow: 2px 2px 6px #141319; /* darkblue */
+     box-shadow: 2px 2px 8px #141319; /* darkblue */
 }
  .art {
      max-width: 100%;
