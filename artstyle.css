@@ -9,15 +9,8 @@ body {
      padding: 10px;
 }
  .header {
-     font-family: "Parisienne", "Times New Roman", serif;
-     font-size: 48px;
-     color: white;
-     background-image: url("artexp/gartspring.png");
-     background-repeat: no-repeat;
-     text-align: center;
      height: 335;
      width: 610;
-     background-size: contain;
      margin: auto;
 }
  .gallery {
