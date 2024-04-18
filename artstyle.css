@@ -7,11 +7,8 @@ body {
      margin: auto;
      text-align: center;
      padding: 10px;
-     box-shadow: 2px 2px 8px #141319; /* darkblue */
 }
  .header {
-     height: 335;
-     width: 610;
      margin: auto;
 }
  .gallery {
@@ -44,6 +41,8 @@ body {
      border: 6px double #EEB0E2; /* pink */
      padding: 9px;
      text-align: center;
+     box-shadow: 2px 2px 8px #141319; /* darkblue */
+
 }
 
  @media only screen and (max-width: 600px) {
