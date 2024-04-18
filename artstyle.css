@@ -1,5 +1,5 @@
 body {
-     background-image: url("artexp/artbg.png");
+     background-color: #C3953D; /* ochre */
      background-attachment: fixed;
      text-align: center;
 }
@@ -12,11 +12,11 @@ body {
      font-family: "Parisienne", "Times New Roman", serif;
      font-size: 48px;
      color: white;
-     background-image: url("artexp/headimg.png");
+     background-image: url("artexp/gartspring.png");
      background-repeat: no-repeat;
      text-align: center;
-     min-height: 225px;
-     max-width: 474px;
+     min-height: 335;
+     max-width: 610;
      background-size: contain;
      margin: auto;
 }
@@ -33,9 +33,7 @@ body {
      font-size: 22px;
 }
  .frame {
-     border: 10px solid;
-     border-image: url(artexp/plain.png) 10 round;
-     margin: 5px;
+     border: 4px double #ABDEBF; /* babyblue */
      max-width: 400px;
 }
  .art {
@@ -43,12 +41,12 @@ body {
      display: block;
 }
  .words {
-     background-color: Wheat;
+     background-color: #AB9182; /* gray */
      font-family: "Mukta", "Colibri", sans-serif;
-     color: DarkSlateGray;
+     color: #141319; /* darkdarkblue */
      font-size: 14px;
      max-width: 350px;
-     border: 6px double Teal;
+     border: 6px double #EEB0E2; /* pink */
      padding: 9px;
      text-align: center;
 }
