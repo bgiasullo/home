@@ -6,7 +6,7 @@ body {
      color: white;
      font-size: 14px;
 }
- .content {
+ div {
      margin: auto;
      text-align: center;
      padding: 10px;
