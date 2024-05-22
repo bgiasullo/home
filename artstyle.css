@@ -11,8 +11,21 @@ body {
      text-align: center;
      padding: 10px;
 }
+ img {
+         max-width: 100%;
+    }
  .header {
      margin: auto;
+}
+
+a {
+     color: #ABDEBF; /* babyblue */
+     font-family: "Mukta", "Colibri", sans-serif;
+     font-size: 22px;
+}
+
+a:hover {
+      color: #EEB0E2; /* pink */
 }
  .gallery {
      display: flex;
@@ -42,12 +55,9 @@ body {
      padding: 9px;
      text-align: center;
      box-shadow: 2px 2px 8px #141319; /* darkblue */
-
 }
 
  @media only screen and (max-width: 600px) {
-     img {
-         max-width: 100%;
-    }
+    
 }
  
