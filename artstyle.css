@@ -2,6 +2,9 @@ body {
      background-color: #C3953D; /* ochre */
      background-attachment: fixed;
      text-align: center;
+     font-family: "Mukta", "Colibri", sans-serif;
+     color: white;
+     font-size: 14px;
 }
  .content {
      margin: auto;
@@ -34,9 +37,6 @@ body {
  }
  .words {
      background-color: #AB9182; /* gray */
-     font-family: "Mukta", "Colibri", sans-serif;
-     color: white;
-     font-size: 14px;
      max-width: 350px;
      border: 6px double #EEB0E2; /* pink */
      padding: 9px;
