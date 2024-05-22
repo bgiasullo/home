@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Briana's Art Gallery</title>
+    <title>Briana's Gallery of Stuff</title>
     <link href="artstyle.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta">
@@ -17,15 +17,17 @@
 
         <div class="header"><img src="artexp/gartspring.png"></div>
 
-        <div class="gallery">
+        <div class="words">
+            <h1>Welcome to my art gallery.</h1>
+            <p>My name is Briana and I'm an artist in Philadelphia. I like to draw, paint, and mess around with HTML/CSS and pixel art. You've stumbled upon my little digital space for displaying my work. Thanks for stopping by!</p>
+        </div>
+
+        <div class="nav"><a href="#gallery">art gallery</a> // <a href="#garden">my garden</a></div>
+
+        <div id="gallery" class="hide gallery">
 
             <div class="frame">
                 <div class="zoom"><img class="art" src="artexp/memunch.png"></div>
-            </div>
-
-            <div class="words">
-                <h1>Welcome to my art gallery.</h1>
-                <p>My name is Briana and I'm an artist in Philadelphia. I like to draw, paint, and mess around with HTML/CSS and pixel art. You've stumbled upon my little digital space for displaying my work. Thanks for stopping by!</p>
             </div>
 
             <div class="frame">
@@ -53,7 +55,11 @@
             </div>
 
         </div>
-                                
+
+        <div id="garden" class="hide">
+
+        </div>
+
     </div>
 
 </body>
