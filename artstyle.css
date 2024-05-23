@@ -15,11 +15,11 @@ body {
          max-width: 100%;
     }
  .header {
-     margin: auto;
+     margin: 4px auto;
 }
 
 .nav {
-     margin: auto;
+     margin: 8px auto;
      text-align: center;
      padding: 10px;
 }
@@ -32,6 +32,7 @@ a {
 
 a:hover {
       color: #EEB0E2; /* pink */
+     text-decoration: none;
 }
 
 .hide {
@@ -68,7 +69,7 @@ a:hover {
      border: 6px double #EEB0E2; /* pink */
      padding: 8px;
      box-shadow: 2px 2px 8px #141319; /* darkblue */
-     margin: auto;
+     margin: 4px auto;
      text-align: center;
 }
 
