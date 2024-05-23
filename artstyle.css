@@ -18,6 +18,12 @@ body {
      margin: auto;
 }
 
+.nav {
+     margin: auto;
+     text-align: center;
+     padding: 10px;
+}
+
 a {
      color: #ABDEBF; /* babyblue */
      font-family: "Mukta", "Colibri", sans-serif;
