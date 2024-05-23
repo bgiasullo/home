@@ -5,6 +5,7 @@ body {
      font-family: "Mukta", "Colibri", sans-serif;
      color: white;
      font-size: 14px;
+     padding: 4px;
 }
  .content {
      margin: auto;
