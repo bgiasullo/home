@@ -2,8 +2,8 @@ body {
      background-color: #C3953D; /* ochre */
      background-attachment: fixed;
      text-align: center;
-     font-family: "Mukta", "Colibri", sans-serif;
-     color: white;
+     font-family: "Trebuchet MS", Verdana, sans-serif;
+     color: rgb(26, 22, 5);
      padding: 4px;
 }
  .content {
@@ -64,7 +64,7 @@ h2 {
  .frame {
      border: 6px double #ABDEBF; /* babyblue */
      max-width: 400px;
-     box-shadow: 2px 2px 8px #141319; /* darkblue */
+     box-shadow: 2px 2px 6px #141319; /* darkblue */
 }
  .art {
       max-width: 100%;
@@ -78,6 +78,8 @@ h2 {
      margin: 4px auto;
      text-align: center;
      font-size: 14px;
+     color: #c5b9c3;
+     box-shadow: 2px 2px 6px #141319; /* darkblue */
 }
 
  @media only screen and (max-width: 600px) {
