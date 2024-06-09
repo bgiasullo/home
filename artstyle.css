@@ -27,7 +27,7 @@ body {
 }
 
 a {
-     color: #121f17; /* babyblue */
+     color: #1a222c; /* babyblue */
      font-family: "Mukta", "Colibri", sans-serif;
 }
 
@@ -65,6 +65,14 @@ h2 {
      border: 6px double #ABDEBF; /* babyblue */
      max-width: 400px;
      box-shadow: 2px 2px 6px #141319; /* darkblue */
+}
+.comput {
+     max-width: 900px;
+     border: 6px double #ABDEBF; /* babyblue */
+     box-shadow: 2px 2px 6px #141319; /* darkblue */
+     background-image: url("artexp/bgflwr.png");
+     margin: auto;
+     background-attachment: fixed;
 }
  .art {
       max-width: 100%;
