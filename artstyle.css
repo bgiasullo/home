@@ -1,5 +1,6 @@
 body {
-     background-color: #C3953D; /* ochre */
+     background-color: #C3953D;
+    /* ochre */
      background-attachment: fixed;
      text-align: center;
      font-family: "Trebuchet MS", Verdana, sans-serif;
@@ -12,37 +13,34 @@ body {
      padding: 10px;
 }
  img {
-         max-width: 100%;
-    }
+     max-width: 100%;
+}
  .header {
      margin: 4px auto;
 }
-
-.nav {
+ .nav {
      max-width: 600px;
      padding: 8px;
      margin: 4px auto;
      text-align: center;
      font-size: 18px;
 }
-
-a {
-     color: #1a222c; /* babyblue */
+ a {
+     color: #1a222c;
+    /* babyblue */
      font-family: "Mukta", "Colibri", sans-serif;
 }
-
-a:hover {
-      color: #EEB0E2; /* pink */
+ a:hover {
+     color: #EEB0E2;
+    /* pink */
      text-decoration: none;
 }
-
-.hide {
+ .hide {
      display: none;
 }
  .hide:target {
      display: block;
 }
-
  .gallery {
      display: flex;
      flex-wrap: wrap;
@@ -51,46 +49,50 @@ a:hover {
      gap: 15px;
 }
  h1 {
-     color: #EEB0E2; /* pink */
+     color: #EEB0E2;
+    /* pink */
      font-family: "Mukta", "Colibri", sans-serif;
      font-size: 22px;
 }
-
-h2 {
-     color: #271d25; /* pink */
+ h2 {
+     color: #271d25;
+    /* pink */
      font-family: "Mukta", "Colibri", sans-serif;
      font-size: 22px;
 }
  .frame {
-     border: 6px double #ABDEBF; /* babyblue */
+     border: 6px double #ABDEBF;
+    /* babyblue */
      max-width: 400px;
-     box-shadow: 2px 2px 6px #141319; /* darkblue */
+     box-shadow: 2px 2px 6px #141319;
+    /* darkblue */
 }
-.comput {
+ .comput {
      max-width: 900px;
-     border: 6px double #ABDEBF; /* babyblue */
-     box-shadow: 2px 2px 6px #141319; /* darkblue */
+     border: 6px double #ABDEBF;
+    /* babyblue */
+     box-shadow: 2px 2px 6px #141319;
+    /* darkblue */
      background-image: url("artexp/bgflwr.png");
      margin: auto;
      background-attachment: fixed;
 }
  .art {
-      max-width: 100%;
-      display: block;
- }
+     max-width: 100%;
+     display: block;
+     margin: auto;
+}
  .words {
-     background-color: #63564e; /* gray */
+     background-color: #63564e;
+    /* gray */
      max-width: 350px;
-     border: 4px double #EEB0E2; /* pink */
+     border: 4px double #EEB0E2;
+    /* pink */
      padding: 8px;
      margin: 4px auto;
      text-align: center;
      font-size: 14px;
      color: #c5b9c3;
-     box-shadow: 2px 2px 6px #141319; /* darkblue */
+     box-shadow: 2px 2px 6px #141319;
+    /* darkblue */
 }
-
- @media only screen and (max-width: 600px) {
-    
-}
- 
