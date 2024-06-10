@@ -31,7 +31,7 @@ body {
      font-family: "Mukta", "Colibri", sans-serif;
 }
  a:hover {
-     color: #EEB0E2;
+     color: #0f467a;
     /* pink */
      text-decoration: none;
 }
@@ -53,12 +53,14 @@ body {
     /* pink */
      font-family: "Mukta", "Colibri", sans-serif;
      font-size: 22px;
+     margin: 16px auto;
 }
  h2 {
-     color: #271d25;
+     color: #0f467a;
     /* pink */
      font-family: "Mukta", "Colibri", sans-serif;
      font-size: 22px;
+     margin: 46px auto;
 }
  .frame {
      border: 6px double #ABDEBF;
@@ -76,6 +78,14 @@ body {
      background-image: url("artexp/bgflwr.png");
      margin: auto;
      background-attachment: fixed;
+}
+.forest {
+    background-image: url("artexp/forest.png");
+    max-width: 482px;
+    height: 643px;
+    margin: auto;
+    border: 6px double #063b1b;
+    box-shadow: 2px 2px 6px #141319;
 }
  .art {
      max-width: 100%;
