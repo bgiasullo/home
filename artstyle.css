@@ -1,6 +1,6 @@
 body {
-     background-color: #C3953D;
-    /* ochre */
+     background-color: #D7CAAF;
+     background-image: url("art/bgtan.png");
      background-attachment: fixed;
      text-align: center;
      font-family: "Trebuchet MS", Verdana, sans-serif;
@@ -75,12 +75,12 @@ body {
     /* babyblue */
      box-shadow: 2px 2px 6px #141319;
     /* darkblue */
-     background-image: url("artexp/bgflwr.png");
+     background-image: url("art/bgflwr.png");
      margin: auto;
      background-attachment: fixed;
 }
 .forest {
-    background-image: url("artexp/forest.png");
+    background-image: url("art/forest.png");
     max-width: 482px;
     height: 643px;
     margin: auto;
