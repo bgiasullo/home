@@ -3,7 +3,7 @@ body {
      background-image: url("art/bgtan.png");
      background-attachment: fixed;
      text-align: center;
-     font-family: "Trebuchet MS", Verdana, sans-serif;
+     font-family: 'Times New Roman', serif;
      color: rgb(26, 22, 5);
      padding: 4px;
 }
@@ -50,14 +50,14 @@ body {
 }
  h1 {
      color: #EEB0E2;
-    /* pink */
-     font-family: "Mukta", "Colibri", sans-serif;
+     font-family: 'Times New Roman', serif;
      font-size: 22px;
      margin: 16px auto;
+     font-weight: normal;
+     text-shadow: 2px 2px 4px #141319;
 }
  h2 {
-     color: #0f467a;
-    /* pink */
+     color: #0d243a;
      font-family: "Mukta", "Colibri", sans-serif;
      font-size: 22px;
      margin: 46px auto;
@@ -86,6 +86,8 @@ body {
     margin: auto;
     border: 6px double #063b1b;
     box-shadow: 2px 2px 6px #141319;
+    display: flex;
+    gap: 8px;
 }
  .art {
      max-width: 100%;
@@ -93,7 +95,7 @@ body {
      margin: auto;
 }
  .words {
-     background-color: #63564e;
+     background-color: #463c31;
     /* gray */
      max-width: 350px;
      border: 4px double #EEB0E2;
@@ -101,15 +103,13 @@ body {
      padding: 8px;
      margin: 4px auto;
      text-align: center;
-     font-size: 14px;
+     font-size: 16px;
      color: #c5b9c3;
      box-shadow: 2px 2px 6px #141319;
-    /* darkblue */
 }
 .tooltip {
-    position: relative;
     display: inline-block;
-    padding: 8px;
+    padding: 18px;
   }
   
   .tooltip .tooltiptext {
@@ -118,13 +118,9 @@ body {
     color: #EEB0E2;
     text-align: center;
     padding: 4px;
-    position: absolute;
-    z-index: 1;
-    bottom: 10%;
-    left: 120%;
     margin-left: -60px;
     border: 1px solid #EEB0E2;
-    font-size: 12px;
+    font-size: 14px;
     width: 122px;
   }
   
