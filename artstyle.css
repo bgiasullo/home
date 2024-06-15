@@ -80,8 +80,8 @@ a {
 }
  .comput {
      max-width: 900px;
-     border: 6px double #ABDEBF;
-     box-shadow: 2px 2px 6px #141319;
+     border: 1px dotted #ABDEBF;
+     box-shadow: 0 0 6px #0d243a;
      background-image: url("art/bgflwr.png");
      margin: auto;
      background-attachment: fixed;
