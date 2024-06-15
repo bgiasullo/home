@@ -3,9 +3,10 @@ body {
      background-image: url("art/bgtan.png");
      background-attachment: fixed;
      text-align: center;
-     font-family: 'Times New Roman', serif;
-     color: rgb(26, 22, 5);
+     color: #141319;
      padding: 4px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14px;
 }
  .content {
      margin: auto;
@@ -25,15 +26,18 @@ body {
      text-align: center;
      font-size: 18px;
 }
- a {
-     color: #1a222c;
-    /* babyblue */
-     font-family: "Mukta", "Colibri", sans-serif;
+a {
+    color: #1a222c;
+    text-decoration: underline 1px dotted;
 }
+
  a:hover {
      color: #0f467a;
     /* pink */
      text-decoration: none;
+}
+.nav > a {
+    font-size: 20px;
 }
  .hide {
      display: none;
@@ -50,17 +54,17 @@ body {
 }
  h1 {
      color: #EEB0E2;
-     font-family: 'Times New Roman', serif;
      font-size: 22px;
      margin: 16px auto;
      font-weight: normal;
-     text-shadow: 2px 2px 4px #141319;
+     font-family: Georgia, 'Times New Roman', Times, serif;
 }
  h2 {
      color: #0d243a;
-     font-family: "Mukta", "Colibri", sans-serif;
      font-size: 22px;
-     margin: 46px auto;
+     margin: 32px auto;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
  .frame {
      border: 6px double #ABDEBF;
@@ -84,8 +88,7 @@ body {
     max-width: 482px;
     height: 643px;
     margin: auto;
-    border: 6px double #063b1b;
-    box-shadow: 2px 2px 6px #141319;
+    border: 1px dotted #063b1b;
     display: flex;
     gap: 8px;
 }
@@ -98,14 +101,12 @@ body {
      background-color: #463c31;
     /* gray */
      max-width: 350px;
-     border: 4px double #EEB0E2;
+     border: 1px dotted #EEB0E2;
     /* pink */
      padding: 8px;
      margin: 4px auto;
      text-align: center;
-     font-size: 16px;
      color: #c5b9c3;
-     box-shadow: 2px 2px 6px #141319;
 }
 .tooltip {
     display: inline-block;
