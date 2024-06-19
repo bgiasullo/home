@@ -79,6 +79,9 @@ a {
     border: 1px solid #0d243a;
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
  .art {
      max-width: 100%;
@@ -90,21 +93,21 @@ a {
      margin: 4px auto;
      text-align: center;
 }
+
 .tooltip {
-    display: inline-block;
-    padding: 18px;
-  }
+    padding: 8px;
+}
   
   .tooltip .tooltiptext {
     visibility: hidden;
     background-color: #141319;
     color: #EEB0E2;
     text-align: center;
-    padding: 4px;
-    margin-left: -60px;
+    padding: 2px;
     border: 1px solid #EEB0E2;
-    font-size: 14px;
-    width: 122px;
+    font-size: 10px;
+    margin: auto -40px;
+    display: inline-block;
   }
   
   .tooltip:hover .tooltiptext {
