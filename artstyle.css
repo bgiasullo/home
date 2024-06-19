@@ -11,7 +11,7 @@ body {
  .content {
      margin: auto;
      text-align: center;
-     padding: 10px;
+     padding: 4px;
 }
  img {
      max-width: 100%;
@@ -30,6 +30,7 @@ a {
     color: #01313f;
     text-decoration: underline #0f467a;
     letter-spacing: 2px;
+    font-weight: bold;
 }
 
  a:hover {
@@ -50,7 +51,7 @@ a {
      gap: 15px;
 }
  h1 {
-     color: #61041b;
+     color: #0d243a;
      font-size: 22px;
      margin: 16px auto;
      font-family: Georgia, 'Times New Roman', Times, serif;
