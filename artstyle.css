@@ -7,6 +7,7 @@ body {
      padding: 4px;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 14px;
+     overflow-x: hidden;
 }
  .content {
      margin: auto;
@@ -34,7 +35,7 @@ a {
 }
 
  a:hover {
-     color: #61041b;
+     color: #774561;
      text-decoration: none;
 }
  .hide {
@@ -54,13 +55,12 @@ a {
      color: #0d243a;
      font-size: 22px;
      margin: 16px auto;
-     font-family: Georgia, 'Times New Roman', Times, serif;
+     letter-spacing: 2px;
 }
  h2 {
      color: #0d243a;
      font-size: 22px;
      margin: 32px auto;
-     font-family: Georgia, 'Times New Roman', Times, serif;
 }
  .frame {
      border: 1px double #01313f;
@@ -95,23 +95,23 @@ a {
      margin: 4px auto;
      text-align: center;
 }
-
 .tooltip {
     padding: 8px;
+    position: relative;
 }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
+.tooltiptext {
     background-color: #141319;
     color: #EEB0E2;
     text-align: center;
     padding: 2px;
     border: 1px solid #EEB0E2;
-    font-size: 10px;
-    margin: auto -40px;
+    font-size: 12px;
     display: inline-block;
-  }
-  
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
