@@ -62,6 +62,9 @@ a {
      font-size: 20px;
      padding: 40px 0;
 }
+h3 {
+    font-size: 14px;
+}
  .frame {
      border: 1px double #01313f;
      max-width: 400px;
