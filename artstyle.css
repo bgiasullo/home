@@ -60,6 +60,7 @@ a {
  h2 {
      color: #0d243a;
      font-size: 20px;
+     padding: 40px 0;
 }
  .frame {
      border: 1px double #01313f;
