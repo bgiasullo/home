@@ -12,20 +12,21 @@ body {
  .content {
      margin: auto;
      text-align: center;
-     padding: 4px;
 }
  img {
      max-width: 100%;
 }
- .header {
+ header {
      margin: 4px auto;
+}
+.headim {
+    max-width: 400px;
 }
  .nav {
      max-width: 600px;
-     padding: 8px;
-     margin: 14px auto;
      text-align: center;
-     font-size: 18px;
+     font-size: 16px;
+     margin: auto;
 }
 a {
     color: #01313f;
@@ -53,14 +54,12 @@ a {
 }
  h1 {
      color: #0d243a;
-     font-size: 22px;
-     margin: 16px auto;
+     font-size: 20px;
      letter-spacing: 2px;
 }
  h2 {
      color: #0d243a;
-     font-size: 22px;
-     margin: 32px auto;
+     font-size: 20px;
 }
  .frame {
      border: 1px double #01313f;
@@ -92,7 +91,7 @@ a {
 }
  .words {
      max-width: 350px;
-     margin: 4px auto;
+     margin: auto;
      text-align: center;
 }
 .tooltip {
