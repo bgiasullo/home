@@ -52,6 +52,12 @@ a:hover {
     color: #1A6471;
     text-decoration: none;
 }
+hr {
+    box-shadow: -2px 2px 0 #4EACB4;
+    border-top: 1px solid #1A6471;
+    max-width: 200px;
+    margin: 22px auto;
+}
 .hide {
     display: none;
 }
@@ -74,19 +80,20 @@ h1 {
 }
 h2 {
     color: #0B2529;
-    font-size: 16px;
-    padding: 40px 0;
+    font-size: 18px;
 }
 h3 {
-   font-size: 14px;
+    color: #0B2529;
+    font-size: 14px;
+    display: inline;
 }
 .frame {
-    border: 1px double #983309;
+    border: 4px double #983309;
     max-width: 400px;
 }
 .comput {
     max-width: 900px;
-    border: 1px solid #0d243a;
+    border: 1px solid #241408;
     background-image: url("art/bgflwr.png");
     margin: auto;
     background-attachment: fixed;
@@ -95,4 +102,15 @@ h3 {
     max-width: 100%;
     display: block;
     margin: auto;
+}
+.small {
+    max-width: fit-content;
+    background-color: #D2D3CD;
+    box-shadow: -2px 2px 0 #4EACB4;
+    border: 1px solid #1A6471;
+    border-radius: 6px;
+    padding: 4px;
+}
+.left {
+    text-align: left;
 }
