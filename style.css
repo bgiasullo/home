@@ -1,0 +1,125 @@
+body {
+    background-color: #D7CAAF;
+    background-image: url("art/bgblue.png");
+    background-attachment: fixed;
+    text-align: center;
+    color: #141319;
+    padding: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+.content {
+    margin: auto;
+    text-align: center;
+    box-shadow: -2px -2px 16px #EEB0E2, 2px 2px 16px #EEB0E2;
+    border: 1px dotted #0d243a;
+    max-width: 600px;
+    background-color: #D8CBAF;
+    border-radius: 4px;
+}
+img {
+    max-width: 100%;
+}
+header {
+    margin: 4px auto;
+}
+.headim {
+   max-width: 400px;
+}
+.nav {
+    max-width: 600px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+}
+a {
+   color: #01313f;
+   text-decoration: underline #0f467a;
+   letter-spacing: 2px;
+   font-weight: bold;
+}
+
+a:hover {
+    color: #774561;
+    text-decoration: none;
+}
+.hide {
+    display: none;
+}
+.hide:target {
+    display: block;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+h1 {
+    color: #0d243a;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+h2 {
+    color: #0d243a;
+    font-size: 20px;
+    padding: 40px 0;
+}
+h3 {
+   font-size: 14px;
+}
+.frame {
+    border: 1px double #01313f;
+    max-width: 400px;
+}
+.comput {
+    max-width: 900px;
+    border: 1px solid #0d243a;
+    background-image: url("art/bgflwr.png");
+    margin: auto;
+    background-attachment: fixed;
+}
+.forest {
+   background-image: url("art/forest.png");
+   max-width: 482px;
+   height: 643px;
+   margin: auto;
+   border: 1px solid #0d243a;
+   display: flex;
+   gap: 8px;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.art {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.words {
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+.tooltip {
+   padding: 8px;
+   position: relative;
+}
+.tooltiptext {
+   background-color: #141319;
+   color: #EEB0E2;
+   text-align: center;
+   padding: 2px;
+   border: 1px solid #EEB0E2;
+   font-size: 12px;
+   display: inline-block;
+   visibility: hidden;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+ .tooltip:hover .tooltiptext {
+   visibility: visible;
+ }
