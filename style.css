@@ -63,7 +63,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
 }
 h1 {
     margin: 4px auto;
@@ -73,15 +73,15 @@ h1 {
     color: #FF6D54;
 }
 h2 {
-    color: #0d243a;
-    font-size: 20px;
+    color: #0B2529;
+    font-size: 16px;
     padding: 40px 0;
 }
 h3 {
    font-size: 14px;
 }
 .frame {
-    border: 1px double #01313f;
+    border: 1px double #983309;
     max-width: 400px;
 }
 .comput {
@@ -91,41 +91,8 @@ h3 {
     margin: auto;
     background-attachment: fixed;
 }
-.forest {
-   background-image: url("art/forest.png");
-   max-width: 482px;
-   height: 643px;
-   margin: auto;
-   border: 1px solid #0d243a;
-   display: flex;
-   gap: 8px;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-}
 .art {
     max-width: 100%;
     display: block;
     margin: auto;
 }
-
-.tooltip {
-   padding: 8px;
-   position: relative;
-}
-.tooltiptext {
-   background-color: #141319;
-   color: #EEB0E2;
-   text-align: center;
-   padding: 2px;
-   border: 1px solid #EEB0E2;
-   font-size: 12px;
-   display: inline-block;
-   visibility: hidden;
-   position: absolute;
-   bottom: 0;
-   left: 0;
-}
- .tooltip:hover .tooltiptext {
-   visibility: visible;
- }
