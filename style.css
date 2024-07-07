@@ -27,7 +27,7 @@ body {
     padding: 18px;
 }
 header {
-    margin: 4px auto;
+    margin: 24px auto;
     font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
     font-size: 64px;
     -webkit-text-stroke: 1px #0B2529;
@@ -41,15 +41,15 @@ img {
 .nav {
     text-align: center;
     font-size: 16px;
-    margin: auto;
+    margin: 28px auto;
 }
 a {
-   color: #5A2424;
-   text-decoration: underline #1A6471;
+   color: #0d243a;
+   text-decoration: underline #983309;
    font-weight: bold;
 }
 a:hover {
-    color: #1A6471;
+    color: #983309;
     text-decoration: none;
 }
 hr {
@@ -72,13 +72,14 @@ hr {
     gap: 12px;
 }
 h1 {
-    margin: 4px auto;
+    margin: 14px auto;
     font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
     font-size: 44px;
     -webkit-text-stroke: 1px #1A6471;
     color: #FF6D54;
 }
 h2 {
+    margin: 22px auto;
     color: #0B2529;
     font-size: 18px;
 }
