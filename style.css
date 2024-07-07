@@ -1,47 +1,55 @@
 body {
-    background-color: #D7CAAF;
-    background-image: url("art/bgblue.png");
-    background-attachment: fixed;
+    background-color: #1A6471;
     text-align: center;
-    color: #141319;
-    padding: 4px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
-    overflow-x: hidden;
+    padding: 2px;
 }
 .content {
     margin: auto;
     text-align: center;
-    box-shadow: -2px -2px 16px #EEB0E2, 2px 2px 16px #EEB0E2;
-    border: 1px dotted #0d243a;
+    box-shadow: -2px 2px 0 #241408;
+    border: 1px solid #0d243a;
     max-width: 600px;
-    background-color: #D8CBAF;
+    background-color: #CC8F70;
     border-radius: 6px;
+    padding: 26px;
+}
+.words {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #602E0B;
+    max-width: max-content;
+    margin: auto;
+    text-align: center;
+    background-color: #D2D3CD;
+    box-shadow: -2px 2px 0 #4EACB4;
+    border: 1px solid #1A6471;
+    border-radius: 6px;
+    padding: 18px;
+}
+header {
+    margin: 4px auto;
+    font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
+    font-size: 64px;
+    -webkit-text-stroke: 1px #0B2529;
+    color: #FF6D54;
+    text-shadow: -2px 2px 0 #4EACB4;
 }
 img {
     max-width: 100%;
 }
-header {
-    margin: 4px auto;
-}
-.headim {
-   max-width: 400px;
-}
+
 .nav {
-    max-width: 600px;
     text-align: center;
     font-size: 16px;
     margin: auto;
 }
 a {
-   color: #01313f;
-   text-decoration: underline #0f467a;
-   letter-spacing: 2px;
+   color: #5A2424;
+   text-decoration: underline #1A6471;
    font-weight: bold;
 }
-
 a:hover {
-    color: #774561;
+    color: #1A6471;
     text-decoration: none;
 }
 .hide {
@@ -58,9 +66,11 @@ a:hover {
     gap: 15px;
 }
 h1 {
-    color: #0d243a;
-    font-size: 20px;
-    letter-spacing: 2px;
+    margin: 4px auto;
+    font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    -webkit-text-stroke: 1px #1A6471;
+    color: #FF6D54;
 }
 h2 {
     color: #0d243a;
@@ -98,11 +108,7 @@ h3 {
     display: block;
     margin: auto;
 }
-.words {
-    max-width: 350px;
-    margin: auto;
-    text-align: center;
-}
+
 .tooltip {
    padding: 8px;
    position: relative;
