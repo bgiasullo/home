@@ -42,8 +42,6 @@ img {
     text-align: center;
     font-size: 16px;
     margin: 28px auto;
-    cursor: pointer;
-    max-width: fit-content;
 }
 .hide {
     display: none;
@@ -105,15 +103,4 @@ h3 {
     max-width: 100%;
     display: block;
     margin: auto;
-}
-.small {
-    max-width: fit-content;
-    background-color: #D2D3CD;
-    box-shadow: -2px 2px 0 #4EACB4;
-    border: 1px solid #1A6471;
-    border-radius: 6px;
-    padding: 4px;
-}
-.left {
-    text-align: left;
 }
