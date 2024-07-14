@@ -2,6 +2,8 @@ body {
     background-color: #1A6471;
     text-align: center;
     padding: 2px;
+    background-image: url("art/bgnest.png");
+    background-attachment: fixed;
 }
 .content {
     margin: auto;
@@ -105,5 +107,5 @@ h3 {
 .art {
     max-width: 100px;
     margin: auto;
-    border: 4px double #983309;
+    border: 3px double #983309;
 }
