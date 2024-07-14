@@ -26,6 +26,10 @@ body {
     border-radius: 6px;
     padding: 18px;
 }
+
+.small {
+    max-width: 200px;
+}
 header {
     margin: 24px auto;
     font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
@@ -90,10 +94,6 @@ h3 {
     font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
     background-color: #1A6471;
 }
-.frame {
-    border: 4px double #983309;
-    max-width: 400px;
-}
 .comput {
     max-width: 900px;
     border: 1px solid #241408;
@@ -102,7 +102,7 @@ h3 {
     background-attachment: fixed;
 }
 .art {
-    max-width: 100%;
-    display: block;
+    max-width: 100px;
     margin: auto;
+    border: 4px double #983309;
 }
