@@ -84,9 +84,11 @@ h2 {
     font-size: 18px;
 }
 h3 {
-    color: #0B2529;
-    font-size: 14px;
+    color: #D2D3CD;
+    font-size: 16px;
     display: inline;
+    font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
+    background-color: #1A6471;
 }
 .frame {
     border: 4px double #983309;
