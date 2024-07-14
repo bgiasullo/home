@@ -55,7 +55,7 @@ img {
 }
 a {
    color: #0d243a;
-   text-decoration: underline #983309;
+   text-decoration: underline #FF6D54;
    font-weight: bold;
 }
 a:hover {
@@ -63,17 +63,18 @@ a:hover {
     text-decoration: none;
 }
 hr {
-    box-shadow: -2px 2px 0 #4EACB4;
     border-top: 1px solid #1A6471;
+    border-bottom: 0;
     max-width: 200px;
     margin: 22px auto;
+    box-shadow: -2px 2px 0 #FF6D54;
 }
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    gap: 12px;
     justify-content: center;
     align-items: center;
-    gap: 12px;
 }
 h1 {
     margin: 14px auto;
