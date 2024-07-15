@@ -10,10 +10,10 @@ body {
     text-align: center;
     box-shadow: -2px 2px 0 #241408;
     border: 1px solid #0d243a;
-    max-width: 700px;
+    max-width: 720px;
     background-color: #CC8F70;
     border-radius: 6px;
-    padding: 26px;
+    padding: 2px;
 }
 .words {
     font-size: 14px;
@@ -108,4 +108,9 @@ h3 {
     max-width: 100px;
     margin: auto;
     border: 3px double #983309;
+}
+@media only screen and (max-width: 600px) {
+    .content {
+        padding: 2px;    
+    }
 }
