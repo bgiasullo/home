@@ -1,9 +1,7 @@
 body {
-    background-color: #1A6471;
+    background-color: #2c494e;
     text-align: center;
     padding: 2px;
-    background-image: url("art/bgnest.png");
-    background-attachment: fixed;
 }
 .content {
     margin: auto;
@@ -12,7 +10,6 @@ body {
     border: 1px solid #0d243a;
     max-width: 720px;
     background-color: #CC8F70;
-    border-radius: 6px;
     padding: 2px;
 }
 .words {
@@ -25,7 +22,6 @@ body {
     background-color: #D2D3CD;
     box-shadow: -2px 2px 0 #4EACB4;
     border: 1px solid #1A6471;
-    border-radius: 6px;
     padding: 18px;
 }
 
