@@ -2,15 +2,16 @@ body {
     background-color: #2c494e;
     text-align: center;
     padding: 2px;
+    background-image: url("art/bgmosa.png");
+    background-attachment: fixed;
 }
 .content {
-    margin: auto;
     text-align: center;
     box-shadow: -2px 2px 0 #241408;
     border: 1px solid #0d243a;
     max-width: 720px;
     background-color: #CC8F70;
-    padding: 2px;
+    padding: 16px;
 }
 .words {
     font-size: 14px;
@@ -44,6 +45,21 @@ img {
     text-align: center;
     font-size: 16px;
     margin: 28px auto;
+    font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
+
+}
+.nav > a {
+    color: #D3D8D2;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #1F799B;
+    border-radius: 4px;
+    border: 1px solid #FF6D54;
+    padding: 12px;
+ }
+ .nav > a:hover {
+     color: #EFED98;
+     text-decoration: none;
 }
 .hide {
     display: none;
@@ -64,8 +80,11 @@ hr {
     border-top: 1px solid #1A6471;
     border-bottom: 0;
     max-width: 200px;
-    margin: 22px auto;
+    margin: 28px auto;
     box-shadow: -2px 2px 0 #FF6D54;
+}
+.divid {
+    margin: 28px auto;
 }
 .gallery {
     display: flex;
