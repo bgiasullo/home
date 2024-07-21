@@ -84,7 +84,7 @@ hr {
     box-shadow: -2px 2px 0 #FF6D54;
 }
 .divid {
-    margin: 28px auto;
+    margin: 20px auto;
 }
 .gallery {
     display: flex;
@@ -92,6 +92,7 @@ hr {
     gap: 12px;
     justify-content: center;
     align-items: center;
+    margin: 36px auto;
 }
 h1 {
     margin: 14px auto;
@@ -101,7 +102,7 @@ h1 {
     color: #FF6D54;
 }
 h2 {
-    margin: 22px auto;
+    margin: 32px auto;
     color: #0B2529;
     font-size: 18px;
 }
