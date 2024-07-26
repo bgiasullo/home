@@ -2,7 +2,9 @@ body {
     background-color: #2c494e;
     text-align: center;
     padding: 2px;
-    background-image: url("art/bgflwr.png");
+    background-image: url("art/snail.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .content {
