@@ -9,26 +9,25 @@ body {
 }
 .content {
     text-align: center;
-    box-shadow: -2px 2px 0 #4a7a96;
-    border: 1px solid #fbbbad;
+    border: 3px double #387080;
     max-width: 720px;
-    background-color: #ee8695;
+    background-color: #9d9f7f;
     padding: 16px;
 }
 .words {
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #292831;
+    color: #1a181b;
     max-width: max-content;
     margin: auto;
     text-align: center;
-    background-color: #eaf0f0;
-    border: 3px double #333f58;
+    background-color: #c5ccb8;
+    border: 3px double #7ca1c0;
     padding: 18px;
 }
 
 .small {
-    max-width: 200px;
+    max-width: 280px;
 }
 
 img {
@@ -36,46 +35,24 @@ img {
 }
 
 .nav {
-    text-align: center;
-    font-size: 18px;
-    margin: 28px auto;
-    font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
 
-}
-.nav > a {
-    color: #ee8695;
-    text-decoration: none;
-    font-weight: bold;
-    background-color: #333f58;
-    border: 1px solid #ee8695;
-    padding: 12px;
- }
- .nav > a:hover {
-     color: #fbbbad;
-     text-decoration: none;
-     background-color: #4a7a96;
-}
-.hide {
-    display: none;
-}
-.hide:target {
-    display: block;
-}
 a {
-   color: #333f58;
-   text-decoration: underline #ee8695;
+   color: #332741;
+   text-decoration: underline #c38890;
    font-weight: bold;
 }
 a:hover {
-    color: #1A6471;
+    color: #666092;
     text-decoration: none;
 }
 hr {
-    border-top: 1px solid #4a7a96;
+    border-top: 1px solid #c28d75;
     border-bottom: 0;
     max-width: 200px;
     margin: 28px auto;
-    box-shadow: -2px 2px 0 #ee8695;
+    box-shadow: -2px 2px 0 #387080;
 }
 .divid {
     margin: 20px auto;
@@ -86,35 +63,29 @@ hr {
     gap: 12px;
     justify-content: center;
     align-items: center;
-    margin: 36px auto;
+    margin: auto;
 }
-h1 {
-    margin: 14px auto;
-    font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
-    font-size: 44px;
-}
+
 h2 {
     margin: 32px auto;
-    color: #0B2529;
+    color: #416aa3;
     font-size: 18px;
-    box-shadow: -1px 1px 0 #ee8695;
 }
 h3 {
-    font-size: 16px;
+    font-size: 14px;
     display: inline;
-    font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
-    border: 3px double #1A6471;
-    background-color: #ee8695;
+    border: 3px double #5d6872;
+    background-color: #a593a5;
 }
 
 .art {
     max-width: 100px;
     margin: auto;
-    border: 3px double #1A6471;
+    border: 3px double #5d6872;
 }
 
 .art:hover{
-    border: 3px double #ee8695;
+    border: 3px double #a593a5;
 }
 @media only screen and (max-width: 600px) {
     .content {
