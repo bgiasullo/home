@@ -1,5 +1,5 @@
 body {
-    background-color: #2c494e;
+    background-color: #333f58;
     text-align: center;
     padding: 2px;
     background-image: url("art/snail.png");
@@ -9,36 +9,29 @@ body {
 }
 .content {
     text-align: center;
-    box-shadow: -2px 2px 0 #241408;
-    border: 1px solid #0d243a;
+    box-shadow: -2px 2px 0 #4a7a96;
+    border: 1px solid #fbbbad;
     max-width: 720px;
-    background-color: #CC8F70;
+    background-color: #ee8695;
     padding: 16px;
 }
 .words {
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #602E0B;
+    color: #292831;
     max-width: max-content;
     margin: auto;
     text-align: center;
-    background-color: #D2D3CD;
-    box-shadow: -2px 2px 0 #4EACB4;
-    border: 1px solid #1A6471;
+    background-color: #eaf0f0;
+    box-shadow: -2px 2px 0 #4a7a96;
+    border: 1px solid #333f58;
     padding: 18px;
 }
 
 .small {
     max-width: 200px;
 }
-header {
-    margin: 24px auto;
-    font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
-    font-size: 64px;
-    -webkit-text-stroke: 1px #0B2529;
-    color: #FF6D54;
-    text-shadow: -2px 2px 0 #4EACB4;
-}
+
 img {
     max-width: 100%;
 }
