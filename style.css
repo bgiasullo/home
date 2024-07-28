@@ -13,6 +13,7 @@ body {
     max-width: 720px;
     background-color: #9d9f7f;
     padding: 16px;
+    background-image: url("art/bgtaup.png");
 }
 .words {
     font-size: 14px;
@@ -36,6 +37,7 @@ img {
 
 .nav {
     margin: auto;
+    max-width: fit-content;
 }
 
 a {
@@ -66,8 +68,11 @@ hr {
     margin: auto;
 }
 
+h1{
+    color: #387080;
+    font-size: 22px;
+}
 h2 {
-    margin: 32px auto;
     color: #416aa3;
     font-size: 18px;
 }
