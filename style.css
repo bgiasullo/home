@@ -23,8 +23,7 @@ body {
     margin: auto;
     text-align: center;
     background-color: #eaf0f0;
-    box-shadow: -2px 2px 0 #4a7a96;
-    border: 1px solid #333f58;
+    border: 3px double #333f58;
     padding: 18px;
 }
 
@@ -38,23 +37,23 @@ img {
 
 .nav {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     margin: 28px auto;
     font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
 
 }
 .nav > a {
-    color: #D3D8D2;
+    color: #ee8695;
     text-decoration: none;
     font-weight: bold;
-    background-color: #1F799B;
-    border-radius: 4px;
-    border: 1px solid #FF6D54;
+    background-color: #333f58;
+    border: 1px solid #ee8695;
     padding: 12px;
  }
  .nav > a:hover {
-     color: #EFED98;
+     color: #fbbbad;
      text-decoration: none;
+     background-color: #4a7a96;
 }
 .hide {
     display: none;
@@ -63,20 +62,20 @@ img {
     display: block;
 }
 a {
-   color: #0d243a;
-   text-decoration: underline #FF6D54;
+   color: #333f58;
+   text-decoration: underline #ee8695;
    font-weight: bold;
 }
 a:hover {
-    color: #983309;
+    color: #1A6471;
     text-decoration: none;
 }
 hr {
-    border-top: 1px solid #1A6471;
+    border-top: 1px solid #4a7a96;
     border-bottom: 0;
     max-width: 200px;
     margin: 28px auto;
-    box-shadow: -2px 2px 0 #FF6D54;
+    box-shadow: -2px 2px 0 #ee8695;
 }
 .divid {
     margin: 20px auto;
@@ -93,32 +92,29 @@ h1 {
     margin: 14px auto;
     font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
     font-size: 44px;
-    -webkit-text-stroke: 1px #1A6471;
-    color: #FF6D54;
 }
 h2 {
     margin: 32px auto;
     color: #0B2529;
     font-size: 18px;
+    box-shadow: -1px 1px 0 #ee8695;
 }
 h3 {
-    color: #D2D3CD;
     font-size: 16px;
     display: inline;
     font-family: 'Bona Nova SC', Georgia, 'Times New Roman', Times, serif;
-    background-color: #1A6471;
+    border: 3px double #1A6471;
+    background-color: #ee8695;
 }
-.comput {
-    max-width: 900px;
-    border: 1px solid #241408;
-    background-image: url("art/bgflwr.png");
-    margin: auto;
-    background-attachment: fixed;
-}
+
 .art {
     max-width: 100px;
     margin: auto;
-    border: 3px double #983309;
+    border: 3px double #1A6471;
+}
+
+.art:hover{
+    border: 3px double #ee8695;
 }
 @media only screen and (max-width: 600px) {
     .content {
