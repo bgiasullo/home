@@ -2,44 +2,33 @@ body {
     background-color: #333f58;
     text-align: center;
     padding: 2px;
-    background-image: url("art/snail.png");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .content {
     text-align: center;
     border: 3px double #387080;
     max-width: 720px;
     background-color: #9d9f7f;
-    padding: 16px;
+    padding: 0 16px;
     background-image: url("art/bgtaup.png");
 }
 .words {
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1a181b;
-    max-width: max-content;
-    margin: auto;
+    margin: 16px auto;
     text-align: center;
     background-color: #c5ccb8;
     border: 3px double #7ca1c0;
-    padding: 18px;
+    padding: 16px 72px;
 }
-
 .small {
-    max-width: 280px;
+    max-width: 400px;
+    margin: auto;
 }
 
 img {
     max-width: 100%;
 }
-
-.nav {
-    margin: auto;
-    max-width: fit-content;
-}
-
 a {
    color: #332741;
    text-decoration: underline #c38890;
@@ -56,16 +45,13 @@ hr {
     margin: 28px auto;
     box-shadow: -2px 2px 0 #387080;
 }
-.divid {
-    margin: 20px auto;
-}
 .gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 16px auto;
 }
 
 h1{
@@ -78,22 +64,19 @@ h2 {
 }
 h3 {
     font-size: 14px;
-    display: inline;
     border: 3px double #5d6872;
     background-color: #a593a5;
 }
-
 .art {
     max-width: 100px;
     margin: auto;
     border: 3px double #5d6872;
 }
-
 .art:hover{
     border: 3px double #a593a5;
 }
-@media only screen and (max-width: 600px) {
-    .content {
-        padding: 2px;    
+@media only screen and (max-width: 650px) {
+    .content, .words{
+        padding: 6px;    
     }
 }
