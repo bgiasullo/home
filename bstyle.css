@@ -55,7 +55,7 @@ hr {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
     justify-content: center;
     margin: 16px auto;
     align-items: center;
@@ -79,6 +79,9 @@ h3 {
 }
 .art:hover{
     border: 3px double #a593a5;
+}
+summary {
+    cursor: pointer;
 }
 @media only screen and (max-width: 650px) {
     .content, .words{
