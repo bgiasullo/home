@@ -1,28 +1,27 @@
 body {
     background-color: #333f58;
-    text-align: center;
     padding: 2px;
+    text-align: center;
 }
 .content {
-    text-align: center;
     border: 3px double #387080;
-    max-width: 720px;
+    max-width: 760px;
     background-color: #9d9f7f;
     padding: 0 16px;
     background-image: url("art/bgtaup.png");
+    margin: auto;
 }
 .words {
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1a181b;
     margin: 16px auto;
-    text-align: center;
     background-color: #c5ccb8;
     border: 3px double #7ca1c0;
     padding: 16px 72px;
 }
 .small {
-    max-width: 400px;
+    max-width: 160px;
     margin: auto;
 }
 
@@ -48,7 +47,7 @@ hr {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
     justify-content: center;
     align-items: center;
     margin: 16px auto;
@@ -63,10 +62,10 @@ h2 {
     font-size: 18px;
 }
 h3 {
-    font-size: 14px;
-    border: 3px double #5d6872;
-    background-color: #a593a5;
+    border: 3px double #c38890;
+    background-color: #9a9a97;
 }
+
 .art {
     max-width: 100px;
     margin: auto;
