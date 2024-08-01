@@ -26,12 +26,7 @@ body {
     padding: 4px;
 }
 .left {
-    text-align: left;
-}
-.blue {
-    background-color: #416aa3;
-    color: white;
-    border: 3px double #be955c;
+    padding: 0 12px;
 }
 img {
     max-width: 100%;
@@ -60,6 +55,9 @@ hr {
     margin: 16px auto;
     align-items: center;
 }
+summary {
+    cursor: pointer;
+}
 h1{
     color: #387080;
     font-size: 22px;
@@ -80,9 +78,15 @@ h3 {
 .art:hover{
     border: 3px double #a593a5;
 }
+.lilpic {
+    max-width: 80px;
+}
 @media only screen and (max-width: 650px) {
-    .content, .words{
-        padding: 6px;
+    .content, .words, .gallery {
+        padding: 4px;
         margin: auto;
+   }
+   .small {
+    max-width: max-content;
    }
 }
