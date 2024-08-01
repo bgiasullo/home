@@ -57,6 +57,12 @@ hr {
 }
 summary {
     cursor: pointer;
+    text-decoration: underline #c38890;
+    padding: 4px 0;
+}
+summary:hover {
+    color: #666092;
+    text-decoration: none;
 }
 h1{
     color: #387080;
