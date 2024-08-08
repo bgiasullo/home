@@ -2,12 +2,13 @@ body {
     background-color: #333f58;
     padding: 2px;
     text-align: center;
+    background-image: url("art/bgdrkplad.png");
+    background-attachment: fixed;
 }
 .content {
     border: 3px double #387080;
     max-width: 760px;
     background-color: #9d9f7f;
-    padding: 0 16px;
     background-image: url("art/bgtaup.png");
     margin: auto;
 }
@@ -15,7 +16,7 @@ body {
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1a181b;
-    margin: 16px auto;
+    margin: 16px;
     background-color: #c5ccb8;
     border: 3px double #7ca1c0;
     padding: 16px 72px;
@@ -89,8 +90,8 @@ h3 {
 }
 @media only screen and (max-width: 650px) {
     .content, .words, .gallery {
+        margin: 4px;
         padding: 4px;
-        margin: auto;
    }
    .small {
     max-width: max-content;
