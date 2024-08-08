@@ -33,7 +33,7 @@ img {
     max-width: 100%;
 }
 a {
-    color: #332741;
+    color: #387080;
     text-decoration: underline #c38890;
     font-weight: bold;
 }
@@ -56,14 +56,22 @@ hr {
     margin: 16px auto;
     align-items: center;
 }
+details {
+    margin: 12px auto;
+}
 summary {
     cursor: pointer;
     text-decoration: underline #c38890;
     padding: 4px 0;
+    max-width: fit-content;
+    margin: auto;
+    color: #333f58;
+    font-weight: normal;
+    font-size: 16px;
 }
 summary:hover {
-    color: #666092;
     text-decoration: none;
+    font-weight: bold;
 }
 h1{
     color: #387080;
@@ -74,8 +82,10 @@ h2 {
     font-size: 18px;
 }
 h3 {
-    border: 3px double #c38890;
-    background-color: #9a9a97;
+    border: 3px double #5d6872;
+    background-color: #7ca1c0;
+    max-width: 400px;
+    margin: auto;
 }
 .art {
     max-width: 100px;
