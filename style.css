@@ -10,7 +10,6 @@ body {
     background-attachment: fixed;
 }
 .nav {
-    border: 1px solid brown;
     width: 180px;
     padding: 6px;
     background-image: url("art/bgmost.png");
@@ -54,12 +53,11 @@ body {
 .nowrap {
     display: flex;
     align-items: stretch;
-    gap: 8px;
+    gap: 10px;
     flex-wrap: no-wrap;
-    border: 1px solid paleturquoise;
     justify-content: center;
     max-width: 860px;
-    margin: 8px auto;
+    margin: 16px auto;
 }
 .art {
     max-width: 200px;
@@ -87,20 +85,20 @@ h3 {
 }
 .small {
     margin: auto;
-    border: 1px solid salmon;
-    width: 278px;
-    padding: 4px;
-    height: 288px;
+    border: 3px double rgb(165, 95, 88);
+    width: 270px;
+    padding: 6px;
+    height: 280px;
+}
+.scrap {
+    background-image: url("art/bgscrap.png");
 }
 .med {
     margin: auto;
     border: 1px solid salmon;
-    width: 422px;
+    width: 416px;
     padding: 4px;
-    height: 288px;
-}
-#scr {
-    border: 1px solid darkkhaki;
+    height: 280px;
 }
 #art {
     background-image: url("art/artbg.png");
@@ -109,6 +107,14 @@ h3 {
 #art h2, #art h3 {
     background-color: beige;
     border: 3px double tomato
+}
+#lis {
+    background-image: url("art/bgdrkplad.png");
+    padding: 6px;
+
+}
+#lis h2 {
+    color: blanchedalmond;
 }
 @media only screen and (max-width: 620px) {
     .nav {
