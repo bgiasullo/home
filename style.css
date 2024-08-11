@@ -88,7 +88,7 @@ h3 {
 }
 .small {
     margin: auto;
-    border: 3px double rgb(165, 95, 88);
+    border: 3px double burlywood;
     width: 270px;
     padding: 6px;
     height: 280px;
@@ -98,17 +98,19 @@ h3 {
 }
 .med {
     margin: auto;
-    border: 3px double darkolivegreen;
+    border: 3px double burlywood;
     width: 416px;
     padding: 4px;
     height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .adob {
     background-image: url("art/bgadobe.png");
 }
 #art {
     background-image: url("art/artbg.png");
-    padding: 4px 88px;
+    padding: 4px 98px;
     background-attachment: fixed;
 }
 #art h2, #art h3 {
@@ -118,11 +120,14 @@ h3 {
 }
 #lis {
     background-image: url("art/bgdrkplad.png");
-    padding: 6px;
+    padding: 12px;
     background-attachment: fixed;
 }
 #lis h2 {
-    color: blanchedalmond;
+    background-image: url("art/bgscrap.png");
+    border: 3px double burlywood;
+    max-width: 850px;
+    margin: auto;
 }
 #hom {
     padding: 6px 188px;
@@ -135,9 +140,9 @@ h3 {
 #kit h2 {
     background-image: url("art/bgadobe.png");
     padding: 4px;
-    max-width: 860px;
+    max-width: 850px;
     margin: auto;
-    border: 3px double darkolivegreen;
+    border: 3px double burlywood;
 }
 @media only screen and (max-width: 620px) {
     .nav {
