@@ -7,11 +7,12 @@ body {
     padding: 0;
     margin: 0;
     background-image: url("art/bgtan.png");
+    background-attachment: fixed;
 }
 .nav {
     border: 1px solid brown;
     width: 180px;
-    padding: 2px;
+    padding: 6px;
     background-image: url("art/bgmost.png");
     position: fixed;
     height: 100%;
@@ -22,17 +23,20 @@ body {
     background-color: darkslategray;
     color: beige;
     padding: 2px;
+    border: 1px solid goldenrod;
+    display: block;
+    margin: 4px auto;
+    text-decoration: none;
 }
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav a:hover {
+    color:lightpink;
 }
 .content {
     border: 1px solid pink;
-    padding: 2px;
+    padding: 6px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 180px;
+    max-width: 100%;
 }
 .hide {
     display: none;
@@ -51,12 +55,12 @@ body {
 .nowrap {
     display: flex;
     align-items: stretch;
-    gap: 6px;
+    gap: 8px;
     flex-wrap: no-wrap;
     border: 1px solid paleturquoise;
     justify-content: center;
     max-width: 860px;
-    margin: auto;
+    margin: 8px auto;
 }
 .art {
     max-width: 220px;
@@ -80,28 +84,40 @@ h3 {
 .small {
     margin: auto;
     border: 1px solid salmon;
-    max-width: 280px;
+    max-width: 278px;
     padding: 4px;
-    height: 300px;
+    height: 288px;
+}
+.med {
+    margin: auto;
+    border: 1px solid salmon;
+    width: 422px;
+    padding: 4px;
+    height: 288px;
+}
+#scr {
+    border: 1px solid darkkhaki;
 }
 @media only screen and (max-width: 620px) {
     .nav {
       position: static;
       width: 100%;
       height: auto;
-
     }
     .content {
         margin-left: auto;
     }
-    .nav li {
+    .nav a {
         display: inline;
     }
     .nowrap {
         flex-wrap: wrap;
     }
     .small {
-        max-width: 100%;
+        width: 100%;
         height: auto;
+    }
+    .art {
+        max-width: 100%;
     }
   }
