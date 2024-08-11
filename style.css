@@ -98,14 +98,18 @@ h3 {
 }
 .med {
     margin: auto;
-    border: 1px solid salmon;
+    border: 3px double darkolivegreen;
     width: 416px;
     padding: 4px;
     height: 280px;
 }
+.adob {
+    background-image: url("art/bgadobe.png");
+}
 #art {
     background-image: url("art/artbg.png");
     padding: 4px 88px;
+    background-attachment: fixed;
 }
 #art h2, #art h3 {
     background-color: beige;
@@ -115,13 +119,25 @@ h3 {
 #lis {
     background-image: url("art/bgdrkplad.png");
     padding: 6px;
-
+    background-attachment: fixed;
 }
 #lis h2 {
     color: blanchedalmond;
 }
 #hom {
     padding: 6px 188px;
+}
+#kit {
+    background-image: url("art/bggeom.png");
+    background-attachment: fixed;
+    padding: 8px;
+}
+#kit h2 {
+    background-image: url("art/bgadobe.png");
+    padding: 4px;
+    max-width: 860px;
+    margin: auto;
+    border: 3px double darkolivegreen;
 }
 @media only screen and (max-width: 620px) {
     .nav {
@@ -147,7 +163,7 @@ h3 {
     .art {
         max-width: 100%;
     }
-    .med {
+    .med, #hom, #art {
         width: 100%;
         height: auto;
         overflow-x: hidden;
