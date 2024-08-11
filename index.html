@@ -7,36 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A gallery of stuff</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <link href='https://fonts.googleapis.com/css?family=Bona Nova SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
 </head>
 
 <body>
 
-    <div class="content">
+    <div class="nav">
 
-        <div class="words">
+        <ul>
+
+        <li><a href="#art">artwork</a></li>
+        <li><a href="#kit">kitchen</a></li>
+        <li><a href="#scr">scrapbook</a></li>
+        <li><a href="#hom">home</a></li>
+
+    </ul>
+
+    </div>
+
+        <div id="hom" class="content">
+
+            <div>
 
             <h1>Welcome</h1>
 
             <hr>
 
-            <p>You've stumbled upon my little digital space for displaying my work and sharing
-                the questionable outcomes of my hobbies. Thanks for stopping by!</p>
-
-        </div>
-
-        <div class="words" id="a">
-
-            <h2>Artwork</h2>
+            <p>You've stumbled upon my little digital space for displaying my work and sharing the questionable outcomes of my hobbies. Thanks for stopping by!</p>
 
             <hr>
 
-            <details>
-                <summary>Digital stuff</summary>
-           
+        </div>
+
+        <div id="art" class="hide">
+
+            <h2>Artwork</h2>
+
             <p>I recently started experimenting with digital sketching after rediscovering 'retro' style websites and pixel art. More to come.</p>
 
-            <div class="gallery">
+            <div class="container">
 
                 <div>
                     <a href="art/musc.png" target="_blank"><img class="art" src="art/musc.png" title="June 2024"></a>
@@ -63,14 +73,10 @@
                 </div>
 
             </div>
-        </details>
-            
-        <details>
-            <summary>Paint, pastel, etc.</summary>
-        
+
             <p>I studied art in college and tried a bunch of different media. These are some of my favorites in no particular order. Hover over images for some details.</p>
 
-            <div class="gallery">
+            <div class="container">
 
                 <div>
                     <a href="art/memunch.png" target="_blank"><img class="art" src="art/memunch.png" title="Self-portrait in the style of Edvard Munch, circa 2009, charcoal on paper"></a>
@@ -102,56 +108,55 @@
 
             </div>
 
-        </details>
+        </div>
+
+        <div id="kit" class="hide">
+            <h2>Kitchen</h2>
+
+            <h3>July 2024: Cabbage rolls</h3>
+            <p>
+                <a href="art/cabrol.png" target="_blank"><img src="art/cabrol.png"></a>
+            </p>
+            <p>Made these adorable little cabbage rolls and just had to share!</p>
+
+            <h3>July 2024: Inspired by film</h3>
+            <p>I recently watched Green Book (2018) and in addition to it being my favorite movie I've seen this year, I could not get enough of the insanely charming food scenes. I immediately needed to cook spaghetti with (vegetarian) meatballs after watching
+                it.</p>
 
         </div>
 
-        <div id="b" class="words">
+        <div id="scr" class="hide">
 
-            <h2>Other stuff</h2>
+            <h2>Scrapbook</h2>
 
-            <hr>
+            <div class="container">
 
-                   <details>
-                        <summary>Books</summary>
-                        
-                        <h3>July 2024: Currently reading</h3>
-                    <p>House of Leaves by Mark Z. Danielewski and loving the zany ~*~experience~*~.</p>
-                    <p>Also reading Adventures of Huckleberry Finn by Mark Twain because I love a good classic.</p>
-               
-               <h3>July 2024: Recently finished</h3>
-                <p>Maus I: A Survivor's Tale: My Father Bleeds History (Maus, #1) by Art Spiegelman</p>
-                </details>
+            <div>
+                
+            <h3>Books</h3>
 
-                <details>
-                    <summary>Nature</summary>
-                   
-                    <p>I take regular walks or jogs in the Wissahickon Valley Park and am just in love with that place. I used to try all different trails in Philly but now pretty much stick to the same ones, and I enjoy noticing how the same trails look
-                        different every time I'm there, even from one day to the next.</p>
+            <h3>July 2024: Currently reading</h3>
+            <p>House of Leaves by Mark Z. Danielewski and loving the zany ~*~experience~*~.</p>
+            <p>Also reading Adventures of Huckleberry Finn by Mark Twain because I love a good classic.</p>
 
-                </details>
+            <h3>July 2024: Recently finished</h3>
+            <p>Maus I: A Survivor's Tale: My Father Bleeds History (Maus, #1) by Art Spiegelman</p>
 
-                <details>
+        </div>
 
-                    <summary>Food</summary>
+        <div>
+            <h3>Nature</h3>
 
-                      <h3>July 2024: Cabbage rolls</h3> 
-                      <p><a href="art/cabrol.png" target="_blank"><img class="lilpic" src="art/cabrol.png"></a></p>
-                      <p>Made these adorable little cabbage rolls and just had to share!</p>
-      
-                    <h3>July 2024: Inspired by film</h3>
-                    <p>I recently watched Green Book (2018) and in addition to it being my favorite movie I've seen this year, I could not get enough of the insanely charming food scenes. I immediately needed to cook spaghetti with (vegetarian) meatballs
-                        after watching it.</p>
+            <p>I take regular walks or jogs in the Wissahickon Valley Park and am just in love with that place. I used to try all different trails in Philly but now pretty much stick to the same ones, and I enjoy noticing how the same trails look different
+                every time I'm there, even from one day to the next.</p>
 
-                </details>
+        </div>
 
-               <details>
+        <div>
 
-                    <summary>Travel</summary>
-                    <p>My friends and I traveled to Montreal in June and I've officially been converted from someone who didn't understand the hype around poutine to someone who cannot stop thinking about the delicious mushroom poutine I had from a food
-                        truck.</p>
-
-               </details>
+            <h3>Travel</h3>
+            <p>My friends and I traveled to Montreal in June and I've officially been converted from someone who didn't understand the hype around poutine to someone who cannot stop thinking about the delicious mushroom poutine I had from a food truck.
+            </p>
 
         </div>
 

@@ -1,112 +1,64 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: #333f58;
-    padding: 2px;
     text-align: center;
-    background-image: url("art/bgdrkplad.png");
-    background-attachment: fixed;
+}
+.nav {
+    border: 1px solid brown;
+    width: 180px;
+    position: fixed;
+    padding: 2px;
+    height: 100%;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .content {
-    border: 3px double #387080;
-    max-width: 760px;
-    background-color: #9d9f7f;
-    background-image: url("art/bgtaup.png");
-    margin: auto;
+    border: 1px solid pink;
+    padding: 2px;
+    margin-left: 184px;
 }
-.words {
-    font-size: 14px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #1a181b;
-    margin: 16px;
-    background-color: #c5ccb8;
-    border: 3px double #7ca1c0;
-    padding: 16px 72px;
+.hide {
+    display: none;
 }
-.small {
-    max-width: 260px;
-    margin: auto;
-    padding: 4px;
+.hide:target {
+    display: block;
 }
-.left {
-    padding: 0 12px;
+.container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    border: 1px solid paleturquoise;
+    justify-content: center;
+}
+.art {
+    max-width: 220px;
 }
 img {
     max-width: 100%;
 }
-a {
-    color: #387080;
-    text-decoration: underline #c38890;
-    font-weight: bold;
-}
-a:hover {
-    color: #666092;
-    text-decoration: none;
-}
-hr {
-    border-top: 1px solid #c28d75;
-    border-bottom: 0;
-    max-width: 200px;
-    margin: 28px auto;
-    box-shadow: -2px 2px 0 #387080;
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: center;
-    margin: 16px auto;
-    align-items: center;
-}
-details {
-    margin: 12px auto;
-}
-summary {
-    cursor: pointer;
-    text-decoration: underline #c38890;
-    padding: 4px 0;
-    max-width: fit-content;
-    margin: auto;
-    color: #333f58;
-    font-weight: normal;
-    font-size: 16px;
-}
-summary:hover {
-    text-decoration: none;
-    font-weight: bold;
-}
-h1{
-    color: #387080;
-    font-size: 22px;
+h1 {
+    font-family: 'Alex Brush';
+    font-size: 42px;
 }
 h2 {
-    color: #416aa3;
-    font-size: 18px;
+    font-family: 'Annie Use Your Telescope';font-size: 22px;
 }
-h3 {
-    border: 3px double #5d6872;
-    background-color: #7ca1c0;
-    max-width: fit-content;
-    margin: auto;
-    font-weight: normal;
-    padding: 4px;
-    font-size: 14px;
-}
-.art {
-    max-width: 100px;
-    margin: auto;
-    border: 3px double #5d6872;
-}
-.art:hover{
-    border: 3px double #a593a5;
-}
-.lilpic {
-    max-width: 80px;
-}
-@media only screen and (max-width: 650px) {
-    .content, .words, .gallery {
-        margin: 4px;
-        padding: 4px;
-   }
-   .small {
-    max-width: max-content;
-   }
-}
+@media only screen and (max-width: 620px) {
+    .nav {
+      position: static;
+      width: 100%;
+      height: auto;
+
+    }
+    .content {
+        margin-left: auto;
+    }
+    .nav li {
+        display: inline;
+    }
+  }
