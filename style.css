@@ -49,7 +49,6 @@ body {
     align-items: center;
     gap: 6px;
     flex-wrap: wrap;
-    border: 1px solid paleturquoise;
     justify-content: center;
 }
 .nowrap {
@@ -63,7 +62,12 @@ body {
     margin: 8px auto;
 }
 .art {
-    max-width: 220px;
+    max-width: 200px;
+    display: block;
+}
+.frame {
+    border: 3px double slategray;
+    background-color: antiquewhite;
 }
 img {
     max-width: 100%;
@@ -97,6 +101,14 @@ h3 {
 }
 #scr {
     border: 1px solid darkkhaki;
+}
+#art {
+    background-image: url("art/artbg.png");
+    padding: 4px 82px;
+}
+#art h2, #art h3 {
+    background-color: beige;
+    border: 3px double tomato
 }
 @media only screen and (max-width: 620px) {
     .nav {
