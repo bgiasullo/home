@@ -31,7 +31,6 @@ body {
     color:lightpink;
 }
 .content {
-    border: 1px solid pink;
     padding: 6px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 180px;
@@ -67,8 +66,12 @@ body {
     border: 3px double slategray;
     background-color: antiquewhite;
 }
+.frame:hover {
+    border: 3px double sandybrown;
+}
 img {
     max-width: 100%;
+    margin: auto;
 }
 h1 {
     font-family: 'Alex Brush';
@@ -102,11 +105,12 @@ h3 {
 }
 #art {
     background-image: url("art/artbg.png");
-    padding: 4px 82px;
+    padding: 4px 88px;
 }
 #art h2, #art h3 {
     background-color: beige;
-    border: 3px double tomato
+    border: 3px double tomato;
+    padding: 4px;
 }
 #lis {
     background-image: url("art/bgdrkplad.png");
@@ -115,6 +119,9 @@ h3 {
 }
 #lis h2 {
     color: blanchedalmond;
+}
+#hom {
+    padding: 6px 188px;
 }
 @media only screen and (max-width: 620px) {
     .nav {
