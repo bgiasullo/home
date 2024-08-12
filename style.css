@@ -52,9 +52,9 @@ body {
 }
 .nowrap {
     display: flex;
-    gap: 10px;
+    gap: 18px;
     flex-wrap: no-wrap;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 860px;
     margin: 16px auto;
 }
@@ -98,7 +98,7 @@ h3 {
     border: 1px dashed mediumorchid;
 }
 .med {
-    width: 416px;
+    width: 418px;
     padding: 4px;
     height: 280px;
     overflow-y: auto;
