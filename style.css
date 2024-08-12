@@ -4,7 +4,6 @@
 body {
     text-align: center;
     font-size: 12px;
-    padding: 0;
     margin: 0;
     background-image: url("art/bgtan.png");
     background-attachment: fixed;
@@ -12,7 +11,6 @@ body {
 .nav {
     width: 180px;
     padding: 6px;
-    background-image: url("art/bgmost.png");
     position: fixed;
     height: 100%;
 }
@@ -26,6 +24,8 @@ body {
     display: block;
     margin: 4px auto;
     text-decoration: none;
+    width: 98px;
+    border-radius: 6px;
 }
 .nav a:hover {
     color:lightpink;
@@ -56,7 +56,6 @@ body {
     flex-wrap: no-wrap;
     justify-content: center;
     max-width: 860px;
-    margin: 16px auto;
 }
 .art {
     max-width: 200px;
@@ -95,10 +94,10 @@ h3 {
 }
 .scrap {
     background-image: url("art/bgscrap.png");
+    border: 1px dashed mediumorchid;
 }
 .med {
-    margin: auto;
-    border: 3px double burlywood;
+    margin: 16px auto;
     width: 416px;
     padding: 4px;
     height: 280px;
@@ -107,16 +106,11 @@ h3 {
 }
 .adob {
     background-image: url("art/bgadobe.png");
+    border: 3px double burlywood;
 }
 #art {
-    background-image: url("art/artbg.png");
-    padding: 4px 98px;
+    padding: 4px 108px;
     background-attachment: fixed;
-}
-#art h2, #art h3 {
-    background-color: beige;
-    border: 3px double tomato;
-    padding: 4px;
 }
 #lis {
     background-image: url("art/bgdrkplad.png");
@@ -125,13 +119,12 @@ h3 {
 }
 #lis h2 {
     background-image: url("art/bgscrap.png");
-    border: 3px double burlywood;
+    border: 1px dashed mediumorchid;
     max-width: 850px;
     margin: auto;
 }
 #hom {
     padding: 6px 188px;
-    height: 100vh;
 }
 #kit {
     background-image: url("art/bggeom.png");
@@ -145,6 +138,9 @@ h3 {
     max-width: 850px;
     margin: auto;
     border: 3px double burlywood;
+}
+#abo { 
+    height: 100vh;
 }
 @media only screen and (max-width: 620px) {
     .nav {
@@ -164,8 +160,6 @@ h3 {
     .small {
         width: 100%;
         height: auto;
-        overflow-x: hidden;
-        overflow-y: auto;
     }
     .art {
         max-width: 100%;
@@ -173,8 +167,6 @@ h3 {
     .med, #hom, #art {
         width: 100%;
         height: auto;
-        overflow-x: hidden;
-        overflow-y: auto;
         padding: 4px;
     }
   }

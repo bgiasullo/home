@@ -1,91 +1,175 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: #333f58;
-    padding: 2px;
     text-align: center;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    background-image: url("art/bgtan.png");
+    background-attachment: fixed;
+}
+.nav {
+    width: 180px;
+    padding: 6px;
+    position: fixed;
+    height: 100%;
+}
+.nav a {
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 16px;
+    background-color: darkslategray;
+    color: beige;
+    padding: 2px;
+    border: 1px solid goldenrod;
+    display: block;
+    margin: 4px auto;
+    text-decoration: none;
+    width: 98px;
+    border-radius: 6px;
+}
+.nav a:hover {
+    color:lightpink;
 }
 .content {
-    border: 3px double #387080;
-    max-width: 760px;
-    background-color: #9d9f7f;
-    padding: 0 16px;
-    background-image: url("art/bgtaup.png");
-    margin: auto;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 180px;
+    max-width: 100%;
 }
-.words {
-    font-size: 14px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #1a181b;
+.hide {
+    display: none;
+}
+.hide:target {
+    display: block;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nowrap {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    max-width: 860px;
     margin: 16px auto;
-    background-color: #c5ccb8;
-    border: 3px double #7ca1c0;
-    padding: 16px 72px;
 }
-.small {
-    max-width: 260px;
-    margin: auto;
-    padding: 4px;
+.art {
+    max-width: 200px;
+    display: block;
 }
-.left {
-    text-align: left;
+.frame {
+    border: 3px double slategray;
+    background-color: antiquewhite;
 }
-.blue {
-    background-color: #416aa3;
-    color: white;
-    border: 3px double #be955c;
+.frame:hover {
+    border: 3px double sandybrown;
 }
 img {
     max-width: 100%;
+    margin: auto;
 }
-a {
-    color: #332741;
-    text-decoration: underline #c38890;
-    font-weight: bold;
-}
-a:hover {
-    color: #666092;
-    text-decoration: none;
-}
-hr {
-    border-top: 1px solid #c28d75;
-    border-bottom: 0;
-    max-width: 200px;
-    margin: 28px auto;
-    box-shadow: -2px 2px 0 #387080;
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-    margin: 16px auto;
-    align-items: center;
-}
-h1{
-    color: #387080;
-    font-size: 22px;
+h1 {
+    font-family: 'Alex Brush';
+    font-size: 42px;
 }
 h2 {
-    color: #416aa3;
-    font-size: 18px;
+    font-family: 'Annie Use Your Telescope';
+    font-size: 32px;
 }
 h3 {
-    border: 3px double #c38890;
-    background-color: #9a9a97;
+    font-family: 'Aref Ruqaa Ink';
+    font-size: 16px;
+    font-weight: normal;
 }
-.art {
-    max-width: 100px;
+.small {
     margin: auto;
-    border: 3px double #5d6872;
+    border: 3px double burlywood;
+    width: 270px;
+    padding: 6px;
+    height: 280px;
 }
-.art:hover{
-    border: 3px double #a593a5;
+.scrap {
+    border: 1px dashed mediumorchid;
+    background-image: url("art/bgscrap.png");
 }
-summary {
-    cursor: pointer;
+.med {
+    margin: auto;
+    width: 416px;
+    padding: 4px;
+    height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
-@media only screen and (max-width: 650px) {
-    .content, .words{
-        padding: 6px;
-        margin: auto;
-   }
+.adob {
+    background-image: url("art/bgadobe.png");
+    border: 3px double burlywood;
 }
+#art {
+    padding: 4px 108px;
+    background-attachment: fixed;
+}
+#art h2, #art h3 {
+    padding: 4px;
+}
+#lis {
+    padding: 12px;
+    background-attachment: fixed;
+}
+#lis h2 {
+    background-image: url("art/bgscrap.png");
+    border: 1px dashed mediumorchid;
+    max-width: 850px;
+    margin: auto;
+}
+#hom {
+    padding: 6px 188px;
+}
+#kit {
+    background-attachment: fixed;
+    padding: 8px;
+    height: 100vh;
+}
+#kit h2 {
+    background-image: url("art/bgadobe.png");
+    padding: 4px;
+    max-width: 850px;
+    margin: auto;
+    border: 3px double burlywood;
+}
+#abo { 
+    height: 100vh;
+}
+@media only screen and (max-width: 620px) {
+    .nav {
+      position: static;
+      width: 100%;
+      height: auto;
+    }
+    .content {
+        margin-left: auto;
+    }
+    .nav a {
+        display: inline;
+    }
+    .nowrap {
+        flex-wrap: wrap;
+    }
+    .small {
+        width: 100%;
+        height: auto;
+    }
+    .art {
+        max-width: 100%;
+    }
+    .med, #hom, #art {
+        width: 100%;
+        height: auto;
+        padding: 4px;
+    }
+  }
