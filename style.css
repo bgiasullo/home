@@ -90,6 +90,16 @@ h3 {
     overflow-y: auto;
     overflow-x: hidden;
 }
+.words {
+    border: 3px double #a593a5;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: 500px;
+    margin: 8px auto;
+    background-color: #6f6776;
+    color: beige;
+    padding: 4px;
+}
 .scrap {
     background-image: url("art/bgscrap.png");
     border: 1px dashed teal;
