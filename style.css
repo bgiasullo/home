@@ -16,11 +16,11 @@ body {
 }
 .nav a {
     font-family: 'Aref Ruqaa Ink';
-    font-size: 16px;
-    background-color: darkslategray;
+    font-size: 18px;
+    background-color: #6f6776;
     color: beige;
     padding: 2px;
-    border: 1px solid goldenrod;
+    border: 1px solid #9d9f7f;
     display: block;
     margin: 4px auto;
     text-decoration: none;
@@ -28,7 +28,7 @@ body {
     border-radius: 6px;
 }
 .nav a:hover {
-    color:lightpink;
+    background-color: #5d6872;
 }
 .content {
     margin-left: 180px;
@@ -117,11 +117,12 @@ h3 {
 }
 #lis h1 {
     background-image: url("art/bgscrap.png");
-    border: 1px dashed mediumorchid;
-    margin: 6px auto;
+    border: 1px dashed teal;
+    margin: 8px auto;
+    max-width: 722px;
 }
 #hom {
-    padding: 6px 188px;
+    padding: 1% 18%;
 }
 #kit {
     background-image: url("art/bggeom.png");
@@ -129,11 +130,12 @@ h3 {
     padding: 1% 18%;
     height: 100vh;
 }
-#kit h2 {
+#kit h1 {
     background-image: url("art/bgadobe.png");
     padding: 4px;
-    margin: auto;
+    margin: 8px auto;
     border: 3px double burlywood;
+    max-width: 722px;
 }
 #abo { 
     height: 100vh;
@@ -154,13 +156,13 @@ h3 {
         flex-wrap: wrap;
     }
     .small {
-        width: 100%;
+        max-width: 100%;
         height: auto;
     }
     .art {
         max-width: 100%;
     }
-    .med, #hom, #art {
+    .med, #hom, #art, #lis, #kit {
         width: 100%;
         height: auto;
         padding: 4px;
