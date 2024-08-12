@@ -5,6 +5,7 @@ body {
     text-align: center;
     font-size: 12px;
     margin: 0;
+    padding: 0;
     background-image: url("art/bgtan.png");
     background-attachment: fixed;
 }
@@ -51,7 +52,6 @@ body {
 }
 .nowrap {
     display: flex;
-    align-items: stretch;
     gap: 10px;
     flex-wrap: no-wrap;
     justify-content: center;
