@@ -63,7 +63,7 @@ body {
     background-color: antiquewhite;
 }
 .frame:hover {
-    border: 3px double sandybrown;
+    border: 3px double #93a167;
 }
 img {
     max-width: 100%;
@@ -154,7 +154,7 @@ h3 {
     background-image: url("art/bgadobe.png");
     padding: 4px;
     margin: 8px auto;
-    border: 3px double burlywood;
+    border: 3px double #c5ccb8;
     max-width: 722px;
 }
 #abo { 
