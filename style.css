@@ -13,7 +13,7 @@ body {
     padding: 10px;
     position: fixed;
     height: 100%;
-    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav a {
     font-family: 'Aref Ruqaa Ink';
@@ -114,7 +114,7 @@ h3 {
     border: 1px dashed #387080;
 }
 .med {
-    width: 350px;
+    max-width: 344px;
     padding: 6px;
     height: 250px;
     overflow-y: auto;
@@ -133,13 +133,11 @@ h3 {
     background-image: url("art/bgdrkplad.png");
     padding: 1% 18%;
     background-attachment: fixed;
-    height: 100vh;
 }
 #lis h1 {
     background-image: url("art/bgscrap.png");
     border: 1px dashed teal;
     margin: 8px auto;
-    max-width: 722px;
 }
 #hom {
     padding: 1% 18%;
@@ -155,7 +153,6 @@ h3 {
     padding: 4px;
     margin: 8px auto;
     border: 3px double #c5ccb8;
-    max-width: 722px;
 }
 #abo { 
     height: 100vh;
