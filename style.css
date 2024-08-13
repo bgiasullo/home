@@ -21,12 +21,11 @@ body {
     background-color: #6f6776;
     color: beige;
     padding: 2px;
-    border: 1px solid #9d9f7f;
+    border: 3px double #a593a5;
     display: block;
     margin: 4px auto;
     text-decoration: none;
     width: 98px;
-    border-radius: 6px;
 }
 .nav a:hover {
     background-color: #5d6872;
@@ -84,7 +83,7 @@ h3 {
 }
 .small {
     margin: 6px auto;
-    max-width: 228px;
+    width: 228px;
     padding: 6px;
     height: 250px;
     overflow-y: auto;
@@ -134,6 +133,7 @@ h3 {
     background-image: url("art/bgdrkplad.png");
     padding: 1% 18%;
     background-attachment: fixed;
+    height: 100vh;
 }
 #lis h1 {
     background-image: url("art/bgscrap.png");
@@ -159,6 +159,7 @@ h3 {
 }
 #abo { 
     height: 100vh;
+    padding: 10px;
 }
 @media only screen and (max-width: 620px) {
     .nav {
@@ -171,18 +172,15 @@ h3 {
     }
     .nav a {
         display: inline;
+        padding: 4px;
     }
     .nowrap {
         flex-wrap: wrap;
     }
-    .small {
-        max-width: 100%;
-        height: auto;
-    }
     .art {
         max-width: 100%;
     }
-    .med, #hom, #art, #lis, #kit, .words {
+    .med, #hom, #art, #lis, #kit, .words, #abo, .small {
         width: 100%;
         height: auto;
         padding: 4px;
