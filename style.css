@@ -93,11 +93,11 @@ h3 {
     border: 3px double #a593a5;
     overflow-y: auto;
     overflow-x: hidden;
-    max-width: 500px;
+    max-width: 600px;
     margin: 8px auto;
     background-color: #6f6776;
     color: beige;
-    padding: 4px;
+    padding: 4px 20px;
 }
 .light {
     background-color: #c5ccb8;
