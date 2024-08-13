@@ -9,10 +9,11 @@ body {
     background-attachment: fixed;
 }
 .nav {
-    width: 180px;
-    padding: 6px;
+    width: 220px;
+    padding: 10px;
     position: fixed;
     height: 100%;
+    z-index: 1;
 }
 .nav a {
     font-family: 'Aref Ruqaa Ink';
@@ -31,7 +32,7 @@ body {
     background-color: #5d6872;
 }
 .content {
-    margin-left: 180px;
+    margin-left: 220px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .hide {
@@ -83,7 +84,6 @@ h3 {
 }
 .small {
     margin: 6px auto;
-    border: 3px double burlywood;
     max-width: 228px;
     padding: 6px;
     height: 250px;
@@ -100,13 +100,23 @@ h3 {
     color: beige;
     padding: 4px;
 }
+.light {
+    background-color: #c5ccb8;
+    border: 3px double #68aca9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: 500px;
+    margin: 8px auto;
+    color: #433455;
+    padding: 8px;
+}
 .scrap {
     background-image: url("art/bgscrap.png");
-    border: 1px dashed teal;
+    border: 1px dashed #387080;
 }
 .med {
     width: 350px;
-    padding: 4px;
+    padding: 6px;
     height: 250px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -114,7 +124,7 @@ h3 {
 }
 .adob {
     background-image: url("art/bgadobe.png");
-    border: 3px double burlywood;
+    border: 3px double #c5ccb8;
 }
 #art {
     padding: 1% 18%;
@@ -172,7 +182,7 @@ h3 {
     .art {
         max-width: 100%;
     }
-    .med, #hom, #art, #lis, #kit {
+    .med, #hom, #art, #lis, #kit, .words {
         width: 100%;
         height: auto;
         padding: 4px;
