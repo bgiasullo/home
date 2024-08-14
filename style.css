@@ -66,6 +66,7 @@ body {
 img {
     max-width: 100%;
     margin: auto;
+    vertical-align: middle;
 }
 h1 {
     font-family: 'Alex Brush';
@@ -114,8 +115,8 @@ h3 {
     margin: auto;
 }
 .adob {
-    background-image: url("art/bgadobe.png");
-    border: 3px double #c5ccb8;
+    background-color: #c5ccb8;    
+    border: 3px double #6e6962;
 }
 #art {
     padding: 1% 18%;
@@ -137,10 +138,10 @@ h3 {
     padding: 1% 18%;
 }
 #kit h1 {
-    background-image: url("art/bgadobe.png");
+    background-color: #c5ccb8;    
     padding: 4px;
     margin: 8px auto;
-    border: 3px double #c5ccb8;
+    border: 3px double #6e6962;
 }
 #abo { 
     padding: 10px;
