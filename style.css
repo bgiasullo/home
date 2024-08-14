@@ -8,6 +8,9 @@ body {
     background-image: url("art/bgtan.png");
     background-attachment: fixed;
 }
+.flole {
+    float: left;
+}
 .nav {
     width: 220px;
     padding: 10px;
@@ -18,7 +21,7 @@ body {
 .nav a {
     font-family: 'Aref Ruqaa Ink';
     font-size: 18px;
-    background-color: #6f6776;
+    background-color: #403b44;
     color: beige;
     padding: 2px;
     border: 3px double #a593a5;
@@ -45,12 +48,6 @@ body {
     align-items: center;
     gap: 6px;
     flex-wrap: wrap;
-    justify-content: center;
-}
-.nowrap {
-    display: flex;
-    gap: 6px;
-    flex-wrap: no-wrap;
     justify-content: center;
 }
 .art {
@@ -90,31 +87,23 @@ h3 {
     overflow-x: hidden;
 }
 .words {
-    border: 3px double #a593a5;
     overflow-y: auto;
     overflow-x: hidden;
     max-width: 600px;
     margin: 8px auto;
-    background-color: #6f6776;
-    color: beige;
     padding: 4px 20px;
 }
-.light {
-    background-color: #c5ccb8;
-    border: 3px double #68aca9;
-    overflow-y: auto;
-    overflow-x: hidden;
-    max-width: 500px;
-    margin: 8px auto;
-    color: #433455;
-    padding: 8px;
+.wolors {
+    background-color: #403b44;
+    color: beige;
+    border: 3px double #a593a5;
 }
 .scrap {
     background-image: url("art/bgscrap.png");
     border: 1px dashed #387080;
 }
 .med {
-    max-width: 344px;
+    width: 344px;
     padding: 6px;
     height: 250px;
     overflow-y: auto;
@@ -170,9 +159,6 @@ h3 {
     .nav a {
         display: inline;
         padding: 4px;
-    }
-    .nowrap {
-        flex-wrap: wrap;
     }
     .art {
         max-width: 100%;
