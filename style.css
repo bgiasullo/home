@@ -48,7 +48,7 @@ body {
 .container {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -81,8 +81,8 @@ h3 {
     font-weight: normal;
 }
 .small {
-    margin: 6px auto;
-    width: 228px;
+    flex: 24%;
+    width: 24%;;
     padding: 6px;
     height: 250px;
     overflow-y: auto;
@@ -92,8 +92,8 @@ h3 {
     overflow-y: auto;
     overflow-x: hidden;
     max-width: 600px;
-    margin: 8px auto;
     padding: 4px 20px;
+    margin: 6px auto;
 }
 .wolors {
     background-color: #403b44;
@@ -105,12 +105,13 @@ h3 {
     border: 1px dashed #387080;
 }
 .med {
-    width: 344px;
+    flex: 28%;
+    width: 28%;
     padding: 6px;
     height: 250px;
     overflow-y: auto;
     overflow-x: hidden;
-    margin: 6px auto;
+    margin: auto;
 }
 .adob {
     background-image: url("art/bgadobe.png");
@@ -164,6 +165,7 @@ h3 {
         width: 100%;
         height: auto;
         padding: 4px;
+        flex: none;
     }
     .flole {
         float: none;
