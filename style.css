@@ -12,11 +12,13 @@ body {
     float: left;
 }
 .nav {
-    width: 220px;
-    padding: 10px;
+    width: 228px;
+    padding: 18px;
     position: fixed;
-    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+}
+.fun {
+    border: 1px dashed #7ca1c0;
 }
 .nav a {
     font-family: 'Aref Ruqaa Ink';
@@ -34,8 +36,8 @@ body {
     background-color: #5d6872;
 }
 .content {
-    margin-left: 220px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 228px;
 }
 .hide {
     display: none;
@@ -128,14 +130,10 @@ h3 {
     border: 1px dashed teal;
     margin: 8px auto;
 }
-#hom {
-    padding: 1% 18%;
-}
 #kit {
     background-image: url("art/bggeom.png");
     background-attachment: fixed;
     padding: 1% 18%;
-    height: 100vh;
 }
 #kit h1 {
     background-image: url("art/bgadobe.png");
@@ -144,28 +142,30 @@ h3 {
     border: 3px double #c5ccb8;
 }
 #abo { 
-    height: 100vh;
     padding: 10px;
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 720px) {
     .nav {
       position: static;
       width: 100%;
       height: auto;
     }
     .content {
-        margin-left: auto;
+        margin: auto;
     }
     .nav a {
         display: inline;
         padding: 4px;
     }
-    .art {
+    .art, .words {
         max-width: 100%;
     }
-    .med, #hom, #art, #lis, #kit, .words, #abo, .small {
+    .med, #hom, #art, #lis, #kit, #abo, .small {
         width: 100%;
         height: auto;
         padding: 4px;
+    }
+    .flole {
+        float: none;
     }
   }
