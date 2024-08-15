@@ -4,26 +4,19 @@
 body {
     text-align: center;
     font-size: 12px;
-    padding: 0;
     background-image: url("art/bgtan.png");
     background-attachment: fixed;
-}
-.flole {
-    float: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav {
     width: 228px;
     padding: 18px;
     position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.fun {
-    border: 1px dashed #7ca1c0;
 }
 .nav a {
     font-family: 'Aref Ruqaa Ink';
     font-size: 18px;
-    background-color: #403b44;
+    background-color: #433455;
     color: beige;
     padding: 2px;
     border: 3px double #a593a5;
@@ -33,7 +26,7 @@ body {
     width: 98px;
 }
 .nav a:hover {
-    background-color: #5d6872;
+    background-color: #666092;
 }
 .content {
     font-family: Arial, Helvetica, sans-serif;
@@ -51,23 +44,24 @@ body {
     gap: 8px;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 8px
+}
+.acent {
+    align-items: center;
 }
 .art {
     max-width: 200px;
     display: block;
 }
 .frame {
-    border: 3px double slategray;
-    background-color: antiquewhite;
+    border: 3px double #416aa3;
+    background-color: #c5ccb8;
 }
 .frame:hover {
-    border: 3px double #93a167;
+    border: 3px double #7ca1c0;
 }
 img {
     max-width: 100%;
     margin: auto;
-    vertical-align: middle;
 }
 h1 {
     font-family: 'Alex Brush';
@@ -80,7 +74,6 @@ h2 {
 h3 {
     font-family: 'Aref Ruqaa Ink';
     font-size: 18px;
-    font-weight: normal;
 }
 .small {
     flex: 1 0;
@@ -95,10 +88,10 @@ h3 {
     overflow-x: hidden;
     max-width: 600px;
     padding: 4px 22px;
-    margin: 1% 18% 1% 6%;
+    margin: 6px auto;
 }
 .wolors {
-    background-color: #403b44;
+    background-color: #433455;
     color: beige;
     border: 3px double #a593a5;
 }
@@ -122,28 +115,27 @@ h3 {
     padding: 10px;
 }
 #art {
-    padding: 1% 18% 1% 6%;
-    background-attachment: fixed;
+    padding: 1% 16%;
 }
 #lis {
     background-image: url("art/bgdrkplad.png");
-    padding: 1% 18%;
+    padding: 1% 16%;
     background-attachment: fixed;
 }
 #lis h1 {
     background-image: url("art/bgscrap.png");
-    border: 1px dashed teal;
-    margin: 8px auto;
+    border: 1px dashed #416aa3;
+    margin: 6px auto;
 }
 #kit {
     background-image: url("art/bggeom.png");
     background-attachment: fixed;
-    padding: 1% 18%;
+    padding: 1% 16%;
 }
 #kit h1 {
     background-color: #c5ccb8;    
     padding: 4px;
-    margin: 8px auto;
+    margin: 6px auto;
     border: 3px double #6e6962;
 }
 #abo { 
@@ -153,7 +145,6 @@ h3 {
     .nav {
       position: static;
       width: 100%;
-      height: auto;
     }
     .content {
         margin: auto;
@@ -170,8 +161,5 @@ h3 {
         height: auto;
         padding: 4px;
         flex: none;
-    }
-    .flole {
-        float: none;
     }
   }
