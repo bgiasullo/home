@@ -47,10 +47,11 @@ body {
 }
 .container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 8px;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 8px
 }
 .art {
     max-width: 200px;
@@ -78,23 +79,23 @@ h2 {
 }
 h3 {
     font-family: 'Aref Ruqaa Ink';
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
 }
 .small {
-    flex: 24%;
-    width: 24%;;
-    padding: 6px;
+    flex: 1 0;
+    padding: 8px;
     height: 250px;
     overflow-y: auto;
     overflow-x: hidden;
+    min-width: 200px;
 }
 .words {
     overflow-y: auto;
     overflow-x: hidden;
     max-width: 600px;
-    padding: 4px 20px;
-    margin: 6px auto;
+    padding: 4px 22px;
+    margin: 1% 18% 1% 6%;
 }
 .wolors {
     background-color: #403b44;
@@ -106,20 +107,22 @@ h3 {
     border: 1px dashed #387080;
 }
 .med {
-    flex: 28%;
-    width: 28%;
-    padding: 6px;
-    height: 250px;
+    flex: 2 0;
+    padding: 10px;
     overflow-y: auto;
     overflow-x: hidden;
-    margin: auto;
+    min-width: 288px;
 }
 .adob {
     background-color: #c5ccb8;    
     border: 3px double #6e6962;
 }
+.tiny {
+    max-width: 200px;
+    padding: 10px;
+}
 #art {
-    padding: 1% 18%;
+    padding: 1% 18% 1% 6%;
     background-attachment: fixed;
 }
 #lis {
