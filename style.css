@@ -156,7 +156,7 @@ h3 {
     .art, .words {
         max-width: 100%;
     }
-    .med, #hom, #art, #lis, #kit, #abo, .small {
+    .med, #hom, #art, #lis, #kit, #abo, .small, .tiny {
         width: 100%;
         height: auto;
         padding: 4px;
