@@ -143,7 +143,7 @@ a:hover {
 #kit {
     background-image: url("art/bggeom.png");
     background-attachment: fixed;
-    padding: 1% 16%;
+    padding: 1% 18%;
     border: 3px double #6e6962;
 }
 #kit h1 {
@@ -157,6 +157,21 @@ a:hover {
     background-attachment: fixed;
     padding: 1% 16%;
     border: 3px double #4C1E0A;
+}
+#lib a {
+    background-color: #4d3533;
+    border-radius: 6px;
+    color: #f6e8e0;
+    text-decoration: none;
+    border: 1px solid #ce9248;
+    padding: 6px;
+    display: block;
+    width: 88px;
+    height: 32px;
+    margin: auto;
+}
+#lib a:hover {
+    background-color: #1e4044;
 }
 #lib h1 {
     background-color: #D89878;    
@@ -190,7 +205,7 @@ a:hover {
     .art, .words {
         max-width: 100%;
     }
-    .med, #hom, #art, #scr, #kit, #abo, .small, .tiny {
+    .med, #hom, #art, #scr, #kit, #abo, .small, .tiny, #lib {
         width: 100%;
         height: auto;
         padding: 4px;
