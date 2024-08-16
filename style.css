@@ -75,6 +75,18 @@ h3 {
     font-family: 'Aref Ruqaa Ink';
     font-size: 18px;
 }
+hr{
+    border-top: 1px dashed #a593a5;
+    border-bottom: 0;
+    max-width: 222px;
+}
+a {
+    color: #68aca9;
+}
+a:hover {
+    color: #c38890;
+    text-decoration: none;
+}
 .small {
     flex: 1 0;
     padding: 8px;
@@ -113,6 +125,12 @@ h3 {
 .tiny {
     max-width: 200px;
     padding: 10px;
+}
+.wood {
+    background-color: #D89878;    
+    padding: 4px;
+    margin: 6px auto;
+    border: 3px double #4C1E0A;
 }
 #abo { 
     padding: 10px;
