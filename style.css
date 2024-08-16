@@ -114,23 +114,17 @@ h3 {
     max-width: 200px;
     padding: 10px;
 }
+#abo { 
+    padding: 10px;
+}
 #art {
     padding: 1% 16%;
-}
-#lis {
-    background-image: url("art/bgdrkplad.png");
-    padding: 1% 16%;
-    background-attachment: fixed;
-}
-#lis h1 {
-    background-image: url("art/bgscrap.png");
-    border: 1px dashed #416aa3;
-    margin: 6px auto;
 }
 #kit {
     background-image: url("art/bggeom.png");
     background-attachment: fixed;
     padding: 1% 16%;
+    border: 3px double #6e6962;
 }
 #kit h1 {
     background-color: #c5ccb8;    
@@ -138,8 +132,28 @@ h3 {
     margin: 6px auto;
     border: 3px double #6e6962;
 }
-#abo { 
-    padding: 10px;
+#lib {
+    background-image: url("art/bgwood.png");
+    background-attachment: fixed;
+    padding: 1% 16%;
+    border: 3px double #4C1E0A;
+}
+#lib h1 {
+    background-color: #D89878;    
+    padding: 4px;
+    margin: 6px auto;
+    border: 3px double #4C1E0A;
+}
+#scr {
+    background-image: url("art/bgdrkplad.png");
+    padding: 1% 16%;
+    background-attachment: fixed;
+    border: 1px dashed #416aa3;
+}
+#scr h1 {
+    background-image: url("art/bgscrap.png");
+    border: 1px dashed #416aa3;
+    margin: 6px auto;
 }
 @media only screen and (max-width: 720px) {
     .nav {
@@ -156,7 +170,7 @@ h3 {
     .art, .words {
         max-width: 100%;
     }
-    .med, #hom, #art, #lis, #kit, #abo, .small, .tiny {
+    .med, #hom, #art, #scr, #kit, #abo, .small, .tiny {
         width: 100%;
         height: auto;
         padding: 4px;
