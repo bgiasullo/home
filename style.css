@@ -63,6 +63,7 @@ body {
 img {
     max-width: 100%;
     margin: auto;
+    vertical-align: text-bottom;
 }
 h1 {
     font-family: 'Beau Rivage';
@@ -165,7 +166,7 @@ a:hover {
     text-decoration: none;
     border: 1px solid #ce9248;
     padding: 6px;
-    display: block;
+    display: inline-block;
     width: 88px;
     height: 32px;
     margin: auto;
