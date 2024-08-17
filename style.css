@@ -100,7 +100,6 @@ a:hover {
 .words {
     overflow-y: auto;
     overflow-x: hidden;
-    max-width: 600px;
     padding: 4px 22px;
     margin: 6px auto;
 }
@@ -119,6 +118,7 @@ a:hover {
     overflow-y: auto;
     overflow-x: hidden;
     min-width: 288px;
+    height: 298px;
 }
 .adob {
     background-color: #c5ccb8;    
@@ -135,7 +135,7 @@ a:hover {
     border: 3px double #4C1E0A;
 }
 #abo { 
-    padding: 10px;
+    padding: 1% 22%;
 }
 #art {
     padding: 1% 16%;
