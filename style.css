@@ -125,7 +125,7 @@ a:hover {
     border: 3px double #6e6962;
 }
 .tiny {
-    max-width: 244px;
+    max-width: 264px;
     padding: 14px;
 }
 .wood {
@@ -201,7 +201,7 @@ a:hover {
     .nav a {
         display: inline-block;
         padding: 4px;
-        margin: auto;
+        margin: 16px auto;
     }
     .art, .words {
         max-width: 100%;
