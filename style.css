@@ -201,7 +201,7 @@ a:hover {
     .nav a {
         display: inline-block;
         padding: 4px;
-        margin: 16px auto;
+        margin: 2px auto;
     }
     .art, .words {
         max-width: 100%;
