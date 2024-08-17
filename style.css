@@ -42,7 +42,7 @@ body {
 .container {
     display: flex;
     align-items: stretch;
-    gap: 8px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
 }
