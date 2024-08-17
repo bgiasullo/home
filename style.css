@@ -65,6 +65,10 @@ img {
     margin: auto;
     vertical-align: text-bottom;
 }
+.round {
+    border-radius: 50%;
+    border: 3px double #4C1E0A;
+}
 h1 {
     font-family: 'Beau Rivage';
     font-size: 42px;
@@ -77,11 +81,6 @@ h3 {
     font-family: 'Arima';
     font-size: 18px;
     font-weight: normal;
-}
-hr{
-    border-top: 1px dashed #a593a5;
-    border-bottom: 0;
-    max-width: 222px;
 }
 a {
     color: #68aca9;
@@ -200,7 +199,7 @@ a:hover {
         margin: auto;
     }
     .nav a {
-        display: inline;
+        display: inline-block;
         padding: 4px;
         margin: auto;
     }
