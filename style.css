@@ -65,10 +65,6 @@ img {
     margin: auto;
     vertical-align: text-bottom;
 }
-.round {
-    border-radius: 50%;
-    border: 3px double #4C1E0A;
-}
 h1 {
     font-family: 'Beau Rivage';
     font-size: 42px;
@@ -100,8 +96,8 @@ a:hover {
 .words {
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 4px 22px;
-    margin: 6px auto;
+    padding: 8px 22px;
+    margin: 10px auto;
 }
 .wolors {
     background-color: #433455;
@@ -118,7 +114,6 @@ a:hover {
     overflow-y: auto;
     overflow-x: hidden;
     min-width: 288px;
-    height: 298px;
 }
 .adob {
     background-color: #c5ccb8;    
@@ -149,7 +144,7 @@ a:hover {
 #kit h1 {
     background-color: #c5ccb8;    
     padding: 4px;
-    margin: 6px auto;
+    margin: 10px auto;
     border: 3px double #6e6962;
 }
 #lib {
@@ -166,8 +161,8 @@ a:hover {
     border: 1px solid #ce9248;
     padding: 6px;
     display: inline-block;
-    width: 88px;
-    height: 32px;
+    width: 92px;
+    height: 38px;
     margin: auto;
 }
 #lib a:hover {
@@ -176,7 +171,7 @@ a:hover {
 #lib h1 {
     background-color: #D89878;    
     padding: 4px;
-    margin: 6px auto;
+    margin: 10px auto;
     border: 3px double #4C1E0A;
 }
 #scr {
@@ -188,7 +183,7 @@ a:hover {
 #scr h1 {
     background-image: url("art/bgscrap.png");
     border: 1px dashed #416aa3;
-    margin: 6px auto;
+    margin: 10px auto;
 }
 @media only screen and (max-width: 720px) {
     .nav {
@@ -203,10 +198,10 @@ a:hover {
         padding: 4px;
         margin: 2px auto;
     }
-    .art, .words {
+    .art {
         max-width: 100%;
     }
-    .med, #hom, #art, #scr, #kit, #abo, .small, .tiny, #lib {
+    .med, #hom, #art, #scr, #kit, #abo, .small, .tiny, #lib, .words {
         width: 100%;
         height: auto;
         padding: 4px;
