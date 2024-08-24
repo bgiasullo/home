@@ -42,7 +42,7 @@ body {
 .container {
     display: flex;
     align-items: stretch;
-    gap: 10px;
+    gap: 12px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -128,9 +128,9 @@ a:hover {
     border: 3px double #4C1E0A;
 }
 .book {
-    max-width: 266px;
+    max-width: 200px;
     border-radius: 4px;
-    box-shadow: 0 0 6px #2c1e31;
+    box-shadow: 0 0 4px #2c1e31;
 }
 .book:hover {
     rotate: 2deg;
@@ -157,7 +157,7 @@ a:hover {
 #lib {
     background-image: url("art/bgwood.png");
     background-attachment: fixed;
-    padding: 1% 16%;
+    padding: 1% 10%;
     border: 3px double #4C1E0A;
 }
 #lib h1 {
@@ -190,10 +190,10 @@ a:hover {
         padding: 4px;
         margin: 2px auto;
     }
-    .art {
+    .art, .book, .tiny {
         max-width: 100%;
     }
-    .med, #hom, #art, #scr, #kit, #abo, .small, .tiny, #lib, .words {
+    .med, #hom, #art, #scr, #kit, #abo, .small, #lib, .words {
         width: 100%;
         height: auto;
         padding: 4px;
