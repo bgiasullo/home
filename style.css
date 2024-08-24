@@ -87,7 +87,6 @@ a:hover {
 }
 .small {
     flex: 1 0;
-    padding: 8px;
     height: 250px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -129,6 +128,15 @@ a:hover {
     margin: 6px auto;
     border: 3px double #4C1E0A;
 }
+.book {
+    max-width: 288;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #2c1e31;
+}
+.book:hover {
+    rotate: 2deg;
+    transition: rotate 0.1s;
+  }
 #abo { 
     padding: 1% 22%;
 }
@@ -152,21 +160,6 @@ a:hover {
     background-attachment: fixed;
     padding: 1% 16%;
     border: 3px double #4C1E0A;
-}
-#lib a {
-    background-color: #4d3533;
-    border-radius: 6px;
-    color: #f6e8e0;
-    text-decoration: none;
-    border: 1px solid #ce9248;
-    padding: 6px;
-    display: inline-block;
-    width: 92px;
-    height: 38px;
-    margin: auto;
-}
-#lib a:hover {
-    background-color: #1e4044;
 }
 #lib h1 {
     background-color: #D89878;    
