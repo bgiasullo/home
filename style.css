@@ -59,6 +59,9 @@ body {
 .frame:hover {
     border: 3px double #7ca1c0;
 }
+.framm {
+    border: 3px double #f3a833;
+}
 img {
     max-width: 100%;
     margin: auto;
