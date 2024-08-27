@@ -125,19 +125,25 @@ a:hover {
     padding: 14px;
 }
 .wood {
-    background-color: #D89878;    
+    background-color: #e8d282;    
     padding: 4px;
     margin: 6px auto;
     border: 3px double #4C1E0A;
 }
 .book {
-    max-width: 200px;
+    max-width: 188px;
     border-radius: 4px;
     box-shadow: 0 0 4px #2c1e31;
 }
 .book:hover {
     rotate: 2deg;
     transition: rotate 0.1s;
+  }
+.bord {
+    background-image: url("art/bgblgold.png");
+    border: 3px double #4C1E0A;
+    padding: 22px;
+    margin: 10px auto;
   }
 #abo { 
     padding: 1% 22%;
@@ -154,7 +160,6 @@ a:hover {
 #kit h1 {
     background-color: #c5ccb8;    
     padding: 4px;
-    margin: 10px auto;
     border: 3px double #6e6962;
 }
 #lib {
@@ -164,7 +169,7 @@ a:hover {
     border: 3px double #4C1E0A;
 }
 #lib h1 {
-    background-color: #D89878;    
+    background-color: #e8d282;    
     padding: 4px;
     margin: 10px auto;
     border: 3px double #4C1E0A;
