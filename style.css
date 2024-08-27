@@ -25,7 +25,7 @@ body {
     text-decoration: none;
     width: 98px;
 }
-.nav a:hover {
+.butto:hover {
     background-color: #666092;
     color: beige;
 }
@@ -45,6 +45,7 @@ body {
     gap: 12px;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 12px auto;
 }
 .acent {
     align-items: center;
@@ -54,10 +55,10 @@ body {
     display: block;
 }
 .frame {
-    border: 3px double #416aa3;
+    border: 3px double #7ca1c0;
 }
 .frame:hover {
-    border: 3px double #7ca1c0;
+    border: 3px double #416aa3;
 }
 .framm {
     border: 3px double #f3a833;
@@ -127,7 +128,6 @@ a:hover {
 .wood {
     background-color: #e8d282;    
     padding: 10px;
-    margin: 6px auto;
     border: 3px double #4C1E0A;
 }
 .book {
@@ -143,7 +143,6 @@ a:hover {
     background-image: url("art/bgblgold.png");
     border: 3px double #4C1E0A;
     padding: 22px;
-    margin: 8px auto;
   }
 #abo { 
     padding: 1% 22%;
@@ -161,6 +160,7 @@ a:hover {
     background-color: #c5ccb8;    
     padding: 4px;
     border: 3px double #6e6962;
+    margin: auto;
 }
 #lib {
     background-image: url("art/bgwood.png");
@@ -171,8 +171,8 @@ a:hover {
 #lib h1, #lib h2 {
     background-color: #e8d282;    
     padding: 4px;
-    margin: 10px auto;
     border: 3px double #4C1E0A;
+    margin: auto;
 }
 #scr {
     background-image: url("art/bgdrkplad.png");
@@ -183,7 +183,7 @@ a:hover {
 #scr h1 {
     background-image: url("art/bgscrap.png");
     border: 1px dashed #416aa3;
-    margin: 10px auto;
+    margin: auto;
 }
 @media only screen and (max-width: 720px) {
     .nav {
