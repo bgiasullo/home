@@ -3,7 +3,7 @@
 }
 body {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     background-image: url("art/bgtan.png");
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +70,7 @@ img {
 }
 h1 {
     font-family: 'Beau Rivage';
-    font-size: 42px;
+    font-size: 48px;
 }
 h2 {
     font-family: 'Annie Use Your Telescope';
@@ -78,15 +78,21 @@ h2 {
 }
 h3 {
     font-family: 'Arima';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
 }
 a {
-    color: #68aca9;
+    color: #6dead6;
 }
 a:hover {
-    color: #c38890;
+    color: #ffa2ac;
     text-decoration: none;
+}
+hr {
+    border-top: 1px dashed #deceed;
+    border-bottom: 0;
+    max-width: 188px;
+    margin: 22px auto;
 }
 .small {
     flex: 1 0;
@@ -98,7 +104,7 @@ a:hover {
 .words {
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 8px 22px;
+    padding: 8px 28px;
     margin: 10px auto;
 }
 .wolors {
