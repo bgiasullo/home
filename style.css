@@ -94,6 +94,12 @@ hr {
     max-width: 188px;
     margin: 22px auto;
 }
+table {
+    text-align: left;
+}
+td {
+    padding: 4px;
+}
 .small {
     flex: 1 0;
     overflow-y: auto;
