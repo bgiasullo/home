@@ -61,7 +61,8 @@ body {
     border: 3px double #416aa3;
 }
 .framm {
-    border: 3px double #f3a833;
+    border: 3px ridge #f3a833;
+    background-color: #f6e8e0;
 }
 img {
     max-width: 100%;
@@ -96,6 +97,7 @@ hr {
 }
 table {
     text-align: left;
+    margin: auto;
 }
 td {
     padding: 4px;
