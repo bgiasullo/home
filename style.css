@@ -102,6 +102,12 @@ table {
 td {
     padding: 4px;
 }
+ul {
+    text-align: left;
+}
+li {
+    margin: 8px auto;
+}
 .small {
     flex: 1 0;
     overflow-y: auto;
@@ -144,6 +150,9 @@ td {
     padding: 10px;
     border: 3px double #4C1E0A;
 }
+.blue {
+    border: 4px dashed #3388de;
+}
 .book {
     max-width: 188px;
     border-radius: 4px;
@@ -167,7 +176,9 @@ td {
     padding: 1% 22%;
 }
 #art {
-    padding: 1% 16%;
+    padding: 1% 18%;
+    border: 6px ridge #f3a833;
+    background-color: #f6e8e0;
 }
 #kit {
     background-image: url("art/bggeom.png");
