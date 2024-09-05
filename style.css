@@ -161,6 +161,10 @@ li {
     rotate: 2deg;
     transition: rotate 0.1s;
   }
+.move:hover {
+    rotate: -6deg;
+    transition: rotate 0.1s;
+}
 .bord {
     background-image: url("art/bgblgold.png");
     border: 3px double #4C1E0A;
