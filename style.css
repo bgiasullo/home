@@ -107,6 +107,13 @@ ul {
 li {
     margin: 8px auto;
 }
+details {
+    text-align: left;
+    padding: 6px;
+}
+summary {
+    cursor: pointer;
+}
 .small {
     flex: 1 0;
     overflow-y: auto;
@@ -145,9 +152,9 @@ li {
     padding: 14px;
 }
 .wood {
-    background-color: #e8d282;    
+    background-color: #f6e8e0;    
     padding: 10px;
-    border: 3px double #4C1E0A;
+    border: 3px double #2c1e31;
 }
 .blue {
     border: 4px dashed #3388de;
@@ -166,7 +173,7 @@ li {
     transition: rotate 0.1s;
 }
 .bord {
-    background-image: url("art/bgblgold.png");
+    background-image: url("art/bglines.png");
     border: 3px double #4C1E0A;
     padding: 22px;
   }
@@ -202,9 +209,9 @@ li {
     border: 3px double #4C1E0A;
 }
 #lib h1, #lib h2 {
-    background-color: #e8d282;    
+    background-color: #f6e8e0;    
     padding: 4px;
-    border: 3px double #4C1E0A;
+    border: 3px double #2c1e31;
     margin: auto;
 }
 #scr {
