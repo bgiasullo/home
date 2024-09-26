@@ -65,7 +65,7 @@ body {
     border: 3px double #416aa3;
 }
 .framm {
-    border: 3px ridge #f3a833;
+    border: 4px ridge #a26d3f;
     background-color: #f6e8e0;
 }
 img {
@@ -191,8 +191,6 @@ summary {
 }
 #art {
     padding: 1% 18%;
-    border: 6px ridge #f3a833;
-    background-color: #f6e8e0;
 }
 #kit {
     background-image: url("art/bggeom.png");
