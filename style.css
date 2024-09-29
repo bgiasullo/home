@@ -201,10 +201,6 @@ summary {
 }
 #bee h1 {
     text-shadow: 2px 2px 8px #dab163;
-    font-size: 72px;
-    background: -webkit-linear-gradient(#2c1e31, #ffa2ac);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 #kit {
     background-image: url("art/bggeom.png");
