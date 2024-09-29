@@ -196,9 +196,8 @@ summary {
     padding: 1% 18%;
 }
 #bee {
-    padding: 1% 18%;
+    padding: 1% 18% 25% 18%;
     background-color: #10121c;
-    height: 100vh;
     background-image: url("art/bgbeer.png");
     background-attachment: fixed;
     border: 1px solid #DAB163;
@@ -254,10 +253,10 @@ summary {
         padding: 4px;
         margin: 2px auto;
     }
-    .art, .book, .tiny {
+    .art, .book, .tiny, .beer {
         max-width: 100%;
     }
-    .med, #hom, #art, #scr, #kit, #abo, .small, #lib, .words {
+    .med, #hom, #art, #scr, #kit, #abo, .small, #lib, .words, #bee {
         width: 100%;
         height: auto;
         padding: 4px;
