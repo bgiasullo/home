@@ -183,10 +183,11 @@ summary {
   }
 .beer {
     padding: 10px;
-    border: 3px double #f3a833;
-    background-color: #f6e8e0;
+    border: 1px solid #343641;
+    box-shadow: -6px 6px #6ABFA5;
+    border-radius: 6px;
+    background-color: #F6EEBA;
     margin: 14px auto;
-    box-shadow: 2px 2px 8px #dab163;
 }
 #abo { 
     padding: 1% 22%;
@@ -196,8 +197,11 @@ summary {
 }
 #bee {
     padding: 1% 18%;
-    background-color: #4d3533;
-    border: 3px double #f3a833;
+    background-color: #10121c;
+    height: 100vh;
+    background-image: url("art/bgbeer.png");
+    background-attachment: fixed;
+    border: 1px solid #DAB163;
 }
 #bee h1 {
     text-shadow: 2px 2px 8px #dab163;
