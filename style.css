@@ -182,15 +182,29 @@ summary {
     padding: 22px;
   }
 .beer {
-    background-image: url("art/bgtealpix.png");
     padding: 10px;
-    border: 2px ridge #ce9248;
+    border: 3px double #f3a833;
+    background-color: #f6e8e0;
+    margin: 14px auto;
+    box-shadow: 2px 2px 8px #dab163;
 }
 #abo { 
     padding: 1% 22%;
 }
 #art {
     padding: 1% 18%;
+}
+#bee {
+    padding: 1% 18%;
+    background-color: #4d3533;
+    border: 3px double #f3a833;
+}
+#bee h1 {
+    text-shadow: 2px 2px 8px #dab163;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#2c1e31, #ffa2ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #kit {
     background-image: url("art/bggeom.png");
