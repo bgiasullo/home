@@ -252,6 +252,12 @@ summary {
     border: 1px dashed #416aa3;
     margin: auto;
 }
+#wri {
+    background-image: url("art/bgtan.png");
+    background-attachment: fixed;
+    padding: 4% 24% 4% 10%;
+    min-height: 100vh;
+}
 #hom {
     position: fixed;
     margin: auto;
