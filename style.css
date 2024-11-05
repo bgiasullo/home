@@ -278,4 +278,10 @@ summary {
         padding: 4px;
         flex: none;
     }
+    #bee {
+        margin: auto;
+    }
+    #hom {
+        position: static;
+    }
   }
