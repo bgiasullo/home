@@ -41,7 +41,7 @@ body {
     font-weight: bold;
 }
 .nobutt:hover {
-    color: #4a1309;
+    color: #7d2822;
 }
 .content {
     font-family: Arial, Helvetica, sans-serif;
@@ -142,9 +142,9 @@ summary {
     margin: 10px auto;
 }
 .wolors {
-    background-color: #433455;
-    color: beige;
-    border: 3px double #a593a5;
+    background-color: #14070e;
+    color: #ebd575;
+    border: 3px double #ad4737;
 }
 .scrap {
     background-image: url("art/bgscrap.png");
@@ -206,11 +206,12 @@ summary {
     padding: 1% 18%;
 }
 #bee {
-    padding: 1% 18% 25% 18%;
+    padding: 1% 12%;
     background-color: #10121c;
     background-image: url("art/bgbeer.png");
     background-attachment: fixed;
-    border: 1px solid #DAB163;
+    border: 3px double #6ABFA5;
+    margin: 2% 16%;
 }
 #bee h1 {
     text-shadow: 2px 2px 8px #dab163;
