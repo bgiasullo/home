@@ -96,10 +96,11 @@ h3 {
     font-weight: normal;
 }
 a {
-    color: #6dead6;
+    color: #4a1309;
+    font-weight: bold;
 }
 a:hover {
-    color: #ffa2ac;
+    color: #31422d;
     text-decoration: none;
 }
 hr {
@@ -142,8 +143,8 @@ summary {
     margin: 10px auto;
 }
 .wolors {
-    background-color: #14070e;
-    color: #ebd575;
+    background-color: tan;
+    color: #4a1309;
     border: 3px double #ad4737;
 }
 .scrap {
