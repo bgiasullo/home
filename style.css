@@ -20,7 +20,7 @@ body {
 .butto {
     font-family: 'Arima';
     font-size: 18px;
-    background-color: #45240d;
+    background-color: #4a1309;
     color: #ebd575;
     padding: 2px;
     border: 3px double #de5a21;
@@ -30,7 +30,7 @@ body {
     width: 98px;
 }
 .butto:hover {
-    background-color: #4a1309;
+    background-color: #7d2822;
     color: #ebd575;
 }
 .nobutt {
@@ -75,8 +75,8 @@ body {
     border: 3px double #416aa3;
 }
 .framm {
-    border: 4px ridge #a26d3f;
-    background-color: #f6e8e0;
+    border: 6px ridge #8a3c0f;
+    background-color: #827b85;
 }
 img {
     max-width: 100%;
@@ -97,7 +97,6 @@ h3 {
 }
 a {
     color: #4a1309;
-    font-weight: bold;
 }
 a:hover {
     color: #31422d;
@@ -192,6 +191,17 @@ summary {
     border: 3px double #4C1E0A;
     padding: 22px;
   }
+.bbee {
+    padding: 1% 12%;
+    background-color: #10121c;
+    background-image: url("art/bgbeer.png");
+    background-attachment: fixed;
+    border: 3px double #6ABFA5;
+    margin: 2% 16%;
+}
+.bbee h1 {
+    text-shadow: 2px 2px 8px #dab163;
+}
 .beer {
     padding: 10px;
     border: 1px solid #343641;
@@ -206,16 +216,16 @@ summary {
 #art {
     padding: 1% 18%;
 }
-#bee {
-    padding: 1% 12%;
-    background-color: #10121c;
-    background-image: url("art/bgbeer.png");
-    background-attachment: fixed;
-    border: 3px double #6ABFA5;
-    margin: 2% 16%;
+#art h1 {
+    text-shadow: 2px 2px 2px #30101d;
+    color: #ebd575;
+    font-size: 66px;
 }
-#bee h1 {
-    text-shadow: 2px 2px 8px #dab163;
+#bee {
+    background-image: url("art/bgtan.png");
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 1% 12%;
 }
 #kit {
     background-image: url("art/bggeom.png");
