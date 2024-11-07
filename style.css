@@ -289,16 +289,17 @@ summary {
     .art, .book, .tiny, .beer {
         max-width: 100%;
     }
-    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee {
+    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #wri {
         width: 100%;
         height: auto;
         padding: 4px;
         flex: none;
     }
-    #bee {
+    .bbee {
         margin: auto;
     }
     #hom {
         position: static;
+        margin: 20% auto;
     }
   }
