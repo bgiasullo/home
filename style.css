@@ -210,6 +210,16 @@ summary {
     background-color: #F6EEBA;
     margin: 14px auto;
 }
+.bookope {
+    min-width: 620px;
+    min-height: 360px;
+    margin: 20% auto;
+    background-image: url("art/dithbook.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 4% 14%;
+}
 #abo { 
     padding: 1% 18%;
 }
@@ -263,10 +273,11 @@ summary {
     margin: auto;
 }
 #wri {
-    background-image: url("art/bgtan.png");
+    background-image: url("art/bgpattern.png");
     background-attachment: fixed;
-    padding: 4% 24% 4% 10%;
+    padding: 4% 24%;
     min-height: 100vh;
+    border: 3px double #2a3636;
 }
 #hom {
     position: fixed;
