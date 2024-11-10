@@ -111,9 +111,12 @@ hr {
 table {
     text-align: left;
     margin: auto;
+    border: 1px solid #95ab54;
+    border-collapse: collapse;
 }
 td {
     padding: 4px;
+    border: 1px solid #95ab54;
 }
 ul {
     text-align: left;
@@ -127,6 +130,9 @@ details {
 }
 summary {
     cursor: pointer;
+}
+summary:hover {
+    font-weight: bold;
 }
 .small {
     flex: 1 0;
