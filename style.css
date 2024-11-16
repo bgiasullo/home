@@ -143,9 +143,6 @@ summary {
     min-width: 200px;
     min-height: 200px;
 }
-.smallish {
-    max-width: 100px;
-}
 .words {
     overflow-y: auto;
     overflow-x: hidden;
@@ -180,7 +177,7 @@ summary {
     max-width: 80px;
 }
 .wood {
-    background-color: #8a9c73;    
+    background-color: #939B85;    
     padding: 10px;
     border: 3px double #2c1e31;
 }
@@ -188,8 +185,8 @@ summary {
     border: 4px dashed #3388de;
 }
 .book {
-    max-width: 188px;
-    border-radius: 4px;
+    max-width: 120px;
+    border-radius: 2px;
     box-shadow: 0 0 4px #2c1e31;
 }
 .book:hover {
@@ -203,7 +200,7 @@ summary {
 .bord {
     background-image: url("art/bglines.png");
     border: 3px double #4C1E0A;
-    padding: 22px;
+    padding: 12px;
   }
 .bbee {
     padding: 1% 12%;
@@ -272,7 +269,7 @@ summary {
     border: 3px double #4C1E0A;
 }
 #lib h1, #lib h2 {
-    background-color: #8a9c73;    
+    background-color: #939B85;    
     padding: 4px;
     border: 3px double #2c1e31;
     margin: auto;
