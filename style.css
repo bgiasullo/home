@@ -6,7 +6,6 @@ body {
     font-size: 12px;
     background-image: url("art/bgtan.png");
     background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .nav {
     width: 228px;
@@ -44,8 +43,9 @@ body {
     color: #7d2822;
 }
 .content {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
     margin-left: 228px;
+    font-size: 14px;
 }
 .hide {
     display: none;
@@ -88,7 +88,8 @@ img {
 h1 {
     font-family: 'Beau Rivage';
     font-size: 48px;
-    text-shadow: 2px 2px 4px #343641;
+    text-shadow: 2px 2px 4px #a1a19f;
+    color: #242323;
 }
 h2 {
     font-family: 'Annie Use Your Telescope';
@@ -198,6 +199,16 @@ summary {
     border: 3px double #4C1E0A;
     padding: 12px;
   }
+.bordie {
+    background-image: url("art/bgpinky.png");
+    border: 3px double #FBC28F;
+    padding: 22px;
+}
+.inner {
+    background-color: #FCFCF9;
+    border: 3px double #FBC28F;
+    padding: 22px;
+}
 .bbee {
     padding: 1% 12%;
     background-color: #10121c;
