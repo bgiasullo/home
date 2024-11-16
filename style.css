@@ -120,6 +120,7 @@ td {
 }
 ul {
     text-align: left;
+    list-style-type: circle;
 }
 li {
     margin: 8px auto;
@@ -171,6 +172,9 @@ summary:hover {
     max-width: 264px;
     padding: 14px;
 }
+.tinier {
+    max-width: 80px;
+}
 .wood {
     background-color: #f6e8e0;    
     padding: 10px;
@@ -202,8 +206,10 @@ summary:hover {
     background-color: #10121c;
     background-image: url("art/bgbeer.png");
     background-attachment: fixed;
-    border: 3px double #6ABFA5;
+    box-shadow: -6px 6px #6ABFA5;
+    border-radius: 8px;    
     margin: 2% 16%;
+    border: 2px solid #F6EEBA;
 }
 .bbee h1 {
     text-shadow: 2px 2px 8px #dab163;
