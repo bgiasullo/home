@@ -124,7 +124,6 @@ td {
 }
 ul {
     text-align: left;
-    list-style-type: circle;
 }
 li {
     margin: 8px auto;
@@ -178,7 +177,7 @@ summary {
 }
 .wood {
     background-color: #939B85;    
-    padding: 10px;
+    padding: 18px;
     border: 3px double #2c1e31;
 }
 .blue {
@@ -188,11 +187,8 @@ summary {
     max-width: 120px;
     border-radius: 2px;
     box-shadow: 0 0 4px #2c1e31;
+    display: block;
 }
-.book:hover {
-    rotate: 2deg;
-    transition: rotate 0.1s;
-  }
 .move:hover {
     rotate: -6deg;
     transition: rotate 0.1s;
