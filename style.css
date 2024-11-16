@@ -85,6 +85,7 @@ img {
 h1 {
     font-family: 'Beau Rivage';
     font-size: 48px;
+    text-shadow: 2px 2px 4px #343641;
 }
 h2 {
     font-family: 'Annie Use Your Telescope';
@@ -176,7 +177,7 @@ summary:hover {
     max-width: 80px;
 }
 .wood {
-    background-color: #f6e8e0;    
+    background-color: #8a9c73;    
     padding: 10px;
     border: 3px double #2c1e31;
 }
@@ -268,7 +269,7 @@ summary:hover {
     border: 3px double #4C1E0A;
 }
 #lib h1, #lib h2 {
-    background-color: #f6e8e0;    
+    background-color: #8a9c73;    
     padding: 4px;
     border: 3px double #2c1e31;
     margin: auto;
