@@ -133,9 +133,6 @@ details {
 summary {
     cursor: pointer;
 }
-summary:hover {
-    font-weight: bold;
-}
 .small {
     flex: 1 0;
     overflow-y: auto;
