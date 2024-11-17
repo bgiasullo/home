@@ -29,8 +29,8 @@ body {
     width: 98px;
 }
 .butto:hover {
-    background-color: #7d2822;
-    color: #ebd575;
+    background-color: #390c14;
+    color: #fff4b0;
 }
 .nobutt {
     font-family: 'Arima';
@@ -143,6 +143,9 @@ summary {
     min-width: 200px;
     min-height: 200px;
 }
+.padd {
+    padding: 6px;
+}
 .words {
     overflow-y: auto;
     overflow-x: hidden;
@@ -232,7 +235,7 @@ summary {
 }
 .bookope {
     width: 620px;
-    height: 360px;
+    height: 350px;
     margin: 20% auto;
     background-image: url("art/dithbook.png");
     background-repeat: no-repeat;
@@ -304,6 +307,17 @@ summary {
     margin: auto;
     padding: 2% 18%;
 }
+#hom h1 {
+    background-image: url("art/bgpinky.png");
+    border: 3px double #FBC28F;
+}
+#hom h3 {
+    background-image: url("art/bgpinky.png");
+    border: 3px double #FBC28F;
+}
+#hom ul {
+    list-style-image: url('art/tinybrst.png');
+}
 @media only screen and (max-width: 720px) {
     .nav {
       position: static;
@@ -320,7 +334,7 @@ summary {
     .art, .book, .tiny, .beer {
         max-width: 100%;
     }
-    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #wri, .bookope {
+    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #wri, .bookope, .bordie, .inner, #hom {
         width: 100%;
         height: auto;
         padding: 4px;
@@ -336,6 +350,5 @@ summary {
     }
     #hom {
         position: static;
-        margin: 20% auto;
     }
   }
