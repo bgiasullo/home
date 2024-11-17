@@ -307,14 +307,6 @@ summary {
     margin: auto;
     padding: 2% 18%;
 }
-#hom h1 {
-    background-image: url("art/bgpinky.png");
-    border: 3px double #FBC28F;
-}
-#hom h3 {
-    background-image: url("art/bgpinky.png");
-    border: 3px double #FBC28F;
-}
 #hom ul {
     list-style-image: url('art/tinybrst.png');
 }
