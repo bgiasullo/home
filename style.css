@@ -213,25 +213,12 @@ summary {
     padding: 22px;
 }
 .bbee {
-    padding: 1% 12%;
-    background-color: #10121c;
-    background-image: url("art/bgbeer.png");
-    background-attachment: fixed;
-    box-shadow: -6px 6px #6ABFA5;
-    border-radius: 8px;    
-    margin: 2% 16%;
-    border: 2px solid #F6EEBA;
-}
-.bbee h1 {
-    text-shadow: 2px 2px 8px #dab163;
-}
-.beer {
-    padding: 10px;
-    border: 1px solid #343641;
-    box-shadow: -6px 6px #6ABFA5;
-    border-radius: 6px;
-    background-color: #F6EEBA;
-    margin: 14px auto;
+    border: 8px ridge #DCC19A;
+    max-width: 480px;
+    margin: 6px auto;
+    background-color: #6F5846;
+    padding: 6px;
+    color: white;
 }
 .bookope {
     width: 620px;
@@ -255,10 +242,15 @@ summary {
     font-size: 66px;
 }
 #bee {
-    background-image: url("art/bgtan.png");
+    background-color: #6F5846;
     background-attachment: fixed;
     min-height: 100vh;
     padding: 1% 12%;
+    border: 8px ridge #DCC19A;
+    background-image: url("art/bgbeer.png");
+}
+#bee h3 {
+    color: white;
 }
 #kit {
     background-image: url("art/bggeom.png");
@@ -288,7 +280,7 @@ summary {
     background-image: url("art/bgdrkplad.png");
     padding: 1% 16%;
     background-attachment: fixed;
-    border: 1px dashed #416aa3;
+    border: 1px dashed #387080;
 }
 #scr h1 {
     background-image: url("art/bgscrap.png");
@@ -323,7 +315,7 @@ summary {
         padding: 4px;
         margin: 2px auto;
     }
-    .art, .book, .tiny, .beer {
+    .art, .book, .tiny {
         max-width: 100%;
     }
     .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #wri, .bookope, .bordie, .inner, #hom {
@@ -331,9 +323,6 @@ summary {
         height: auto;
         padding: 4px;
         flex: none;
-    }
-    .bbee {
-        margin: auto;
     }
     .bookope {
         background-image: none;
