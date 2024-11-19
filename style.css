@@ -59,10 +59,6 @@ body {
     gap: 12px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 12px auto;
-}
-.nomarg {
-    margin: auto;
 }
 .acent {
     align-items: center;
@@ -201,6 +197,7 @@ summary {
     background-image: url("art/bglines.png");
     border: 3px double #4C1E0A;
     padding: 12px;
+    margin: 16px auto;
   }
 .bordie {
     background-image: url("art/bgpinky.png");
@@ -210,7 +207,10 @@ summary {
 .inner {
     background-color: #FCFCF9;
     border: 3px double #FBC28F;
-    padding: 22px;
+    padding: 12px;
+}
+.full {
+    width: 100%;
 }
 .bbee {
     border: 8px ridge #DCC19A;
@@ -284,8 +284,8 @@ summary {
 }
 #scr h1 {
     background-image: url("art/bgscrap.png");
-    border: 1px dashed #416aa3;
-    margin: auto;
+    border: 1px dashed #387080;
+    margin: 12px auto;
 }
 #wri {
     background-image: url("art/bgpattern.png");
@@ -295,7 +295,6 @@ summary {
     border: 3px double #2a3636;
 }
 #hom {
-    position: fixed;
     margin: auto;
     padding: 2% 18%;
 }
