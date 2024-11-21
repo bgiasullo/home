@@ -203,11 +203,16 @@ summary {
     background-image: url("art/bgpinky.png");
     border: 3px double #FBC28F;
     padding: 22px;
+    max-width: 620px;
+    height: 460px;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .inner {
     background-color: #FDFDF9;
     border: 3px double #FBC28F;
-    padding: 12px;
+    padding: 2px;
 }
 .full {
     width: 100%;
@@ -269,6 +274,7 @@ summary {
     background-attachment: fixed;
     padding: 1% 10%;
     border: 3px double #4C1E0A;
+    min-height: 100vh;
 }
 #lib h1, #lib h2 {
     background-color: #939B85;    
@@ -302,7 +308,7 @@ summary {
     list-style-image: url('art/tinybrst.png');
 }
 @media only screen and (max-width: 720px) {
-    .nav {
+    .nav, .bordie {
       position: static;
       width: 100%;
     }
@@ -327,8 +333,5 @@ summary {
         background-image: none;
         background-color: #F1DAC2;
         border: 1px dashed #1A3236;
-    }
-    #hom {
-        position: static;
     }
   }
