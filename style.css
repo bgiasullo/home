@@ -322,7 +322,7 @@ summary {
     .art, .book, .tiny {
         max-width: 100%;
     }
-    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #wri, .bookope, .bordie, .inner, #hom {
+    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #wri, .bookope, .bordie, #hom {
         width: 100%;
         height: auto;
         padding: 4px;
@@ -332,5 +332,8 @@ summary {
         background-image: none;
         background-color: #F1DAC2;
         border: 1px dashed #1A3236;
+    }
+    .inner {
+        max-height: min-content;
     }
   }
