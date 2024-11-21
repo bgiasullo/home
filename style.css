@@ -137,7 +137,6 @@ summary {
     overflow-y: auto;
     overflow-x: hidden;
     min-width: 200px;
-    min-height: 200px;
 }
 .padd {
     padding: 6px;
@@ -204,15 +203,15 @@ summary {
     border: 3px double #FBC28F;
     padding: 22px;
     max-width: 620px;
-    height: 460px;
+    height: 466px;
     position: fixed;
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .inner {
     background-color: #FDFDF9;
     border: 3px double #FBC28F;
     padding: 2px;
+    max-height: 200px;
 }
 .full {
     width: 100%;
