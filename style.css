@@ -247,11 +247,11 @@ summary {
 }
 #bee {
     background-color: #6F5846;
-    background-attachment: fixed;
+    background-attachment: fixed, scroll;
     min-height: 100vh;
     padding: 1% 12%;
     border: 8px ridge #DCC19A;
-    background-image: url("art/bgbeer.png");
+    background-image: url("art/bgbeer.png"), url("art/bgbubb.gif");
 }
 #bee h3 {
     color: white;
