@@ -282,6 +282,9 @@ summary {
     border: 3px double #2c1e31;
     margin: auto;
 }
+#lib ul {
+    list-style-image: url('art/tiniertv.png');
+}
 #scr {
     background-image: url("art/bgdrkplad.png");
     padding: 4% 16%;
