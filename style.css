@@ -156,14 +156,6 @@ summary {
     background-image: url("art/bgscrap.png");
     border: 1px dashed #387080;
 }
-.med {
-    flex: 2 0;
-    padding: 10px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    min-width: 288px;
-    height: 266px;
-}
 .adob {
     background-color: #c5ccb8;    
     border: 3px double #6e6962;
