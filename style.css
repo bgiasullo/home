@@ -155,6 +155,7 @@ summary {
 .scrap {
     background-image: url("art/bgscrap.png");
     border: 1px dashed #387080;
+    padding: 8px;
 }
 .adob {
     background-color: #c5ccb8;    
