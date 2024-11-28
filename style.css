@@ -97,10 +97,10 @@ h3 {
     font-weight: normal;
 }
 a {
-    color: #4a1309;
+    color: #530e01;
 }
 a:hover {
-    color: #31422d;
+    color: #023e5a;
     text-decoration: none;
 }
 hr {
@@ -112,12 +112,9 @@ hr {
 table {
     text-align: left;
     margin: auto;
-    border: 1px solid #95ab54;
-    border-collapse: collapse;
 }
 td {
     padding: 4px;
-    border: 1px solid #95ab54;
 }
 ul {
     text-align: left;
@@ -241,11 +238,11 @@ summary {
 }
 #bee {
     background-color: #6F5846;
-    background-attachment: fixed, scroll;
+    background-attachment: fixed, scroll, scroll;
     min-height: 100vh;
     padding: 4% 12%;
     border: 8px ridge #DCC19A;
-    background-image: url("art/bgbeer.png"), url("art/bgbubb.gif");
+    background-image: url("art/bgbeer.png"), url("art/bgbubb.gif"), url("art/bgbubye.gif");
 }
 #bee h3 {
     color: white;
