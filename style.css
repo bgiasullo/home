@@ -103,12 +103,6 @@ a:hover {
     color: #023e5a;
     text-decoration: none;
 }
-hr {
-    border-top: 1px dashed #deceed;
-    border-bottom: 0;
-    max-width: 188px;
-    margin: 22px auto;
-}
 table {
     text-align: left;
     margin: auto;
@@ -163,7 +157,8 @@ summary {
     padding: 14px;
 }
 .tinier {
-    max-width: 80px;
+    max-width: 88px;
+    max-height: 88px;
 }
 .wood {
     background-color: #939B85;    
