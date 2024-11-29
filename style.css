@@ -207,6 +207,9 @@ summary {
 .full {
     width: 100%;
 }
+.heig {
+    height: 220px;
+}
 .bbee {
     border: 8px ridge #DCC19A;
     max-width: 480px;
@@ -286,6 +289,9 @@ summary {
     border: 1px dashed #387080;
     margin: 12px auto;
 }
+#scr ul {
+    list-style-image: url('art/tinblst.gif');
+}
 #jou {
     background-image: url("art/bgpattern.png");
     background-attachment: fixed;
@@ -316,7 +322,7 @@ summary {
     .art, .book, .tiny {
         max-width: 100%;
     }
-    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #jou, .bookope, .bordie, #hom {
+    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #jou, .bookope, .bordie, #hom, .heig {
         width: 100%;
         height: auto;
         padding: 4px;
