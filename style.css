@@ -286,7 +286,7 @@ summary {
     border: 1px dashed #387080;
     margin: 12px auto;
 }
-#wri {
+#jou {
     background-image: url("art/bgpattern.png");
     background-attachment: fixed;
     padding: 4% 24%;
@@ -316,7 +316,7 @@ summary {
     .art, .book, .tiny {
         max-width: 100%;
     }
-    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #wri, .bookope, .bordie, #hom {
+    .med, #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #jou, .bookope, .bordie, #hom {
         width: 100%;
         height: auto;
         padding: 4px;
