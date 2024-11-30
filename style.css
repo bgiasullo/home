@@ -22,20 +22,12 @@ body {
 .butto {
     font-family: 'Arima';
     font-size: 18px;
-    color: #cbeaf7;
-    display: block;
+    color: #c9d8d8;
     text-decoration: none;
     width: 98px;
 }
 .butto:hover {
-    color: #f5afd5;
-}
-.nobutt {
-    font-family: 'Arima';
-    font-size: 18px;
-    text-decoration: none;
-    color: #45240d;
-    font-weight: bold;
+    color: #fab3d9;
 }
 .content {
     font-family: Calibri, Arial, Helvetica, sans-serif;
@@ -305,10 +297,8 @@ summary {
         margin: auto;
     }
     .nav li {
-        display: inline-block;
-    }
-    .nav img {
-        display: none;
+        display: inline;
+        padding: 12px;
     }
     .art, .book, .tiny {
         max-width: 100%;
