@@ -3,35 +3,25 @@
 }
 body {
     text-align: center;
-    font-size: 12px;
-    background-image: url("art/bgteal.png");
-    background-attachment: fixed;
+    font-size: 14px;
+    background-color: #acaaaa;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 .nav {
-    width: 200px;
-    padding: 18px;
     top: 0;
-    bottom: 0;
+    left: 0;
     position: fixed;
     overflow-y: auto;
     overflow-x: hidden;
+    padding: 44px 24px;
+    width: 168px;
+    height: 100vh;
 }
 .nav ul {
     list-style-image: url('art/tinylight.gif');
 }
-.butto {
-    font-family: 'Arima';
-    font-size: 18px;
-    color: #c9d8d8;
-    text-decoration: none;
-    width: 98px;
-}
-.butto:hover {
-    color: #fab3d9;
-}
 .content {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    margin-left: 200px;
     font-size: 14px;
 }
 .hide {
@@ -211,10 +201,15 @@ summary {
     padding: 6% 14%;
 }
 #abo { 
-    padding: 1% 18%;
+    padding: 1% 24%;
 }
 #art {
-    padding: 1% 18%;
+    padding: 2% 16%;
+    background-image: url("art/bgteal.png");
+    background-attachment: fixed;
+    border: 6px ridge #8a3c0f;
+    min-height: 100vh;
+    margin: auto auto auto 200px;
 }
 #art h1 {
     text-shadow: 2px 2px 2px #30101d;
@@ -224,7 +219,7 @@ summary {
 #bee {
     background-color: #6F5846;
     background-attachment: fixed, scroll, scroll;
-    min-height: 100vh;
+    margin: auto auto auto 200px;
     padding: 4% 12%;
     border: 8px ridge #DCC19A;
     background-image: url("art/bgbeer.png"), url("art/bgbubb.gif"), url("art/bgbubye.gif");
@@ -237,6 +232,7 @@ summary {
     background-attachment: fixed;
     padding: 4% 18%;
     border: 3px double #6e6962;
+    margin: auto auto auto 200px;
 }
 #kit h1 {
     background-color: #c5ccb8;    
@@ -250,6 +246,7 @@ summary {
     padding: 4% 10%;
     border: 3px double #4C1E0A;
     min-height: 100vh;
+    margin: auto auto auto 200px;
 }
 #lib h1, #lib h2 {
     background-color: #939B85;    
@@ -262,9 +259,10 @@ summary {
 }
 #scr {
     background-image: url("art/bgdrkplad.png");
-    padding: 4% 16%;
+    padding: 4% 15%;
     background-attachment: fixed;
     border: 1px dashed #387080;
+    margin: auto auto auto 200px;
 }
 #scr h1 {
     background-image: url("art/bgscrap.png");
@@ -277,13 +275,14 @@ summary {
 #jou {
     background-image: url("art/bgpattern.png");
     background-attachment: fixed;
-    padding: 4% 24%;
+    padding: 4% 18%;
     min-height: 100vh;
     border: 3px double #2a3636;
+    margin: auto auto auto 200px;
 }
 #hom {
     margin: auto;
-    padding: 2% 18%;
+    padding: 2% 24%;
 }
 #hom ul {
     list-style-image: url('art/tinybrst.png');
@@ -292,9 +291,9 @@ summary {
     .nav, .bordie {
       position: static;
       width: 100%;
-    }
-    .content {
-        margin: auto;
+      margin: auto;
+      padding: 4px;
+      height: auto;
     }
     .nav li {
         display: inline;
@@ -308,6 +307,7 @@ summary {
         height: auto;
         padding: 4px;
         flex: none;
+        margin: auto;
     }
     .bookope {
         background-image: none;
