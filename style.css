@@ -4,11 +4,11 @@
 body {
     text-align: center;
     font-size: 12px;
-    background-image: url("art/bgtan.png");
+    background-image: url("art/bgteal.png");
     background-attachment: fixed;
 }
 .nav {
-    width: 228px;
+    width: 200px;
     padding: 18px;
     top: 0;
     bottom: 0;
@@ -16,21 +16,19 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
 }
+.nav ul {
+    list-style-image: url('art/tinylight.gif');
+}
 .butto {
     font-family: 'Arima';
     font-size: 18px;
-    background-color: #4a1309;
-    color: #ebd575;
-    padding: 2px;
-    border: 3px double #de5a21;
+    color: #cbeaf7;
     display: block;
-    margin: 4px auto;
     text-decoration: none;
     width: 98px;
 }
 .butto:hover {
-    background-color: #390c14;
-    color: #fff4b0;
+    color: #f5afd5;
 }
 .nobutt {
     font-family: 'Arima';
@@ -39,12 +37,9 @@ body {
     color: #45240d;
     font-weight: bold;
 }
-.nobutt:hover {
-    color: #7d2822;
-}
 .content {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    margin-left: 228px;
+    margin-left: 200px;
     font-size: 14px;
 }
 .hide {
@@ -309,10 +304,11 @@ summary {
     .content {
         margin: auto;
     }
-    .nav a {
+    .nav li {
         display: inline-block;
-        padding: 4px;
-        margin: 2px auto;
+    }
+    .nav img {
+        display: none;
     }
     .art, .book, .tiny {
         max-width: 100%;
