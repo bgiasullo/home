@@ -117,7 +117,7 @@ summary:hover {
     overflow-x: hidden;
     padding: 8px 28px;
     flex: 4;
-    min-width: 500px;
+    width: 500px;
 }
 .wolors {
     background-color: rgb(221, 220, 228);
