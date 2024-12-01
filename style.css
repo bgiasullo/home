@@ -117,7 +117,7 @@ summary:hover {
     overflow-x: hidden;
     padding: 8px 28px;
     flex: 4;
-    width: 500px;
+    min-width: 660px;
 }
 .wolors {
     background-color: rgb(221, 220, 228);
@@ -319,6 +319,7 @@ summary:hover {
         padding: 4px;
         flex: none;
         margin: auto;
+        min-width: auto;
     }
     .bookope {
         background-image: none;
