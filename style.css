@@ -24,9 +24,6 @@ body {
     display: block;
     text-decoration: none;
 }
-.nav img:hover {
-     opacity: 70%;
-}
 .content {
     font-family: Calibri, Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -50,12 +47,6 @@ body {
 .art {
     max-width: 200px;
     display: block;
-}
-.frame {
-    border: 3px double #7ca1c0;
-}
-.frame:hover {
-    border: 3px double #416aa3;
 }
 .framm {
     border: 6px ridge #8a3c0f;
@@ -108,6 +99,9 @@ details {
 }
 summary {
     cursor: pointer;
+}
+summary:hover {
+    font-weight: bold;
 }
 .small {
     flex: 1 0;
