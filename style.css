@@ -18,7 +18,7 @@ body {
     height: 100vh;
 }
 .nav a {
-    color: #061f1f;
+    color: #192030;
     font-family: 'Arima';
     font-size: 32px;
     display: block;
@@ -81,11 +81,13 @@ h3 {
     font-weight: normal;
 }
 a {
-    color: #530e01;
+    color: #012453;
+    text-decoration: none;
+    font-weight: bold;
 }
 a:hover {
-    color: #023e5a;
-    text-decoration: none;
+    color: #04899b;
+    font-style: italic;
 }
 table {
     text-align: left;
@@ -123,9 +125,9 @@ summary {
     margin: 10px auto;
 }
 .wolors {
-    background-color: tan;
-    color: #4a1309;
-    border: 3px double #ad4737;
+    background-color: rgb(221, 220, 228);
+    color: #0f0d2e;
+    border: 3px double #2282c2;
 }
 .scrap {
     background-image: url("art/bgscrap.png");
