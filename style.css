@@ -104,10 +104,10 @@ summary:hover {
     font-weight: bold;
 }
 .small {
-    flex: 1;
     overflow-y: auto;
     overflow-x: hidden;
-    min-width: 200px;
+    min-width: 244px;
+    flex: 1;
 }
 .padd {
     padding: 6px;
@@ -126,9 +126,9 @@ summary:hover {
     margin: 12px auto;
 }
 .scrap {
-    background-image: url("art/bgscrap.png");
-    border: 1px dashed #387080;
+    background-image: url("art/bgtan.png");
     padding: 8px;
+    border: 4px double #012453;
 }
 .adob {
     background-color: #c5ccb8;    
@@ -189,7 +189,10 @@ summary:hover {
     width: 100%;
 }
 .heig {
-    height: 244px;
+    height: 264px;
+}
+.margo {
+    margin: 12px auto;
 }
 .bbee {
     border: 8px ridge #DCC19A;
@@ -267,15 +270,16 @@ summary:hover {
     list-style-image: url('art/tiniertv.png');
 }
 #scr {
-    background-image: url("art/bgdrkplad.png");
-    padding: 4% 15%;
+    background-image: url("art/sunflowers.jpg");
+    padding: 4% 16%;
     background-attachment: fixed;
-    border: 1px dashed #387080;
+    border: 4px double #012453;
     margin: auto auto auto 200px;
+    background-size: cover;
 }
 #scr h1 {
-    background-image: url("art/bgscrap.png");
-    border: 1px dashed #387080;
+    background-image: url("art/bgtan.png");
+    border: 4px double #012453;
     margin: 12px auto;
 }
 #scr ul {
