@@ -77,8 +77,7 @@ a {
     font-weight: bold;
 }
 a:hover {
-    color: #04899b;
-    font-style: italic;
+    color: #3a5272;
 }
 table {
     text-align: left;
@@ -115,12 +114,11 @@ summary:hover {
 .words {
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 8px 28px;
-    flex: 4;
     min-width: 660px;
+    padding: 18px;
 }
 .wolors {
-    background-color: rgb(221, 220, 228);
+    background-color: #c2cac6;
     color: #0f0d2e;
     border: 3px double #2282c2;
     margin: 12px auto;
@@ -213,7 +211,11 @@ summary:hover {
     padding: 6% 14%;
 }
 #abo { 
-    padding: 1% 24%;
+    background-image: url("art/bgmost.png");
+    background-attachment: fixed;
+    margin: auto auto auto 200px;
+    border: 3px double #2282c2;
+    padding: 2% 18%;
 }
 #art {
     padding: 2% 16%;
@@ -298,7 +300,7 @@ summary:hover {
     padding: 2% 24%;
 }
 #hom ul {
-    list-style-image: url('art/tinybrst.png');
+    list-style-image: url('art/tinylight.gif');
 }
 @media only screen and (max-width: 720px) {
     .nav, .bordie {
