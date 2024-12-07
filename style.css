@@ -124,9 +124,11 @@ summary:hover {
     margin: 12px auto;
 }
 .scrap {
-    background-image: url("art/bgtan.png");
+    background-image: url("art/sunflobrig.jpg");
     padding: 8px;
     border: 4px double #012453;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .adob {
     background-color: #c5ccb8;    
@@ -280,9 +282,11 @@ summary:hover {
     background-size: cover;
 }
 #scr h1 {
-    background-image: url("art/bgtan.png");
+    background-image: url("art/sunflobrig.jpg");
     border: 4px double #012453;
     margin: 12px auto;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #scr ul {
     list-style-image: url('art/tinblst.gif');
