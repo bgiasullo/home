@@ -218,6 +218,7 @@ summary:hover {
     margin: auto auto auto 200px;
     border: 3px double #2282c2;
     padding: 2% 18%;
+    min-height: 100vh;
 }
 #art {
     padding: 2% 16%;
@@ -242,6 +243,12 @@ summary:hover {
 }
 #bee h3 {
     color: white;
+}
+#gen {
+    padding: 4% 16%;
+    border: 4px ridge #112a42;
+    margin: auto auto auto 200px;
+    min-height: 100vh;
 }
 #kit {
     background-image: url("art/bggeom.png");
