@@ -125,7 +125,7 @@ summary:hover {
 }
 .scrap {
     background-image: url("art/sunflobrig.jpg");
-    padding: 8px;
+    padding: 8px 12px 8px 8px;
     border: 4px double #012453;
     background-size: cover;
     background-attachment: fixed;
