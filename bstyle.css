@@ -1,175 +1,108 @@
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
+}
+#art img {
+    display: block;
+    border: 6px solid #CFC4AD;
+    background-color: #94A290;
+    max-height: 68vh;
+    max-width: 38vw;
 }
 body {
     text-align: center;
-    font-size: 12px;
-    padding: 0;
-    margin: 0;
-    background-image: url("art/bgtan.png");
+    background-color: #CFC4AD;
+    background-image: url("art/bgpinkblu.png");
     background-attachment: fixed;
 }
-.nav {
-    width: 180px;
-    padding: 6px;
-    position: fixed;
-    height: 100%;
+.border {
+    background-image: url("art/bggreenish.png");
+    border-radius: 8px;
+    padding: 1px;
+    box-shadow: 0 0 6px 4px #f7e6dd;
 }
-.nav a {
-    font-family: 'Aref Ruqaa Ink';
-    font-size: 16px;
-    background-color: darkslategray;
-    color: beige;
-    padding: 2px;
-    border: 1px solid goldenrod;
-    display: block;
-    margin: 4px auto;
-    text-decoration: none;
-    width: 98px;
-    border-radius: 6px;
+.bordet {
+    background-image: url("art/bgbrown.png");
+    border-radius: 8px;
+    padding: 1px;
+    box-shadow: 0 0 6px 4px #f7e6dd;
 }
-.nav a:hover {
-    color:lightpink;
+div {
+    padding: 22px;
 }
-.content {
-    padding: 6px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 180px;
-    max-width: 100%;
+.flexbo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.fram {
+    background-image: url("art/bgfram.png");
+    padding: 14px;
+    box-shadow: 0 0 4px 2px #2D3539;
+    margin: 58px auto;
+    max-width: fit-content;
 }
 .hide {
-    display: none;
+	display: none;
 }
 .hide:target {
-    display: block;
-}
-.container {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.nowrap {
-    display: flex;
-    align-items: stretch;
-    gap: 10px;
-    flex-wrap: no-wrap;
-    justify-content: center;
-    max-width: 860px;
-    margin: 16px auto;
-}
-.art {
-    max-width: 200px;
-    display: block;
-}
-.frame {
-    border: 3px double slategray;
-    background-color: antiquewhite;
-}
-.frame:hover {
-    border: 3px double sandybrown;
+    display:block;
 }
 img {
     max-width: 100%;
-    margin: auto;
 }
-h1 {
-    font-family: 'Alex Brush';
-    font-size: 42px;
+.inner {
+    background-color: #CFC4AD;
+    border-radius: 8px;
+    margin: 28px;
+    box-shadow: 0 0 6px 4px #94A290;
 }
-h2 {
-    font-family: 'Annie Use Your Telescope';
-    font-size: 32px;
+.innet {
+    background-color: #75665c;
+    border-radius: 8px;
+    margin: 28px;
+    box-shadow: 0 0 6px 4px #4B2D11;
+    color: #f7e6dd;
 }
-h3 {
-    font-family: 'Aref Ruqaa Ink';
+.main {
+    margin: 0 166px 0 298px;    
     font-size: 16px;
-    font-weight: normal;
 }
-.small {
-    margin: auto;
-    border: 3px double burlywood;
-    width: 270px;
-    padding: 6px;
-    height: 280px;
+.nav {
+    position: fixed;
+    width: 288px;
+    font-size: 18px;
 }
-.scrap {
-    border: 1px dashed mediumorchid;
-    background-image: url("art/bgscrap.png");
+summary {
+    text-align: left;
 }
-.med {
-    margin: auto;
-    width: 416px;
-    padding: 4px;
-    height: 280px;
-    overflow-y: auto;
-    overflow-x: hidden;
+table {
+    text-align: left;
 }
-.adob {
-    background-image: url("art/bgadobe.png");
-    border: 3px double burlywood;
+td {
+    min-width: 122px;
 }
-#art {
-    padding: 4px 108px;
-    background-attachment: fixed;
+ul {
+    text-align: left;
 }
-#art h2, #art h3 {
-    padding: 4px;
-}
-#lis {
-    padding: 12px;
-    background-attachment: fixed;
-}
-#lis h2 {
-    background-image: url("art/bgscrap.png");
-    border: 1px dashed mediumorchid;
-    max-width: 850px;
-    margin: auto;
-}
-#hom {
-    padding: 6px 188px;
-}
-#kit {
-    background-attachment: fixed;
-    padding: 8px;
-    height: 100vh;
-}
-#kit h2 {
-    background-image: url("art/bgadobe.png");
-    padding: 4px;
-    max-width: 850px;
-    margin: auto;
-    border: 3px double burlywood;
-}
-#abo { 
-    height: 100vh;
-}
-@media only screen and (max-width: 620px) {
-    .nav {
-      position: static;
-      width: 100%;
-      height: auto;
-    }
-    .content {
-        margin-left: auto;
-    }
-    .nav a {
-        display: inline;
-    }
-    .nowrap {
-        flex-wrap: wrap;
-    }
-    .small {
-        width: 100%;
-        height: auto;
-    }
-    .art {
-        max-width: 100%;
-    }
-    .med, #hom, #art {
-        width: 100%;
-        height: auto;
+
+@media only screen and (max-width: 800px) {
+    div {
         padding: 4px;
     }
-  }
+    .fram {
+        max-width: 100%;
+    }
+    .main {
+        margin: auto;
+        position: static;
+    }
+    .nav {
+        width: fit-content;
+        position: static;
+    }
+    .nav li {
+        display: inline;
+    }
+}
