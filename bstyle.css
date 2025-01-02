@@ -25,9 +25,9 @@ body, html {
     overflow: auto;
 }
 .border {
-    background-image: url("art/bgmost.png");
-    background-attachment: fixed;
+    background-color: #2B4C3F;
     min-height: 100vh;
+    padding: 48px 200px 48px 220px;
 }
 .bordet {
     background-color: #6F5846;
@@ -65,11 +65,21 @@ img {
     max-width: 100%;
 }
 .inner {
-    color: #f7e6dd;
-    border: 4px ridge #f0c2aa;
-    padding: 24px;
-    background-color: #6F5846;
-    width: 60%;
+    background-color: #2B4C3F;
+    color: #E8DEDC;
+    width: 620px;
+}
+.inner a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #E4933C;
+}
+.inner a:hover {
+    color: #DC0615;
+}
+.inner h3 {
+    color: #C8DBE4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .innet {
     color: #f7e6dd;
@@ -79,6 +89,9 @@ img {
 }
 .marg {
     margin: auto;
+}
+.margbot {
+    margin: auto auto 22px auto;
 }
 .nav {
     position: fixed;
