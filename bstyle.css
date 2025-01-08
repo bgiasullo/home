@@ -1,149 +1,22 @@
-* {
-    box-sizing:border-box;
-}
-#art img {
-    display: block;
-    background-color: #94A290;
-    max-height: 68vh;
-    max-width: 38vw;
-}
-#bee img {
-    float: left;
-    padding: 10px;
-}
 body {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-}
-body, html {
-    border: 0;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow: auto;
-}
-.border {
-    background-color: #2B4C3F;
-    min-height: 100vh;
-    padding: 48px 200px 48px 220px;
-}
-.bordet {
-    background-color: #6F5846;
-    background-attachment: fixed, scroll, scroll;
-    background-image: url("art/bgbeer.png"), url("art/bgbubb.gif"), url("art/bgbubye.gif");
-    min-height: 100vh;
-    padding: 28px 200px 28px 220px;
-}
-.flexbo {
+    background-color: #CBBFC0;
     display: flex;
-    gap: 10px 10px;
-    flex-wrap: wrap;
-    margin: auto;
+    gap: 22px;
 }
-.fram {
-    margin: 58px auto;
-    max-width: fit-content;
-    border: 1px solid #123D40;
+.content {
+    width: 644px;
+    border: 1px solid #FDD0BC;
+    overflow: auto;
+    height: 466px;
 }
-.heig {
-    min-height: 200px;
+.nav {
+    width: 244px;
+    height: 466px;
+    border: 1px solid #FDD0BC;
 }
 .hide {
 	display: none;
 }
 .hide:target {
     display:block;
-}
-hr {
-    border-bottom: 1px dashed #123D40;
-    max-width: 222px;
-    border-top: 0;
-}
-img {
-    max-width: 100%;
-}
-.inner {
-    background-color: #2B4C3F;
-    color: #E8DEDC;
-    width: 620px;
-}
-.inner a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #E4933C;
-}
-.inner a:hover {
-    color: #DC0615;
-}
-.inner h3 {
-    color: #C8DBE4;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.innet {
-    color: #f7e6dd;
-    border: 4px ridge #f0c2aa;
-    padding: 18px;
-    background-color: #6F5846;
-}
-.marg {
-    margin: auto;
-}
-.margbot {
-    margin: auto auto 22px auto;
-}
-.nav {
-    position: fixed;
-    background-color: #CFC4AD;
-    padding: 22px;
-}
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-summary {
-    text-align: left;
-}
-table {
-    text-align: left;
-    margin: auto;
-}
-td {
-    min-width: 122px;
-}
-ul {
-    text-align: left;
-}
-.wid {
-    width: 300px;
-}
-.wif {
-    max-width: 610px;
-}
-
-@media only screen and (max-width: 800px) {
-    #art img {
-        max-width: 100%;
-        max-height: auto;
-    }
-    .bordet {
-        padding: 2px;
-    }
-    .inner, .innet {
-        margin: 4px 0;
-        padding: 2px;
-    }
-    .main {
-        margin: auto;
-        position: static;
-    }
-    .nav {
-        width: 100%;
-        position: static;
-    }
-    .nav li {
-        display: inline;
-    }
 }
