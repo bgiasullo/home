@@ -1,22 +1,72 @@
+a {
+    color: #D9E7F9;
+    text-decoration: underline dotted #F8E6E6;
+}
+a:hover {
+    text-decoration: none;
+    color: #F8E6E6;
+}
+#art img {
+    max-width: 100%;
+}
 body {
-    background-color: #CBBFC0;
+    background-color: #5d596d;
     display: flex;
     gap: 22px;
 }
 .content {
     width: 644px;
-    border: 1px solid #FDD0BC;
-    overflow: auto;
+    border: 1px dotted #FDD0BC;
     height: 466px;
+    overflow: auto;
+    text-align: center;
+    color: #e7e5eb;
 }
 .nav {
     width: 244px;
     height: 466px;
-    border: 1px solid #FDD0BC;
+    border: 1px dotted #FDD0BC;
+}
+.flexbo {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+h1 {
+    color: #A2E6E3;
+}
+h3 {
+    color: #F9C9A9;
 }
 .hide {
 	display: none;
 }
 .hide:target {
     display:block;
+}
+#hom {
+    position: fixed;
+}
+#jou {
+    height: 100vh;
+}
+.lil {
+    width: 272px;
+    border: 1px dotted #FDD0BC;
+    height: 260px;
+    overflow: auto;
+}
+#lis img {
+    max-height: 122px;
+    max-width: 122px;
+}
+.margaut {
+    margin: auto;
+}
+table {
+    text-align: left;
+}
+ul {
+    text-align: left;
+    list-style-image: url("art/lilflo.gif");
 }
