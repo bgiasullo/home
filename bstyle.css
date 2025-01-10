@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 a {
     color: #D9E7F9;
     text-decoration: underline dotted #F8E6E6;
@@ -7,12 +10,26 @@ a:hover {
     color: #F8E6E6;
 }
 #art img {
-    max-width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    border: 3px ridge #B47855;
+}
+#bee {
+    background-image: url("art/bgbubb.gif");
+    background-attachment: fixed;
+    height: 100vh;
+}
+#bee img {
+    float: left;
+}
+#bee p {
+    background-color: #5d596d;
 }
 body {
     background-color: #5d596d;
     display: flex;
     gap: 22px;
+    padding: 12px;
 }
 .content {
     width: 644px;
@@ -21,16 +38,19 @@ body {
     overflow: auto;
     text-align: center;
     color: #e7e5eb;
-}
-.nav {
-    width: 244px;
-    height: 466px;
-    border: 1px dotted #FDD0BC;
+    padding: 18px;
 }
 .flexbo {
     display: flex;
     gap: 18px;
     justify-content: center;
+}
+.flexwra {
+    display: flex;
+    gap: 22px 22px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 h1 {
     color: #A2E6E3;
@@ -52,9 +72,13 @@ h3 {
 }
 .lil {
     width: 272px;
-    border: 1px dotted #FDD0BC;
-    height: 260px;
     overflow: auto;
+    background-color: #5d596d;
+}
+.lilheig {
+    width: 272px;
+    overflow: auto;
+    height: 266px;
 }
 #lis img {
     max-height: 122px;
@@ -62,6 +86,22 @@ h3 {
 }
 .margaut {
     margin: auto;
+}
+.nav {
+    width: 244px;
+    height: 466px;
+    border: 1px dotted #FDD0BC;
+    padding: 18px;
+}
+summary {
+    color: #D9E7F9;
+    text-decoration: underline dotted #F8E6E6;
+    cursor: pointer;
+    text-align: left;
+}
+summary:hover {
+    text-decoration: none;
+    color: #F8E6E6;
 }
 table {
     text-align: left;
