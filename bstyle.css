@@ -18,11 +18,13 @@ a:hover {
 #bee {
     background-image: url("art/bgbubb.gif");
     background-attachment: fixed;
-    height: 100vh;
 }
 #bee img {
     float: left;
     padding: 2px;
+}
+#bee p {
+    background-color: #3f3941;
 }
 #bee ul {
     list-style-image: url("art/tinierpumpkin.png");
@@ -31,17 +33,18 @@ body {
     background-color: #3f3941;
     display: flex;
     gap: 22px;
-    padding: 12px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 22px;
+    font-size: 12px;
 }
 .content {
     width: 644px;
-    border: 1px dotted #FDD0BC;
+    border-top: 4px ridge #FDD0BC;
+    border-bottom: 4px ridge #FDD0BC;
     height: 466px;
     overflow: auto;
     text-align: center;
-    color: #e7e5eb;
+    color: #eaf0f3;
     padding: 18px;
 }
 details {
@@ -85,6 +88,9 @@ h5 {
     display: block;
     padding-top: 22px;
 }
+#hom {
+    margin-bottom: 88px;
+}
 #hom ul {
     list-style-image: url("art/tinblst.gif");
 }
@@ -93,6 +99,9 @@ h5 {
 }
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
+}
+#kit li {
+    margin-top: 8px;
 }
 .lil {
     width: 272px;
@@ -107,9 +116,8 @@ h5 {
     margin: auto;
 }
 .nav {
-    width: 244px;
+    width: 200px;
     height: 466px;
-    border: 1px dotted #FDD0BC;
     padding: 18px;
 }
 summary {
