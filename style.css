@@ -1,349 +1,163 @@
 * {
     box-sizing: border-box;
 }
-body {
-    text-align: center;
-    font-size: 14px;
-    background-color: #969593;
-    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-}
-.nav {
-    top: 0;
-    left: 0;
-    position: fixed;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 44px 24px 8px 42px;
-    width: 168px;
-    height: 100vh;
-}
-.nav a {
-    color: #192030;
-    font-family: 'Arima';
-    font-size: 32px;
-    display: block;
-    text-decoration: none;
-}
-.content {
-    font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-.hide {
-    display: none;
-}
-.hide:target {
-    display: block;
-}
-.container {
-    display: flex;
-    align-items: stretch;
-    gap: 12px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.acent {
-    align-items: center;
-}
-.art {
-    max-width: 200px;
-    display: block;
-}
-.framm {
-    border: 6px ridge #8a3c0f;
-    background-color: #827b85;
-}
-img {
-    max-width: 100%;
-    margin: auto;
-}
-h1 {
-    font-family: 'Beau Rivage';
-    font-size: 48px;
-    text-shadow: 2px 2px 4px #a1a19f;
-    color: #242323;
-}
-h2 {
-    font-family: 'Annie Use Your Telescope';
-    font-size: 32px;
-}
-h3 {
-    font-family: 'Arima';
-    font-size: 20px;
-    font-weight: normal;
-}
 a {
-    color: #012453;
-    text-decoration: none;
+    color: #D9E7F9;
+    text-decoration: underline dotted #F8E6E6;
     font-weight: bold;
 }
 a:hover {
-    color: #3a5272;
+    text-decoration: none;
+    color: #F8E6E6;
+}
+#art img {
+    max-width: 200px;
+    max-height: 200px;
+    border: 3px ridge #B47855;
+}
+#bee {
+    background-image: url("art/bgbubb.gif");
+    background-attachment: fixed;
+}
+#bee img {
+    float: left;
+    padding: 2px;
+}
+#bee p {
+    background-color: #3f3941;
+}
+#bee ul {
+    list-style-image: url("art/tinierpumpkin.png");
+}
+body {
+    background-color: #3f3941;
+    display: flex;
+    gap: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 22px;
+    font-size: 12px;
+}
+.book {
+    max-width: 122px;
+    max-height: 122px;
+    padding: 4px;
+}
+.book:hover {
+    transform: scale(1.2);
+}
+.content {
+    width: 644px;
+    border-top: 4px ridge #FDD0BC;
+    border-bottom: 4px ridge #FDD0BC;
+    height: 466px;
+    overflow: auto;
+    text-align: center;
+    color: #eaf0f3;
+    padding: 18px;
+}
+details {
+    text-align: left;
+}
+.flecent {
+    align-items: center;
+}
+.flexbo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.flexwra {
+    display: flex;
+    gap: 12px 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 {
+    color: #A2E6E3;
+}
+h3 {
+    color: #F9C9A9;
+}
+h4 {
+    text-align: left;
+    border-bottom: 2px dotted #f35757;
+}
+h5 {
+    border-bottom: 2px dotted #A2E6E3;
+}
+.heig {
+    max-height: 200px;
+    overflow: auto;
+}
+.hide {
+	display: none;
+}
+.hide:target {
+    display: block;
+    padding-top: 22px;
+}
+#hom {
+    margin-bottom: 88px;
+}
+#hom img {
+    max-width: 60%;
+}
+#hom ul {
+    list-style-image: url("art/tinblst.gif");
+}
+#jou {
+    height: 100vh;
+}
+#jou img {
+    max-width: 50%;
+}
+#kit ul {
+    list-style-image: url("art/tinierpumpkin.png");
+}
+#kit li {
+    margin-top: 8px;
+}
+#lib ul {
+    list-style-image: url("art/tiniertv.png");
+}
+.lil {
+    width: 272px;
+    overflow: auto;
+    padding: 6px;
+}
+#lis ul {
+    list-style-image: url("art/tinylight.gif");
+}
+.margaut {
+    margin: auto;
+}
+.nav {
+    width: 200px;
+    height: 466px;
+    padding: 18px;
+}
+.nav img {
+    max-width: 60%;
+}
+summary {
+    color: #D9E7F9;
+    text-decoration: underline dotted #F8E6E6;
+    cursor: pointer;
+    text-align: left;
+    padding: 4px;
+    font-weight: bold;
+}
+summary:hover {
+    text-decoration: none;
+    color: #F8E6E6;
 }
 table {
     text-align: left;
-    margin: auto;
 }
 td {
     padding: 4px;
 }
 ul {
     text-align: left;
+    list-style-image: url("art/lilflo.gif");
 }
-li {
-    margin: 8px auto;
-}
-details {
-    text-align: left;
-    padding: 6px;
-}
-summary {
-    cursor: pointer;
-}
-summary:hover {
-    font-weight: bold;
-}
-.small {
-    overflow-y: auto;
-    overflow-x: hidden;
-    min-width: 244px;
-    flex: 1;
-}
-.padd {
-    padding: 6px;
-}
-.words {
-    overflow-y: auto;
-    overflow-x: hidden;
-    min-width: 660px;
-    padding: 18px;
-}
-.wolors {
-    background-color: #c2cac6;
-    color: #0f0d2e;
-    border: 3px double #2282c2;
-    margin: 12px auto;
-}
-.scrap {
-    background-image: url("art/sunflobrig.jpg");
-    padding: 8px 12px 8px 8px;
-    border: 4px double #012453;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.adob {
-    background-color: #c5ccb8;    
-    border: 3px double #6e6962;
-    flex: 1;
-    overflow-y: auto;
-    overflow-x: hidden;
-    min-width: 240px;
-}
-.tiny {
-    max-width: 264px;
-    padding: 14px;
-}
-.tinier {
-    max-width: 88px;
-    max-height: 88px;
-}
-.wood {
-    background-color: #939B85;    
-    padding: 18px;
-    border: 3px double #2c1e31;
-}
-.blue {
-    border: 4px dashed #3388de;
-}
-.book {
-    max-width: 120px;
-    border-radius: 2px;
-    box-shadow: 0 0 4px #2c1e31;
-    display: block;
-}
-.move:hover {
-    rotate: -6deg;
-    transition: rotate 0.1s;
-}
-.bord {
-    background-image: url("art/bglines.png");
-    border: 3px double #4C1E0A;
-    padding: 12px;
-    margin: 16px auto;
-  }
-.bordie {
-    background-image: url("art/bgpinky.png");
-    border: 3px double #FBC28F;
-    padding: 22px;
-    max-width: 620px;
-    height: 466px;
-    position: fixed;
-    overflow: hidden;
-}
-.inner {
-    background-color: #FDFDF9;
-    border: 3px double #FBC28F;
-    padding: 2px;
-    max-height: 200px;
-}
-.full {
-    width: 100%;
-}
-.heig {
-    height: 264px;
-}
-.margo {
-    margin: 12px auto;
-}
-.bbee {
-    border: 8px ridge #DCC19A;
-    max-width: 480px;
-    margin: 6px auto;
-    background-color: #6F5846;
-    padding: 6px;
-    color: white;
-}
-.bookope {
-    width: 620px;
-    height: 350px;
-    margin: 20% auto;
-    background-image: url("art/dithbook.png");
-    background-repeat: no-repeat;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 6% 14%;
-}
-#abo { 
-    background-image: url("art/bgmost.png");
-    background-attachment: fixed;
-    margin: auto auto auto 200px;
-    border: 3px double #2282c2;
-    padding: 2% 18%;
-    min-height: 100vh;
-}
-#art {
-    padding: 2% 16%;
-    background-image: url("art/bgteal.png");
-    background-attachment: fixed;
-    border: 6px ridge #8a3c0f;
-    min-height: 100vh;
-    margin: auto auto auto 200px;
-}
-#art h1 {
-    text-shadow: 2px 2px 2px #30101d;
-    color: #ebd575;
-    font-size: 66px;
-}
-#bee {
-    background-color: #6F5846;
-    background-attachment: fixed, scroll, scroll;
-    margin: auto auto auto 200px;
-    padding: 4% 12%;
-    border: 8px ridge #DCC19A;
-    background-image: url("art/bgbeer.png"), url("art/bgbubb.gif"), url("art/bgbubye.gif");
-}
-#bee h3 {
-    color: white;
-}
-#gen {
-    padding: 4% 16%;
-    border: 4px ridge #112a42;
-    margin: auto auto auto 200px;
-    min-height: 100vh;
-}
-#kit {
-    background-image: url("art/bggeom.png");
-    background-attachment: fixed;
-    padding: 4% 16%;
-    border: 3px double #6e6962;
-    margin: auto auto auto 200px;
-}
-#kit h1 {
-    background-color: #c5ccb8;    
-    padding: 4px;
-    border: 3px double #6e6962;
-    margin: auto;
-}
-#lib {
-    background-image: url("art/bgwood.png");
-    background-attachment: fixed;
-    padding: 4% 10%;
-    border: 3px double #4C1E0A;
-    min-height: 100vh;
-    margin: auto auto auto 200px;
-}
-#lib h1, #lib h2 {
-    background-color: #939B85;    
-    padding: 4px;
-    border: 3px double #2c1e31;
-    margin: auto;
-}
-#lib ul {
-    list-style-image: url('art/tiniertv.png');
-}
-#scr {
-    background-image: url("art/sunflowers.jpg");
-    padding: 4% 16%;
-    background-attachment: fixed;
-    border: 4px double #012453;
-    margin: auto auto auto 200px;
-    background-size: cover;
-}
-#scr h1 {
-    background-image: url("art/sunflobrig.jpg");
-    border: 4px double #012453;
-    margin: 12px auto;
-    background-size: cover;
-    background-attachment: fixed;
-}
-#scr ul {
-    list-style-image: url('art/tinblst.gif');
-}
-#jou {
-    background-image: url("art/bgpattern.png");
-    background-attachment: fixed;
-    padding: 4% 18%;
-    min-height: 100vh;
-    border: 3px double #2a3636;
-    margin: auto auto auto 200px;
-}
-#hom {
-    margin: auto;
-    padding: 2% 24%;
-}
-#hom ul {
-    list-style-image: url('art/tinylight.gif');
-}
-@media only screen and (max-width: 720px) {
-    .nav, .bordie {
-      position: static;
-      width: 100%;
-      margin: auto;
-      padding: 4px;
-      height: auto;
-    }
-    .nav a {
-        display: inline-block;
-    }
-    .nav img {
-        max-width: 112px;
-    }
-    .art, .book, .tiny {
-        max-width: 100%;
-    }
-    #art, #scr, #kit, #abo, .small, #lib, .words, #bee, .bbee, #jou, .bookope, .bordie, #hom, .heig {
-        width: 100%;
-        height: auto;
-        padding: 4px;
-        flex: none;
-        margin: auto;
-        min-width: auto;
-    }
-    .bookope {
-        background-image: none;
-        background-color: #F1DAC2;
-        border: 1px dashed #1A3236;
-    }
-    .inner {
-        max-height: min-content;
-    }
-  }
