@@ -30,11 +30,10 @@ a:hover {
 }
 body {
     background-color: #3f3941;
-    display: flex;
-    gap: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 32px;
     font-size: 12px;
+    text-align: center;
 }
 .book {
     max-width: 122px;
@@ -44,11 +43,15 @@ body {
 .book:hover {
     transform: scale(1.2);
 }
+.container {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
 .content {
     width: 644px;
     height: 444px;
     overflow: auto;
-    text-align: center;
     color: #eaf0f3;
     padding: 18px;
 }
@@ -119,8 +122,12 @@ h5 {
 #kit li {
     margin-top: 8px;
 }
+#lib em {
+    font-weight: bold;
+    color: #a0d1c6;
+}
 #lib ul {
-    list-style-image: url("art/tiniertv.png");
+    list-style-image: url("art/tinybook.png");
 }
 .lil {
     width: 272px;
@@ -164,10 +171,12 @@ ul {
 @media screen and (max-width: 800px) {
     #art img {
         max-width: 100%;
-        max-height: auto;
-        border: 3px ridge #B47855;
+        max-height: 100%;
     }
     body {
+        padding: 2px;
+    }
+    .container {
         padding: 2px;
         flex-wrap: wrap;
         gap: 2px;
