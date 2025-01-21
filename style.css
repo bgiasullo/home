@@ -88,7 +88,8 @@ h4 {
 h5 {
     border-top: 2px dotted #A2E6E3;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
+    color: #f7c9c9;
 }
 .heig {
     max-height: 200px;
