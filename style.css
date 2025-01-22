@@ -2,17 +2,17 @@
     box-sizing: border-box;
 }
 a {
-    color: #92e4fd;
+    color: #013d6e;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover {
-    color: #f7c9c9;
+    color: #229afc;
 }
 #art img {
     max-width: 200px;
     max-height: 200px;
-    border: 3px ridge #B47855;
+    border: 4px ridge #6d4229;
 }
 #bee {
     background-image: url("art/bgbubb.gif");
@@ -22,18 +22,15 @@ a:hover {
     float: left;
     padding: 2px;
 }
-#bee p {
-    background-color: #3f3941;
-}
 #bee ul {
     list-style-image: url("art/tinierpumpkin.png");
 }
 body {
-    background-color: #3f3941;
+    background-color: #bdbbb7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 32px;
     font-size: 12px;
-    text-align: center;
+    color: #1c212c;
 }
 .book {
     max-width: 122px;
@@ -49,50 +46,49 @@ body {
     justify-content: center;
 }
 .content {
-    width: 644px;
-    height: 444px;
+    width: 700px;
+    height: 500px;
     overflow: auto;
-    color: #eaf0f3;
     padding: 18px;
-}
-details {
-    text-align: left;
 }
 .flecent {
     align-items: center;
 }
 .flexbo {
     display: flex;
-    gap: 10px;
+    gap: 18px;
     justify-content: center;
 }
 .flexwra {
     display: flex;
-    gap: 12px 12px;
+    gap: 14px 14px;
     justify-content: center;
     flex-wrap: wrap;
 }
 h1 {
-    color: #A2E6E3;
+    color: #880909;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
-    color: #f35757;
+    color: #047055;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
-    color: #F9C9A9;
+    color: #2c50c7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
-    text-align: left;
-    border-bottom: 2px dotted #f35757;
+    border-bottom: 2px dotted #522121;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h5 {
-    border-top: 2px dotted #A2E6E3;
-    text-align: left;
-    font-size: 14px;
-    color: #f7c9c9;
+    border-top: 2px dotted #055e58;
+    font-size: 16px;
+    color: #530404;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .heig {
-    max-height: 200px;
+    height: 200px;
     overflow: auto;
 }
 .hide {
@@ -111,9 +107,6 @@ h5 {
 #hom ul {
     list-style-image: url("art/tinblst.gif");
 }
-#jou {
-    text-align: left;
-}
 #jou img {
     max-width: 50%;
 }
@@ -125,7 +118,7 @@ h5 {
 }
 #lib em {
     font-weight: bold;
-    color: #a0d1c6;
+    color: #173b34;
 }
 #lib ul {
     list-style-image: url("art/tinybook.png");
@@ -138,35 +131,23 @@ h5 {
 #lis ul {
     list-style-image: url("art/tinylight.gif");
 }
-.margaut {
-    margin: auto;
-}
 .nav {
     width: 200px;
-    height: 466px;
+    height: 500px;
     padding: 18px;
 }
 .nav img {
     max-width: 60%;
 }
 summary {
-    color: #c2dbfc;
+    color: #522121;
     cursor: pointer;
-    text-align: left;
     padding: 4px;
-    font-weight: bold;
-}
-summary:hover {
-    color: #fab9b9;
-}
-table {
-    text-align: left;
 }
 td {
     padding: 4px;
 }
 ul {
-    text-align: left;
     list-style-image: url("art/lilflo.gif");
 }
 @media screen and (max-width: 800px) {
@@ -185,8 +166,6 @@ ul {
     .content {
         width: 100%;
         height: auto;
-        text-align: center;
-        color: #eaf0f3;
         padding: 2px;
     }
     .flexbo {
@@ -195,7 +174,7 @@ ul {
         gap: 2px;
     }
     .heig {
-        max-height: auto;
+        height: auto;
     }
     .lil {
         width: 100%;
