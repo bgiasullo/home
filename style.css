@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 a {
-    color: #013d6e;
+    color: #015396;
     text-decoration: none;
     font-weight: bold;
 }
@@ -10,8 +10,8 @@ a:hover {
     color: #229afc;
 }
 #art img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
     border: 4px ridge #6d4229;
 }
 #bee {
@@ -31,6 +31,10 @@ body {
     padding: 32px;
     font-size: 12px;
     color: #1c212c;
+    background-image: url("art/sunflowers.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 .book {
     max-width: 122px;
@@ -42,14 +46,19 @@ body {
 }
 .container {
     display: flex;
-    gap: 22px;
+    gap: 12px;
     justify-content: center;
 }
 .content {
     width: 700px;
-    height: 500px;
+    height: 80vh;
     overflow: auto;
-    padding: 18px;
+    padding: 22px;
+    background-color: #dfd2b8;
+    border-radius: 6px;
+    border: 2px dotted #880909;
+    background-image: url("art/bgbeige.png");
+    background-attachment: fixed;
 }
 .flecent {
     align-items: center;
@@ -61,7 +70,7 @@ body {
 }
 .flexwra {
     display: flex;
-    gap: 14px 14px;
+    gap: 16px 16px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -78,13 +87,13 @@ h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
-    border-bottom: 2px dotted #522121;
+    border-bottom: 2px dotted #a10505;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h5 {
-    border-top: 2px dotted #048179;
+    border-top: 2px dotted #446d02;
     font-size: 16px;
-    color: #530404;
+    color: #815902;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .heig {
@@ -133,14 +142,28 @@ h5 {
 }
 .nav {
     width: 200px;
-    height: 500px;
-    padding: 18px;
+    height: 80vh;
+    padding: 22px;
+    background-color: #dfd2b8;
+    border-radius: 6px;
+    border: 2px dotted #880909;
+    background-image: url("art/bgbeige.png");
+}
+.nav a {
+    color: #015396;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.nav a:hover {
+    color: #229afc;
 }
 .nav img {
     max-width: 60%;
 }
 summary {
-    color: #522121;
+    color: #075ac7;
     cursor: pointer;
     padding: 4px;
 }
