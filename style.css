@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 a {
-    color: #015396;
+    color: #047055;
     text-decoration: none;
     font-weight: bold;
 }
@@ -23,7 +23,7 @@ a:hover {
     padding: 2px;
 }
 #bee ul {
-    list-style-image: url("art/tinierpumpkin.png");
+    list-style-image: url("art/tinylight.gif");
 }
 body {
     background-color: #bdbbb7;
@@ -150,14 +150,14 @@ h5 {
     background-image: url("art/bgbeige.png");
 }
 .nav a {
-    color: #015396;
+    color: #880909;
     text-decoration: none;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 .nav a:hover {
-    color: #229afc;
+    color: #a57306;
 }
 .nav img {
     max-width: 60%;
