@@ -34,14 +34,6 @@ body {
     background-image: url("art/bggeom.png");
     background-attachment: fixed;
 }
-.book {
-    max-width: 122px;
-    max-height: 122px;
-    padding: 4px;
-}
-.book:hover {
-    transform: scale(1.2);
-}
 .container {
     display: flex;
     gap: 12px;
@@ -137,6 +129,8 @@ h5 {
     width: 272px;
     overflow: auto;
     padding: 6px;
+    scrollbar-color: #7d925b #bdbbb7;
+    scrollbar-width: thin;
 }
 #lis ul {
     list-style-image: url("art/tinylight.gif");
