@@ -2,12 +2,19 @@
     box-sizing: border-box;
 }
 a {
-    color: #047055;
+    color: #205d75;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover {
-    color: #11b48b;
+    color: #1289c0;
+}
+#abo img {
+    max-width: 80%;
+    border: 6px ridge #662901;
+}
+#abo ul {
+    list-style-image: url("art/tinylight.gif");
 }
 #art img {
     max-width: 400px;
@@ -33,6 +40,9 @@ body {
     color: #1c212c;
     background-image: url("art/bgblue.png");
     background-attachment: fixed;
+}
+.cent {
+    text-align: center;
 }
 .container {
     display: flex;
@@ -76,7 +86,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
-    color: #138004;
+    color: #225d85;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
@@ -84,7 +94,7 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h5 {
-    border-top: 1px dotted #5d9208;
+    border-top: 1px dotted #7d8003;
     font-size: 16px;
     color: #af7b0b;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -157,9 +167,6 @@ h5 {
 summary {
     color: #3c129e;
     cursor: pointer;
-    padding: 4px;
-}
-td {
     padding: 4px;
 }
 ul {
