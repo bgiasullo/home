@@ -82,11 +82,11 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
-    color: #173da7;
+    color: #281499;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
-    color: #225d85;
+    color: #027b91;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
@@ -130,7 +130,7 @@ h5 {
 }
 #lib em {
     font-weight: bold;
-    color: #047055;
+    color: #0157a8;
 }
 #lib ul {
     list-style-image: url("art/tinybook.png");
