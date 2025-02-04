@@ -9,9 +9,6 @@ a {
 a:hover {
     color: #1289c0;
 }
-#abo {
-    margin-bottom: 288px;
-}
 #abo img {
     max-width: 80%;
     border: 6px ridge #662901;
@@ -19,22 +16,38 @@ a:hover {
 #abo ul {
     list-style-image: url("art/tinylight.gif");
 }
-#art {
-    margin-bottom: 288px;
-}
 #art img {
     max-width: 400px;
     max-height: 400px;
     border: 6px ridge #662901;
 }
 #bee {
-    background-image: url("art/bgbubb.gif");
-    background-attachment: fixed;
-    margin-bottom: 288px;
+    background-color: #6F5846;
+    background-attachment: scroll, fixed, fixed;
+    background-image: url("art/bgbeer.png"), url("art/bgbubb.gif"), url("art/bgbubye.gif");
+    color: white;
+    padding: 44px;
+    border: 6px ridge #be6941;
+}
+#bee h1 {
+    color: #ddbf39;
 }
 #bee img {
     float: left;
-    padding: 2px;
+    padding: 12px;
+}
+#bee .lil {
+    background-color: #6F5846;
+    border: 6px ridge #be6941;
+}
+#bee .med {
+    background-color: #6F5846;
+    border: 6px ridge #be6941;
+    padding: 12px;
+    text-align: center;
+}
+#bee p {
+    background-color: #6F5846;
 }
 #bee ul {
     list-style-image: url("art/tinylight.gif");
@@ -45,27 +58,18 @@ body {
     padding: 32px;
     font-size: 12px;
     color: #1c212c;
-    background-image: url("art/bgblue.png");
+    background-image: url("art/bgscrap.png");
     background-attachment: fixed;
 }
 .cent {
     text-align: center;
 }
-.container {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-}
 .content {
-    width: 700px;
-    height: 80vh;
-    overflow: auto;
-    padding: 22px;
     background-color: #dfd2b8;
     border-radius: 6px;
-    border: 1px dotted #491c26;
     background-image: url("art/bgscrap.png");
     background-attachment: fixed;
+    margin: 0 288px 0 288px;
 }
 .flecent {
     align-items: center;
@@ -83,7 +87,6 @@ body {
 }
 #gar {
     text-align: center;
-    margin-bottom: 288px;
 }
 h1 {
     color: #940836;
@@ -118,29 +121,23 @@ h5 {
     display: block;
     padding-top: 22px;
 }
+#hom .heig {
+    border: 1px dashed #0157a8;
+}
 #hom img {
     max-width: 80%;
 }
 #hom ul {
     list-style-image: url("art/tinblst.gif");
 }
-#jou {
-    margin-bottom: 288px;
-}
 #jou img {
     max-width: 50%;
-}
-#kit {
-    margin-bottom: 288px;
 }
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
 }
 #kit li {
     margin-top: 8px;
-}
-#lib {
-    margin-bottom: 288px;
 }
 #lib em {
     font-weight: bold;
@@ -156,20 +153,16 @@ h5 {
     scrollbar-color: #7d925b #bdbbb7;
     scrollbar-width: thin;
 }
-#lis {
-    margin-bottom: 288px;
-}
 #lis ul {
     list-style-image: url("art/tinylight.gif");
 }
+.med {
+    width: 560px;
+}
 .nav {
     width: 200px;
-    height: 80vh;
     padding: 22px;
-    background-color: #dfd2b8;
-    border-radius: 6px;
-    border: 1px dotted #491c26;
-    background-image: url("art/bgscrap.png");
+    position: fixed;
 }
 .nav a {
     color: #313D4F;
