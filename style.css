@@ -13,6 +13,9 @@ a:hover {
     max-width: 80%;
     border: 6px ridge #662901;
 }
+#abo li {
+    margin-top: 8px;
+}
 #abo ul {
     list-style-image: url("art/tinylight.gif");
 }
@@ -87,6 +90,17 @@ body {
 }
 #gar {
     text-align: center;
+    background-image: url("art/woodswint.JPG");
+    background-size: cover;
+    padding: 88px;
+}
+#gar img {
+    max-width: 242px;
+    max-height: 242px;
+    padding: 22px;
+}
+#gar img:hover {
+    transform: rotate(8deg);
 }
 h1 {
     color: #940836;
@@ -121,8 +135,12 @@ h5 {
     display: block;
     padding-top: 22px;
 }
+#hom h2 {
+    margin-top: 32px;
+}
 #hom .heig {
     border: 1px dashed #0157a8;
+    padding: 12px;
 }
 #hom img {
     max-width: 80%;
@@ -204,6 +222,7 @@ ul {
         width: 100%;
         height: auto;
         padding: 2px;
+        margin: 0;
     }
     .flexbo {
         display: flex;
@@ -221,6 +240,7 @@ ul {
         width: 100%;
         height: auto;
         padding: 2px;
+        position: static;
     }
     .nav li {
         display: inline;
