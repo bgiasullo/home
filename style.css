@@ -9,12 +9,18 @@ a {
 a:hover {
     color: #1289c0;
 }
+#abo {
+    margin-bottom: 288px;
+}
 #abo img {
     max-width: 80%;
     border: 6px ridge #662901;
 }
 #abo ul {
     list-style-image: url("art/tinylight.gif");
+}
+#art {
+    margin-bottom: 288px;
 }
 #art img {
     max-width: 400px;
@@ -24,6 +30,7 @@ a:hover {
 #bee {
     background-image: url("art/bgbubb.gif");
     background-attachment: fixed;
+    margin-bottom: 288px;
 }
 #bee img {
     float: left;
@@ -76,6 +83,7 @@ body {
 }
 #gar {
     text-align: center;
+    margin-bottom: 288px;
 }
 h1 {
     color: #940836;
@@ -110,23 +118,29 @@ h5 {
     display: block;
     padding-top: 22px;
 }
-#hom {
-    margin-top: 88px;
-}
 #hom img {
     max-width: 80%;
 }
 #hom ul {
     list-style-image: url("art/tinblst.gif");
 }
+#jou {
+    margin-bottom: 288px;
+}
 #jou img {
     max-width: 50%;
+}
+#kit {
+    margin-bottom: 288px;
 }
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
 }
 #kit li {
     margin-top: 8px;
+}
+#lib {
+    margin-bottom: 288px;
 }
 #lib em {
     font-weight: bold;
@@ -141,6 +155,9 @@ h5 {
     padding: 6px;
     scrollbar-color: #7d925b #bdbbb7;
     scrollbar-width: thin;
+}
+#lis {
+    margin-bottom: 288px;
 }
 #lis ul {
     list-style-image: url("art/tinylight.gif");
@@ -165,9 +182,14 @@ h5 {
     color: #3576d6;
 }
 summary {
-    color: #3c129e;
     cursor: pointer;
     padding: 4px;
+    color: #205d75;
+    text-decoration: none;
+    font-weight: bold;
+}
+summary:hover {
+    color: #1289c0;
 }
 ul {
     list-style-image: url("art/lilflo.gif");
