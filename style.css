@@ -205,7 +205,7 @@ summary:hover {
 ul {
     list-style-image: url("art/lilflo.gif");
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     #art img {
         max-width: 100%;
         max-height: 100%;
