@@ -107,7 +107,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
-    color: #281499;
+    color: #18305c;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
@@ -165,6 +165,13 @@ h5 {
     list-style-image: url("art/tinybook.png");
 }
 
+#lib .flexbo {
+    background-image: url("art/bggeom.png");
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px dashed #1c212c;
+}
+
 #lib .flexwra {
     background-image: url("art/bggeom.png");
     padding: 18px;
@@ -177,11 +184,22 @@ h5 {
     border: 1px dashed #1c212c;
     padding: 8px;
 }
+#lib .lilbig {
+    background-image: url("art/bgscrap.png");
+    border-radius: 4px;
+    border: 1px dashed #1c212c;
+    padding: 8px;
+}
+#lib .med {
+    background-image: url("art/bgscrap.png");
+    border-radius: 4px;
+    border: 1px dashed #1c212c;
+}
 .lil {
     width: 272px;
     overflow: auto;
     padding: 6px;
-    scrollbar-color: #7d925b #bdbbb7;
+    scrollbar-color: #494e3f #bdbbb7;
     scrollbar-width: thin;
 }
 #lis ul {
@@ -191,7 +209,7 @@ h5 {
     width: 322px;
     overflow: auto;
     padding: 6px;
-    scrollbar-color: #7d925b #bdbbb7;
+    scrollbar-color: #576268 #bdbbb7;
     scrollbar-width: thin;
 }
 .med {
