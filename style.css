@@ -29,15 +29,12 @@ a:hover {
     background-attachment: fixed, scroll, scroll;
     background-image: url("art/bgbeer.png"), url("art/bgbubb.gif"), url("art/bgbubye.gif");
     color: white;
-    padding: 44px;
+    padding: 24px;
     border: 6px ridge #be6941;
-}
-#bee h1 {
-    color: #ddbf39;
 }
 #bee img {
     float: left;
-    padding: 12px;
+    padding: 22px;
 }
 #bee .lil {
     background-color: #6F5846;
@@ -46,8 +43,6 @@ a:hover {
 #bee .med {
     background-color: #6F5846;
     border: 6px ridge #be6941;
-    padding: 12px;
-    text-align: center;
 }
 #bee p {
     background-color: #6F5846;
@@ -72,7 +67,7 @@ body {
     border-radius: 6px;
     background-image: url("art/bgscrap.png");
     background-attachment: fixed;
-    margin: 0 18% 0 21%;
+    margin: auto 100px auto 262px;
 }
 .flecent {
     align-items: center;
@@ -115,8 +110,9 @@ h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
-    border-bottom: 1px dotted #1d3828;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dfd2b8;
+    font-size: 14px;
 }
 h5 {
     border-top: 1px dotted #7d8003;
@@ -177,7 +173,6 @@ h5 {
     background-image: url("art/bgscrap.png");
     border-radius: 4px;
     border: 1px dashed #6F5846;
-    padding: 8px;
 }
 #lib .lilbig {
     background-image: url("art/bgscrap.png");
@@ -196,7 +191,7 @@ h5 {
 .lil {
     width: 272px;
     overflow: auto;
-    padding: 6px;
+    padding: 16px;
     scrollbar-color: #494e3f #bdbbb7;
     scrollbar-width: thin;
 }
@@ -212,6 +207,7 @@ h5 {
 }
 .med {
     width: 560px;
+    padding: 22px;
 }
 .nav {
     width: 200px;
@@ -246,6 +242,9 @@ ul {
         max-width: 100%;
         max-height: 100%;
    }
+    #bee {
+        padding: 2px;
+   }
     body {
         padding: 2px;
    }
@@ -274,6 +273,9 @@ ul {
    }
     .lilbig {
         width: 100%;
+        padding: 2px;
+   }
+    .med {
         padding: 2px;
    }
     .nav {
