@@ -111,7 +111,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
-    color: #027b91;
+    color: #205d75;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
@@ -129,7 +129,7 @@ h5 {
     overflow: auto;
 }
 .hide {
-	display: none;
+    display: none;
 }
 .hide:target {
     display: block;
@@ -159,19 +159,14 @@ h5 {
 }
 #lib em {
     font-weight: bold;
-    color: #0157a8;
+    color: #18305c;
 }
-#lib ul {
-    list-style-image: url("art/tinybook.png");
-}
-
 #lib .flexbo {
     background-image: url("art/bggeom.png");
     padding: 10px;
     border-radius: 4px;
     border: 1px dashed #1c212c;
 }
-
 #lib .flexwra {
     background-image: url("art/bggeom.png");
     padding: 18px;
@@ -181,19 +176,22 @@ h5 {
 #lib .lil {
     background-image: url("art/bgscrap.png");
     border-radius: 4px;
-    border: 1px dashed #1c212c;
+    border: 1px dashed #6F5846;
     padding: 8px;
 }
 #lib .lilbig {
     background-image: url("art/bgscrap.png");
     border-radius: 4px;
-    border: 1px dashed #1c212c;
+    border: 1px dashed #6F5846;
     padding: 8px;
 }
 #lib .med {
     background-image: url("art/bgscrap.png");
     border-radius: 4px;
-    border: 1px dashed #1c212c;
+    border: 1px dashed #6F5846;
+}
+#lib ul {
+    list-style-image: url("art/tinybook.png");
 }
 .lil {
     width: 272px;
@@ -233,12 +231,12 @@ h5 {
 summary {
     cursor: pointer;
     padding: 4px;
-    color: #205d75;
+    color: #4b3b30;
     text-decoration: none;
     font-weight: bold;
 }
 summary:hover {
-    color: #1289c0;
+    color: #265263;
 }
 ul {
     list-style-image: url("art/lilflo.gif");
@@ -247,45 +245,45 @@ ul {
     #art img {
         max-width: 100%;
         max-height: 100%;
-    }
+   }
     body {
         padding: 2px;
-    }
+   }
     .container {
         padding: 2px;
         flex-wrap: wrap;
         gap: 2px;
-    }
+   }
     .content {
         width: 100%;
         height: auto;
         padding: 2px;
         margin: 0;
-    }
+   }
     .flexbo {
         display: flex;
         flex-wrap: wrap;
         gap: 2px;
-    }
+   }
     .heig {
         height: auto;
-    }
+   }
     .lil {
         width: 100%;
         padding: 2px;
-    }
+   }
     .lilbig {
         width: 100%;
         padding: 2px;
-    }
+   }
     .nav {
         width: 100%;
         height: auto;
         padding: 2px;
         position: static;
-    }
+   }
     .nav li {
         display: inline;
         padding-right: 10px;
-    }
-  }
+   }
+}
