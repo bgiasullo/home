@@ -68,7 +68,7 @@ body {
     border-radius: 6px;
     background-image: url("art/bgscrap.png");
     background-attachment: fixed;
-    margin: auto 100px auto 262px;
+    margin: auto 122px auto 262px;
 }
 .flecent {
     align-items: center;
@@ -107,7 +107,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
-    color: #205d75;
+    color: #662901;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
@@ -148,11 +148,35 @@ h5 {
 #jou img {
     max-width: 50%;
 }
+#kit {
+    background-image: url("art/bgfram.png");
+    padding: 42px;
+    border-radius: 6px;
+    border: 1px dashed #576268;
+}
+#kit .flexbo {
+    background-image: url("art/bgbeige.png");
+    border: 1px dashed #6F5846;
+    padding: 12px;
+}
+#kit h3 {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+#kit h4 {
+    color: #18305c;
+}
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
 }
 #kit li {
     margin-top: 8px;
+}
+#kit .med {
+    background-image: url("art/bgbeige.png");
+    border: 1px dashed #6F5846;
+    margin: auto;
 }
 #lib em {
     font-weight: bold;
@@ -227,13 +251,13 @@ h5 {
 }
 summary {
     cursor: pointer;
-    padding: 4px;
-    color: #4b3b30;
+    color: #205d75;
     text-decoration: none;
     font-weight: bold;
+    padding: 4px;
 }
 summary:hover {
-    color: #265263;
+    color: #1289c0;
 }
 
 @media screen and (max-width: 900px) {
