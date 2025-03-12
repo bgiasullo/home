@@ -157,7 +157,7 @@ h5 {
 #kit .flexbo {
     background-image: url("art/bgbeige.png");
     border: 1px dashed #6F5846;
-    padding: 12px;
+    padding: 22px;
 }
 #kit h3 {
     color: white;
@@ -172,11 +172,6 @@ h5 {
 }
 #kit li {
     margin-top: 8px;
-}
-#kit .med {
-    background-image: url("art/bgbeige.png");
-    border: 1px dashed #6F5846;
-    margin: auto;
 }
 #lib em {
     font-weight: bold;
