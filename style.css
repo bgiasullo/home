@@ -211,6 +211,21 @@ h5 {
     scrollbar-color: #494e3f #bdbbb7;
     scrollbar-width: thin;
 }
+#lis {
+    background-image: url("art/bglines.png");
+    padding: 18px;
+    border: 1px solid #18305c;
+}
+#lis .lil{
+    background-image: url("art/bgtaup.png");
+    border: 1px solid #0157a8;
+    margin: 8px;
+}
+#lis .med{
+    background-image: url("art/bgtaup.png");
+    border: 1px solid #0157a8;
+    margin: 8px auto;
+}
 #lis ul {
     list-style-image: url("art/tinylight.gif");
 }
@@ -293,6 +308,7 @@ summary:hover {
    }
     .med {
         padding: 2px;
+        width: 100%;
    }
     .nav {
         width: 100%;
