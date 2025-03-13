@@ -195,7 +195,6 @@ h5 {
     background-image: url("art/bgtan.png");
     border-radius: 4px;
     border: 1px dashed #6F5846;
-    padding: 8px;
 }
 #lib .med {
     background-image: url("art/bgtan.png");
@@ -218,7 +217,7 @@ h5 {
 .lilbig {
     width: 322px;
     overflow: auto;
-    padding: 6px;
+    padding: 16px;
     scrollbar-color: #576268 #bdbbb7;
     scrollbar-width: thin;
 }
@@ -290,7 +289,6 @@ summary:hover {
         padding: 2px;
    }
     .lilbig {
-        width: 100%;
         padding: 2px;
    }
     .med {
