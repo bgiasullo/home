@@ -36,7 +36,7 @@ a:hover {
     float: left;
     padding: 22px;
 }
-#bee .lil {
+#bee .lilbig {
     background-color: #6F5846;
     border: 6px ridge #be6941;
 }
@@ -149,23 +149,26 @@ h5 {
     max-width: 50%;
 }
 #kit {
-    background-image: url("art/bgfram.png");
+    background-image: url("art/bggeom.png");
     padding: 42px;
-    border-radius: 6px;
-    border: 1px dashed #576268;
-}
-#kit .flexbo {
-    background-image: url("art/bgbeige.png");
-    border: 1px dashed #6F5846;
-    padding: 22px;
+    border: 3px double #18305c;
+    background-attachment: fixed;
+    width: 920px;
 }
 #kit h3 {
-    color: white;
     text-align: center;
     font-size: 16px;
 }
 #kit h4 {
     color: #18305c;
+}
+#kit .lil {
+    border: 2px dashed #940836;
+}
+#kit .medlarg {
+    border: 3px double #0157a8;
+    background-color: #bdbbb7;
+    margin: 22px auto;
 }
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
@@ -215,16 +218,19 @@ h5 {
     background-image: url("art/bglines.png");
     padding: 18px;
     border: 1px solid #18305c;
+    background-attachment: fixed;
 }
 #lis .lil{
     background-image: url("art/bgtaup.png");
     border: 1px solid #0157a8;
     margin: 8px;
+    background-attachment: fixed;
 }
 #lis .med{
     background-image: url("art/bgtaup.png");
     border: 1px solid #0157a8;
     margin: 8px auto;
+    background-attachment: fixed;
 }
 #lis ul {
     list-style-image: url("art/tinylight.gif");
@@ -239,6 +245,10 @@ h5 {
 .med {
     width: 560px;
     padding: 22px;
+}
+.medlarg {
+    width: 700px;
+    padding: 12px;
 }
 .nav {
     width: 200px;
@@ -299,17 +309,25 @@ summary:hover {
     .heig {
         height: auto;
    }
+    #kit {
+    width: 100%;
+    padding: 2px;
+   }
     .lil {
         width: 100%;
         padding: 2px;
    }
     .lilbig {
         padding: 2px;
+        width: 100%;
    }
     .med {
         padding: 2px;
         width: 100%;
    }
+    .medlarg {
+        width: 100%;
+    }
     .nav {
         width: 100%;
         height: auto;
