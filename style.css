@@ -53,7 +53,7 @@ body {
     padding: 32px;
     font-size: 12px;
     color: #1c212c;
-    background-image: url("art/bgscrap.png");
+    background-image: url("art/bggray.png");
     background-attachment: fixed;
 }
 .book {
@@ -64,9 +64,7 @@ body {
     text-align: center;
 }
 .content {
-    background-color: #dfd2b8;
     border-radius: 6px;
-    background-image: url("art/bgscrap.png");
     background-attachment: fixed;
     margin: auto 122px auto 262px;
 }
@@ -150,6 +148,7 @@ h5 {
     border: 3px double #FBC28F;
     padding: 12px;
     width: 700px;
+    margin: auto;
 }
 #jou .med {
     background-color: #FDFDF9;
@@ -226,18 +225,18 @@ h5 {
 #lis {
     background-image: url("art/bglines.png");
     padding: 18px;
-    border: 1px solid #18305c;
+    border: 3px double #18305c;
     background-attachment: fixed;
 }
 #lis .lil{
     background-image: url("art/bgscrap.png");
-    border: 1px solid #0157a8;
+    border: 3px double #18305c;
     margin: 8px;
     background-attachment: fixed;
 }
 #lis .med{
     background-image: url("art/bgscrap.png");
-    border: 1px solid #0157a8;
+    border: 3px double #18305c;
     margin: 8px auto;
     background-attachment: fixed;
 }
@@ -252,7 +251,7 @@ h5 {
     scrollbar-width: thin;
 }
 .med {
-    width: 560px;
+    width: 574px;
     padding: 22px;
 }
 .medlarg {
