@@ -38,11 +38,11 @@ a:hover {
 }
 #bee .lilbig {
     background-color: #6F5846;
-    border: 6px ridge #be6941;
+    border: 6px ridge #DCC19A;
 }
 #bee .med {
     background-color: #6F5846;
-    border: 6px ridge #be6941;
+    border: 6px ridge #DCC19A;
 }
 #bee p {
     background-color: #6F5846;
@@ -116,9 +116,9 @@ h4 {
     font-size: 14px;
 }
 h5 {
-    border-top: 1px dotted #7d8003;
+    border-top: 1px dotted #940836;
     font-size: 16px;
-    color: #af7b0b;
+    color: #205d75;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .heig {
@@ -145,8 +145,17 @@ h5 {
 #hom ul {
     list-style-image: url("art/tinblst.gif");
 }
-#jou img {
-    max-width: 50%;
+#jou {
+    background-image: url("art/bgpinky.png");
+    border: 3px double #FBC28F;
+    padding: 12px;
+    width: 700px;
+}
+#jou .med {
+    background-color: #FDFDF9;
+    border: 3px double #FBC28F;
+    padding: 12px;
+    margin: 12px auto;
 }
 #kit {
     background-image: url("art/bggeom.png");
@@ -166,7 +175,7 @@ h5 {
     border: 2px dashed #940836;
 }
 #kit .medlarg {
-    border: 3px double #0157a8;
+    border: 3px double #18305c;
     background-color: #bdbbb7;
     margin: 22px auto;
 }
@@ -221,13 +230,13 @@ h5 {
     background-attachment: fixed;
 }
 #lis .lil{
-    background-image: url("art/bgtaup.png");
+    background-image: url("art/bgscrap.png");
     border: 1px solid #0157a8;
     margin: 8px;
     background-attachment: fixed;
 }
 #lis .med{
-    background-image: url("art/bgtaup.png");
+    background-image: url("art/bgscrap.png");
     border: 1px solid #0157a8;
     margin: 8px auto;
     background-attachment: fixed;
@@ -309,6 +318,10 @@ summary:hover {
     .heig {
         height: auto;
    }
+    #jou {
+        width: 100%;
+        padding: 2px;
+    }
     #kit {
     width: 100%;
     padding: 2px;
