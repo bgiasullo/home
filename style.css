@@ -143,6 +143,9 @@ h5 {
 #hom ul {
     list-style-image: url("art/tinblst.gif");
 }
+img {
+    vertical-align: middle;
+}
 #jou {
     background-image: url("art/bgpinky.png");
     border: 3px double #FBC28F;
