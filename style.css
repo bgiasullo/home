@@ -7,15 +7,12 @@ a {
     font-weight: bold;
 }
 a:hover {
-    color: #1289c0;
-}
-#abo img {
-    max-width: 80%;
-    border: 6px ridge #662901;
+    color: #662901;
 }
 #abo li {
     margin-top: 8px;
 }
+
 #abo ul {
     list-style-image: url("art/tinylight.gif");
 }
@@ -53,7 +50,7 @@ body {
     padding: 32px;
     font-size: 12px;
     color: #1c212c;
-    background-image: url("art/bggray.png");
+    background-image: url("art/bgplain.png");
     background-attachment: fixed;
 }
 .book {
@@ -82,13 +79,42 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+#gar h1 {
+    margin: 32px auto;
+}
+#gar h3 {
+    text-align: center;
+    color: #a4eba4;
+}
+#gar hr {
+    margin: 42px auto;
+    max-width: 400px;
+    border-top: 1px dashed #a4eba4;
+    border-bottom: 0;
+}
+#gar .lilbig {
+    background-color: #b89a83;
+    margin: auto;
+    border: 1px dashed #1c212c;
+    border-radius: 8px;
+}
+#gar .lil img {
+    max-width: 100%;
+    border: 2px solid #a4eba4;
+}
+#gar .med {
+    background-image: url("art/bgwoods.jpg");
+    border: 2px solid #a4eba4;
+    margin: 12px auto;
+}
 #gar .medlarg {
     text-align: center;
     background-image: url("art/woodsmarch.JPG");
     background-size: cover;
     padding: 88px;
-    box-shadow: 0 0 8px 8px inset #1c212c, 0 0 8px 8px #1c212c;
+    box-shadow: 0 0 18px 28px inset #0c110b, 0 0 18px 28px #0c110b;
     margin: auto;
+    border-radius: 82px;
 }
 #gar .medlarg img {
     max-width: 242px;
@@ -107,7 +133,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
-    color: #662901;
+    color: #5c2f46;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
@@ -134,31 +160,11 @@ h5 {
 }
 #hom {
     position: fixed;
-    width: 600px;
-    height: 400px;
-    overflow: auto;
-    margin: 12px 84px;
-    scrollbar-color: #494e3f #bdbbb7;
-    scrollbar-width: thin;
+    margin: 42px 104px;
     border: 3px double #940836;
     padding: 12px;
     background-color: #D6CEC8;
-}
-#hom .flexwra {
-    background-image: url("art/bgflow.png");
-    padding: 12px;
-    border: 3px double #940836;
-}
-#hom .heig {
-    scrollbar-color: #494e3f #bdbbb7;
-    scrollbar-width: thin;
-}
-#hom .lil {
-    background-color: #D6CEC8;
-    border: 3px double #940836;
-}
-#hom ul {
-    list-style-image: url("art/tinblst.gif");
+    border-radius: 12px;
 }
 img {
     vertical-align: middle;
@@ -195,7 +201,7 @@ img {
 }
 #kit .medlarg {
     border: 3px double #18305c;
-    background-color: #bdbbb7;
+    background-color: #D7CDBD;
     margin: 22px auto;
 }
 #kit ul {
@@ -291,7 +297,7 @@ img {
     font-size: 14px;
 }
 .nav a:hover {
-    color: #3576d6;
+    color: #862031;
 }
 .nav ul {
     list-style-image: url("art/lilflo.gif");
