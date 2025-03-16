@@ -2,17 +2,44 @@
     box-sizing: border-box;
 }
 a {
-    color: #205d75;
+    color: #1c4758;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover {
-    color: #662901;
+    color: #67808b;
+}
+#abo .flexwra {
+    border-radius: 12px;
+    padding: 12px;
+}
+#abo .larg {
+    border: 3px double #940836;
+    padding: 12px;
+    background-color: #D6CEC8;
+    border-radius: 12px;
+    margin: 18px auto;
+    background-image: url("art/bgflow.png");
+}
+#abo .larg h2 {
+    color: #fcedfc;
+    text-shadow: 1px 1px 4px #660e2b, -1px -1px 4px #660e2b;
 }
 #abo li {
     margin-top: 8px;
 }
-
+#abo .lil {
+    background-color: #D6CEC8;
+    border: 3px double #940836;
+    border-radius: 12px;
+}
+#abo .med {
+    border: 3px double #940836;
+    padding: 12px;
+    background-color: #D6CEC8;
+    border-radius: 12px;
+    margin: 18px auto;
+}
 #abo ul {
     list-style-image: url("art/tinylight.gif");
 }
@@ -297,27 +324,23 @@ img {
     position: fixed;
 }
 .nav a {
-    color: #313D4F;
     text-decoration: none;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
-}
-.nav a:hover {
-    color: #862031;
 }
 .nav ul {
     list-style-image: url("art/lilflo.gif");
 }
 summary {
     cursor: pointer;
-    color: #205d75;
+    color: #1c4758;
     text-decoration: none;
     font-weight: bold;
     padding: 4px;
 }
 summary:hover {
-    color: #1289c0;
+    color: #67808b;
 }
 
 @media screen and (max-width: 900px) {
