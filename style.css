@@ -84,27 +84,27 @@ body {
 }
 #gar h3 {
     text-align: center;
-    color: #a4eba4;
+    color: #e2f891;
 }
 #gar hr {
     margin: 42px auto;
     max-width: 400px;
-    border-top: 1px dashed #a4eba4;
+    border-top: 1px dashed #1f5330;
     border-bottom: 0;
 }
 #gar .lilbig {
-    background-color: #b89a83;
+    background-color: #d3b8a4;
     margin: auto;
     border: 1px dashed #1c212c;
     border-radius: 8px;
 }
 #gar .lil img {
     max-width: 100%;
-    border: 2px solid #a4eba4;
+    border: 1px solid #ebeaa4;
 }
 #gar .med {
     background-image: url("art/bgwoods.jpg");
-    border: 2px solid #a4eba4;
+    border: 1px solid #ebeaa4;
     margin: 12px auto;
 }
 #gar .medlarg {
@@ -210,18 +210,24 @@ img {
 #kit li {
     margin-top: 8px;
 }
+.larg {
+    width: 860px;
+}
 #lib em {
     font-weight: bold;
     color: #18305c;
 }
-#lib .flexwra {
+#lib .larg {
     background-image: url("art/bgblue.png");
     padding: 18px;
-    border-radius: 4px;
-    border: 1px dashed #1c212c;
+    border-radius: 8px;
+    border: 1px dashed #ee9255;
+    margin: 18px auto;
 }
 #lib h2{
     text-align: center;
+    color: #f3e1bc;
+    text-shadow: 2px 2px 2px #0c110b;
 }
 #lib .lil {
     background-image: url("art/bgtan.png");
@@ -237,6 +243,7 @@ img {
     background-image: url("art/bgtan.png");
     border-radius: 4px;
     border: 1px dashed #6F5846;
+    margin: auto;
 }
 #lib ul {
     list-style-image: url("art/tinybook.png");
