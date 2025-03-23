@@ -181,12 +181,12 @@ h5 {
     display: block;
 }
 #hom {
-    position: fixed;
-    margin: 42px 104px;
     border: 3px double #940836;
     padding: 12px;
     background-color: #D6CEC8;
     border-radius: 12px;
+    width: 260px;
+    margin: 222px auto;
 }
 img {
     vertical-align: middle;
@@ -360,10 +360,8 @@ summary:hover {
         height: auto;
    }
     #hom {
-        position: static;
         width: 100%;
         height: auto;
-        margin: 222px auto;
     }
     img {
         max-width: 80%;
