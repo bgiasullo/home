@@ -49,8 +49,12 @@ a {
     background-attachment: scroll, scroll, scroll, fixed;
     background-image: url("art/bgbeer.png"), url("art/bgbubb.gif"), url("art/bgbubye.gif"), url("art/bgbubs.png");
     color: white;
-    padding: 24px;
+    padding: 44px;
     border: 6px ridge #be6941;
+    width: 999px;
+}
+#bee .flexwra {
+    gap: 33px;
 }
 #bee img {
     float: left;
@@ -66,6 +70,9 @@ a {
 }
 #bee p {
     background-color: #6F5846;
+}
+#bee strong {
+    color: #f8c1ac;
 }
 body {
     background-color: #bdbbb7;
@@ -93,7 +100,7 @@ body {
 }
 .flexbo {
     display: flex;
-    gap: 18px;
+    gap: 8px;
     justify-content: center;
 }
 .flexwra {
@@ -248,6 +255,9 @@ img {
     color: #f3e1bc;
     text-shadow: 2px 2px 2px #0c110b;
 }
+#lib img {
+    max-width: 100%;
+}
 #lib .lil {
     background-image: url("art/bgtan.png");
     border-radius: 4px;
@@ -280,20 +290,20 @@ img {
     border: 3px double #18305c;
     background-attachment: fixed;
 }
-#lis .lil{
+#lis .lil {
     background-image: url("art/bgscrap.png");
     border: 3px double #18305c;
     margin: 8px;
     background-attachment: fixed;
 }
-#lis .med{
+#lis .med {
     background-image: url("art/bgscrap.png");
     border: 3px double #18305c;
     margin: 8px auto;
     background-attachment: fixed;
 }
 #lis ul {
-    list-style-image: url("art/tinylight.gif");
+    list-style-image: url("art/tinblst.gif");
 }
 .lilbig {
     width: 322px;
@@ -331,11 +341,18 @@ summary {
     font-weight: bold;
     padding: 4px;
 }
-
 @media screen and (max-width: 900px) {
- 
+    #art img {
+        max-width: 100%;
+        max-height: 800px;
+        margin: auto;
+   }
     #bee {
         padding: 2px;
+        width: 99%;
+   }
+    #bee .flexwra {
+        gap: 12px;
    }
     body {
         padding: 2px;
@@ -357,7 +374,7 @@ summary {
     #hom {
         width: 100%;
         height: auto;
-    }
+   }
     img {
         max-width: 80%;
         max-height: 80%;
@@ -365,7 +382,7 @@ summary {
     #jou {
         width: 100%;
         padding: 2px;
-    }
+   }
     #kit {
         width: 100%;
         padding: 2px;
@@ -373,7 +390,7 @@ summary {
     .larg {
         width: 100%;
         padding: 2px;
-    }
+   }
     .lil {
         width: 100%;
         padding: 2px;
@@ -382,8 +399,8 @@ summary {
         padding: 2px;
         width: 100%;
    }
-   #lis {
-    padding: 2px;
+    #lis {
+        padding: 2px;
    }
     .med {
         padding: 2px;
@@ -391,7 +408,7 @@ summary {
    }
     .medlarg {
         width: 100%;
-    }
+   }
     .nav {
         width: 100%;
         height: auto;
