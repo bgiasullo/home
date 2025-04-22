@@ -8,7 +8,12 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: #234648;
+    color: #26465D;
+}
+#art img {
+    border: 6px ridge #26465D;
+    margin: 40px;
+    max-width: 200px;
 }
 body {
     display: flex;
@@ -22,18 +27,20 @@ body {
     font-size: 12px;
     text-align: center;
 }
-.cent {
-    text-align: center;
+.bord {
+    border: 10px solid transparent;
+    border-image: url("art/bgswirl.png") 50 round;
+    border-radius: 6px;
 }
 .content {
     width: 544px;
     height: 432px;
-    background-color: #FEF0CB;
+    background-color: #EEF0EF;
     overflow: auto;
     padding: 22px;
     border: 1px dotted #599697;
-    box-shadow: 0 0 6px 2px #FEF0CB;
-    background-image: url("art/bgpoints.png");
+    box-shadow: 0 0 6px 2px #EEF0EF;
+    background-image: url("art/bgglass.png");
     scrollbar-width: thin;
 }
 .content img {
@@ -52,25 +59,29 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic;
-    color: #016541;
+    color: #869C9A;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic;
-    color: #542C02;
+    color: #3E7A7A;
 }
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     font-style: italic;
-    color: #234648;
+    color: #26465D;
 }
 .hide {
     display: none;
 }
 .hide:target {
     display: block;
+}
+.med {
+    width: 460px;
+    margin: auto;
 }
 .nav {
     width: 222px;
@@ -79,18 +90,15 @@ h3 {
     overflow: auto;
     padding: 44px;
     border: 1px dotted #599697;
-    box-shadow: 0 0 6px 2px #FEF0CB;
-    background-image: url("art/bgpoints.png");
+    box-shadow: 0 0 6px 2px #EEF0EF;
+    background-image: url("art/bgglass.png");
 }
 li {
     padding: 4px;
 }
-p {
-    text-align: left;
-}
+
 .sml {
     width: 200px;
-    border: 1px dotted #599697;
     height: 132px;
     padding: 6px;
     overflow-y: auto;
