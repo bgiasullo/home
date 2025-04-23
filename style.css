@@ -108,3 +108,6 @@ ul {
     list-style-image: url("art/tinybu.gif");
     text-align: left;
 }
+#woo img {
+    max-width: 180px;
+}
