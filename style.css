@@ -81,8 +81,17 @@ h3 {
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
 }
+li {
+    padding: 2px;
+}
 #lib ul {
     list-style-image: url("art/tinybook.png");
+}
+
+#lis ul {
+    list-style-image: none;
+    list-style-type: circle;
+    margin: 0;
 }
 .med {
     width: 460px;
@@ -97,9 +106,6 @@ h3 {
     border: 1px dotted #599697;
     box-shadow: 0 0 6px 2px #EEF0EF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-li {
-    padding: 2px;
 }
 
 .sml {
