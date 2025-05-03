@@ -78,6 +78,9 @@ h3 {
 .hide:target {
     display: block;
 }
+hr {
+    border-color: #869C9A;
+}
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
 }
@@ -89,9 +92,9 @@ li {
 }
 
 #lis ul {
-    list-style-image: none;
-    list-style-type: circle;
+    list-style-image: url("art/tinylight.gif");
     margin: 0;
+    padding: 14px;
 }
 .med {
     width: 460px;
@@ -123,5 +126,5 @@ ul {
     text-align: left;
 }
 #woo img {
-    max-width: 262px;
+    max-height: 100px;
 }
