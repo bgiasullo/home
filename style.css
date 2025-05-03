@@ -85,7 +85,7 @@ hr {
     list-style-image: url("art/tinierpumpkin.png");
 }
 li {
-    padding: 2px;
+    padding: 4px;
 }
 #lib ul {
     list-style-image: url("art/tinybook.png");
@@ -110,7 +110,9 @@ li {
     box-shadow: 0 0 6px 2px #EEF0EF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+p {
+    margin: 22px auto;
+}
 .sml {
     width: 200px;
     height: 132px;
