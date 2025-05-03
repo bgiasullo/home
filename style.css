@@ -130,3 +130,34 @@ ul {
 #woo img {
     max-height: 100px;
 }
+
+@media only screen and (max-width: 700px) {
+    #art img {
+        max-width: 99%;
+        margin: auto;
+    }
+    body {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 2px;
+    }    
+    .content {
+        width: 99%;
+        height: auto;
+    }
+    .med {
+        width: 100%;
+    }
+    .nav {
+        width: 99%;
+        height: auto;
+        padding: 2px;
+    }
+    .nav li {
+        display: inline;
+    }
+    .sml {
+        width: 100%;
+        height: auto;
+    }
+}
