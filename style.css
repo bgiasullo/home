@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 a {
-    text-decoration: underline dotted;
-    color: #0B2029;
+    text-decoration: none;
+    color: #026972;
+    font-weight: bold;
 }
 a:hover {
     text-decoration: none;
-    color: #26465D;
+    color: rgb(84, 148, 165);
 }
 #art img {
     border: 6px ridge #869C9A;
@@ -20,30 +21,26 @@ body {
     padding: 44px;
     background-color: #599697;
     justify-content: center;
-    gap: 8px;
+    gap: 18px;
     align-items: center;
-    background-image: url("art/bgbeats.gif");
+    background-image: url("art/bgflrs.png");
     font-size: 13px;
     text-align: center;
 }
 .bord {
-    border: 2px dashed transparent;
-    border-image: url("art/bgswirl.png") 50 round;
+    border: 4px solid transparent;
+    border-image: url("art/bgflmos.png") 50 round;
     border-radius: 6px;
 }
 .content {
     width: 544px;
     height: 432px;
-    background-color: #EEF0EF;
+    background-color: #FCEEF9;
     overflow: auto;
     padding: 22px;
-    border: 1px dotted #599697;
-    box-shadow: 0 0 6px 2px #EEF0EF;
+    box-shadow: 0 0 6px 4px #FCC8E7;
     scrollbar-width: thin;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.content img {
-    max-width: 80%;
 }
 .flecent {
     align-items: center;
@@ -58,19 +55,19 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic;
-    color: #869C9A;
+    color: #892536;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic;
-    color: #3E7A7A;
+    color: #A24067;
 }
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     font-style: italic;
-    color: #26465D;
+    color: #2E7A6B;
 }
 .hide {
     display: none;
@@ -79,7 +76,8 @@ h3 {
     display: block;
 }
 hr {
-    border-color: #869C9A;
+    border-bottom: 1px solid #2E7A6B;
+    border-top: 0;
 }
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
@@ -103,11 +101,10 @@ li {
 .nav {
     width: 222px;
     height: 432px;
-    background-color: #EEF0EF;
+    background-color: #FCEEF9;
     overflow: auto;
     padding: 44px;
-    border: 1px dotted #599697;
-    box-shadow: 0 0 6px 2px #EEF0EF;
+    box-shadow: 0 0 6px 4px #FCC8E7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
