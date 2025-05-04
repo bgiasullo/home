@@ -112,7 +112,6 @@ p {
 }
 .sml {
     width: 200px;
-    height: 132px;
     padding: 6px;
     overflow-y: auto;
     scrollbar-width: thin;
@@ -155,6 +154,5 @@ ul {
     }
     .sml {
         width: 100%;
-        height: auto;
     }
 }
