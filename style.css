@@ -11,10 +11,9 @@ a:hover {
     color: rgb(84, 148, 165);
 }
 #art img {
-    border: 6px ridge #869C9A;
-    margin: 22px;
+    border: 6px ridge #b6879a;
     max-width: 200px;
-    padding: 4px;
+    padding: 6px;
 }
 body {
     display: flex;
