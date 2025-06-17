@@ -4,16 +4,15 @@
 a {
     text-decoration: none;
     color: #026972;
-    font-weight: bold;
 }
 a:hover {
     text-decoration: none;
     color: rgb(84, 148, 165);
 }
 #art img {
-    border: 6px ridge #b6879a;
     max-width: 200px;
-    padding: 6px;
+    margin: 48px;
+    box-shadow: 0 0 6px 2px #b8baba;
 }
 body {
     display: flex;
