@@ -3,42 +3,37 @@
 }
 a {
     text-decoration: none;
-    color: #026972;
+    color: #febadb;
 }
 a:hover {
     text-decoration: none;
-    color: rgb(84, 148, 165);
+    color: #c3ecf9;
 }
 #art img {
     max-width: 200px;
     margin: 48px;
-    box-shadow: 0 0 6px 2px #b8baba;
+    box-shadow: 0 0 4px 1px #b8baba;
 }
 body {
     display: flex;
     padding: 44px;
-    background-color: #892536;
+    background-color: #655756;
     justify-content: center;
     gap: 18px;
     align-items: center;
-    background-image: url("art/bgflrs.png");
     font-size: 13px;
     text-align: center;
-}
-.bord {
-    border: 4px solid transparent;
-    border-image: url("art/bgflmos.png") 50 round;
-    border-radius: 6px;
+    color: white;
 }
 .content {
-    width: 544px;
-    height: 432px;
-    background-color: #FCEEF9;
     overflow: auto;
     padding: 22px;
-    box-shadow: 0 0 6px 4px #FCC8E7;
     scrollbar-width: thin;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 622px;
+    height: 500px;
+    border: 1px dashed #f6b599;
+    box-shadow: 0 0 18px 4px #c3ecf9;
 }
 .flecent {
     align-items: center;
@@ -53,19 +48,22 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic;
-    color: #892536;
+    color: #daebe8;
+    font-weight: normal;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic;
-    color: #A24067;
+    color: #82c4fd;
+    font-weight: normal;
 }
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     font-style: italic;
-    color: #2E7A6B;
+    color: #ffb89a;
+    font-weight: normal;
 }
 .hide {
     display: none;
@@ -74,8 +72,10 @@ h3 {
     display: block;
 }
 hr {
-    border-bottom: 1px solid #2E7A6B;
+    border-bottom: 1px dashed #684f4e;
     border-top: 0;
+    max-width: 400px;
+    margin: 78px auto;
 }
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
@@ -98,12 +98,12 @@ li {
 }
 .nav {
     width: 222px;
-    height: 432px;
-    background-color: #FCEEF9;
     overflow: auto;
     padding: 44px;
-    box-shadow: 0 0 6px 4px #FCC8E7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px dashed #f6b599;
+    height: 500px;
+    box-shadow: 0 0 18px 4px #c3ecf9;
 }
 p {
     margin: 22px auto;
@@ -132,7 +132,6 @@ ul {
     }
     body {
         flex-wrap: wrap;
-        flex-direction: column-reverse;
         padding: 2px;
     }    
     .content {
