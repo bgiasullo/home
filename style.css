@@ -9,14 +9,43 @@ body {
     background-color: #423333;
     color: #faf3e9;
     padding: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
 }
-
-
+a {
+    color: #a8b8ed;
+    text-decoration: none;
+}
+a:hover {
+    color: #ecdffa;
+    font-style: italic;
+}
+.bord {
+    border: 1px dashed #d4bdf5;
+    padding: 6px;
+}
 .content {
     width: 600px;
     height: 500px;
     overflow: auto;
     border: 4px double #ed7777;
+    background-color: #181616;
+    padding: 8px;
+}
+details {
+    text-align: left;
+}
+.flecent {
+    align-items: center;
+}
+.flexb {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 16px;
+}
+.flexwr {
+    flex-wrap: wrap;
 }
 .hide {
     display: none;
@@ -24,24 +53,65 @@ body {
 .hide:target {
     display: block;
 }
+h1, h2, h3 {
+    font-weight: normal;
+    font-style: italic;
+    color: #f69876;
+}
 hr {
-    border-top: 1px dashed #ddc0c5;
+    border-top: 1px dashed #8d8ffd;
     border-bottom: 0;
     margin: 44px auto;
 }
 img {
     max-height: 200px;
 }
-
+#kit ul {
+    list-style-image: url("art/tinierpumpkin.png");
+}
+#lib ul {
+    list-style-image: url("art/tinybook.png");
+}
+#lis ul{
+    list-style-image: url("art/tinybu.gif");
+}
+.margtop {
+    margin: 8px auto;
+}
+.med {
+    width: 400px;
+}
 .nav {
     width: 202px;
     height: 500px;
     border: 4px double #ed7777;
-        padding: 24px;
-
+    padding: 24px;
+    background-color: #181616;
+}
+.nav a {
+    margin: 6px;
+}
+.sml {
+    max-width: 220px;
+}
+summary {
+    padding: 4px;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  text-align: left;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        display: block;
+        padding: 2px;
+    }
+    .content, .nav {
+        width: 100%;
+        height: auto;
+        padding: 2px;
+    }
+    .flexb {
+        flex-wrap: wrap;
+    }
 }
