@@ -22,16 +22,17 @@ a:hover {
 }
 #art img {
     margin: 20px;
+    border: 3px double #423333;
 }
 .bord {
     border: 1px dashed #fb9a62;
     padding: 6px;
 }
 .content {
-    width: 600px;
+    width: 540px;
     height: 500px;
     overflow: auto;
-    border: 4px double #4ce2f6;
+    border: 3px double #4ce2f6;
     background-color: #1C2426;
     padding: 16px;
 }
@@ -80,6 +81,9 @@ img {
     max-height: 200px;
     max-width: 100%;
 }
+#jou ul {
+    list-style-image: url("art/tinblst.gif");
+}
 #kit ul {
     list-style-image: url("art/tinierpumpkin.png");
 }
@@ -99,9 +103,9 @@ li {
     width: 400px;
 }
 .nav {
-    width: 202px;
+    width: 200px;
     height: 500px;
-    border: 4px double #4ce2f6;
+    border: 3px double #4ce2f6;
     padding: 24px;
     background-color: #1C2426;
 }
