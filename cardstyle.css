@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    gap: 8px;
+}
+.card {
+    max-width: 50%;
+}
+.form {
+    width: 50%;
+}
+
+iframe {
+    width: 90%;
+    min-height: 600px;
+}
+img {
+    max-width: 90%;
+}
