@@ -117,6 +117,10 @@ li {
 .nav a {
     margin: 6px;
 }
+.nav li {
+    list-style-image: url("art/tinylight.gif");
+    padding: 0;
+}
 .sml {
     max-width: 220px;
 }
