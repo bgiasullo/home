@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    padding: 1%;
+    border: 1px dashed darkblue;
+    justify-content: center;
+}
+.content {
+    max-width: 980px;
+    padding: 1%;
+    max-height: 640px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px dashed darkblue;
+}
+.hide {
+    display: none;
+    margin: 200px auto;
+}
+.hide:target {
+    display: block;
+}
+.nav {
+    min-width: 200px;
+    padding: 1%;
+    border: 1px dashed darkblue;
+}
