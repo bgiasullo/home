@@ -2,29 +2,140 @@
 * {
     box-sizing: border-box;
 }
-body {
+a {
+    color: #b9d16f;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline dashed;
+}
+#art img {
+    margin: 44px auto;
+}
+.beerdesc {
+    width: 70%;
+    padding: 3%;
+}
+.beers {
     display: flex;
-    padding: 1%;
-    border: 1px dashed darkblue;
+    border: 1px dashed #FDD7C6;
+    margin: 18px auto;
     justify-content: center;
+    width: 66%;
+    align-items: center;
+}
+.beerpix {
+    flex-shrink: 0;
+    padding: 2%;
+}
+
+body {
+    overflow: hidden;
+    background-image: url("art/lilflo.gif"), url("art/bgrip.png");
+    background-repeat: repeat-x, repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 90vh;
+    margin: 2% auto;
+    width: fit-content;
+    background-color: #4b4b4d;
+    border: 1px dashed #F8FBFC;
+    color: #F8FBFC;
 }
 .content {
-    max-width: 980px;
-    padding: 1%;
-    max-height: 640px;
+    width: 66vw;
     overflow-x: hidden;
     overflow-y: auto;
-    border: 1px dashed darkblue;
+    padding: 4%;
+}
+
+.foodlists {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.flist {
+    border: 1px dashed #FFE970;
+    padding: 3%;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #FDD7C6;
 }
 .hide {
     display: none;
-    margin: 200px auto;
+    margin: 100px auto;
 }
 .hide:target {
     display: block;
 }
+hr {
+    border-top: 1px dashed #FFE970;
+    border-bottom: 0;
+    margin: 40px auto;
+}
+
+img {
+    max-width: 90%;
+}
+
+#kit li {
+    list-style-image: url("art/tinierpumpkin.png");
+}
+#lin li {
+    list-style-image: url("art/lilflo.gif");
+}
+
 .nav {
-    min-width: 200px;
-    padding: 1%;
-    border: 1px dashed darkblue;
+    max-height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-width: 22%;
+    padding: 4%;
+}
+
+.nav li {
+    list-style-image: url("art/tinybu.gif");
+}
+
+summary {
+    cursor: pointer;
+    color: #b9d16f;
+    text-align: left;
+    margin: 2px auto;
+}
+summary:hover {
+    text-decoration: underline dashed;
+}
+
+ul {
+    text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        overflow: auto;
+    }
+    .container {
+        display: block;
+        overflow: auto;
+        margin: 0;
+        height: auto;
+        width: auto;
+    }
+    .content {
+        width: 100vw;
+    }
+    .nav li {
+        display: inline;
+        min-width: none;
+    }
 }
