@@ -3,14 +3,19 @@
     box-sizing: border-box;
 }
 a {
-    color: #b9d16f;
+    color: #ecf7d3;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline dashed;
+    color: #FDD7C6;
 }
 #art img {
     margin: 44px auto;
+}
+
+#bee strong {
+    color: #FDD7C6;
 }
 .beerdesc {
     width: 70%;
@@ -77,6 +82,13 @@ h1, h2, h3 {
 .hide:target {
     display: block;
 }
+
+#hom em {
+    color: #B0BFD1;
+}
+#hom li {
+    list-style-image: url(art/tinblst.gif);
+}
 hr {
     border-top: 1px dashed #FFE970;
     border-bottom: 0;
@@ -103,17 +115,18 @@ img {
 }
 
 .nav li {
-    list-style-image: url("art/tinybu.gif");
+    list-style-type: none;
 }
 
 summary {
     cursor: pointer;
-    color: #b9d16f;
+    color: #ecf7d3;
     text-align: left;
     margin: 2px auto;
 }
 summary:hover {
     text-decoration: underline dashed;
+    color: #FDD7C6;
 }
 
 ul {
