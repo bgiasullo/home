@@ -49,21 +49,22 @@ body {
     background-image: url("art/bgflwer.jpg");
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    background-size: cover;
+    background-color: #ECD4A6;
+    background-repeat: no-repeat;
 }
 .container {
     display: flex;
     justify-content: center;
     overflow: hidden;
     height: 90vh;
-    margin: 2% auto;
-    width: fit-content;
-    background-color: #4b4b4d;
+    margin: 2% 15%;
+    background-color: #2E2C27;
     border: 1px dashed #F8FBFC;
     color: #F8FBFC;
     background-image: url("art/bgdkflwer.jpg");
-    background-size: cover;
+    background-attachment: fixed;
 }
+
 .content {
     width: 64vw;
     overflow-x: hidden;
