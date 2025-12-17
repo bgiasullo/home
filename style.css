@@ -3,11 +3,11 @@
     box-sizing: border-box;
 }
 a, summary {
-    color: #c8fc38;
+    color: #c8f845;
     text-decoration: none;
 }
 a:hover, summary:hover {
-    color: #fc99cf;
+    color: #e08bba;
 }
 
 .animals {
