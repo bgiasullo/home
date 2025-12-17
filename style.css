@@ -100,11 +100,10 @@ h1, h2, h3 {
     color: #B0BFD1;
 }
 #hom li {
-    list-style-image: url(art/tinblst.gif);
+    list-style-image: url(art/lilflo.gif);
 }
 hr {
-    border-top: 1px dashed #342E0C;
-    border-bottom: 0;
+    border: 0;
     margin: 40px auto;
     max-width: 300px;
 }
@@ -149,7 +148,11 @@ img {
 }
 
 .nav li {
-    list-style-type: none;
+    list-style-image: url("art/tinyshrm.gif");
+}
+
+.nav ul {
+    margin-top: 28%;
 }
 
 summary {
@@ -196,5 +199,8 @@ ul {
     .nav li {
         display: inline;
         min-width: none;
+    }
+    .nav ul {
+        margin-top: auto;
     }
 }
