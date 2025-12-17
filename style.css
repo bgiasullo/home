@@ -169,11 +169,15 @@ ul {
 }
 
 @media only screen and (max-width: 800px) {
+    #art img, #mtl img {
+    max-width: 95%;
+    }
     .beerdesc {
         width: 100%;
     }
     .beers, .animals {
         flex-wrap: wrap;
+        width: 95%;
     }
     body {
         overflow: auto;
@@ -187,6 +191,10 @@ ul {
     }
     .content {
         width: 100vw;
+    }
+
+    .foodlists {
+        flex-wrap: wrap;
     }
     .nav li {
         display: inline;
