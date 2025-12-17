@@ -2,13 +2,12 @@
 * {
     box-sizing: border-box;
 }
-a {
-    color: #f5eea8;
+a, summary {
+    color: #c8fc38;
     text-decoration: none;
 }
-a:hover {
-    text-decoration: underline dashed;
-    color: #FDD7C6;
+a:hover, summary:hover {
+    color: #fc99cf;
 }
 
 .animals {
@@ -18,10 +17,10 @@ a:hover {
     align-items: center;
     margin: 18px auto;
 }
-#art img {
+#art img, #mtl img {
     margin: 14px;
-    border: 4px ridge;
-    max-width: 45%;
+    border: 4px ridge #F8FBFC;
+    max-width: 65%;
 }
 
 #bee strong {
@@ -120,10 +119,6 @@ img {
     list-style-image: url("art/lilflo.gif");
 }
 
-#lib strong, em {
-    color: #EBD3A5;
-}
-
 .listholder {
     display: flex;
     flex-wrap: wrap;
@@ -157,13 +152,8 @@ img {
 
 summary {
     cursor: pointer;
-    color: #ecf7d3;
     text-align: left;
     margin: 2px auto;
-}
-summary:hover {
-    text-decoration: underline dashed;
-    color: #FDD7C6;
 }
 
 ul {
@@ -173,7 +163,7 @@ ul {
 .woods {
     max-width: 25%;
     margin: 12px;
-    border: 4px ridge;
+    border: 4px ridge #B0BFD1;
 }
 
 @media only screen and (max-width: 800px) {
