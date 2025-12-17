@@ -3,11 +3,11 @@
     box-sizing: border-box;
 }
 a, summary {
-    color: #c8f845;
+    color: #FF8839;
     text-decoration: none;
 }
 a:hover, summary:hover {
-    color: #e08bba;
+    color: #B0D62A;
 }
 
 .animals {
@@ -23,9 +23,6 @@ a:hover, summary:hover {
     max-width: 65%;
 }
 
-#bee strong {
-    color: #FDD7C6;
-}
 .beerdesc {
     width: 70%;
     padding: 3%;
@@ -74,12 +71,12 @@ body {
 .foodlists {
     display: flex;
     justify-content: center;
-    gap: 18px;
+    gap: 16px;
 }
 
 .flist {
     border: 1px dashed #FFE970;
-    padding: 3%;
+    padding: 2%;
 }
 
 h1, h2, h3 {
@@ -96,10 +93,13 @@ h1, h2, h3 {
 }
 
 #hom em {
-    color: #B0BFD1;
+    padding-right: 2%;
 }
 #hom li {
-    list-style-image: url(art/lilflo.gif);
+    list-style-image: url(art/tinybu.gif);
+    border: 1px dashed #74340A;
+    margin: 1%;
+    padding: 2px;
 }
 hr {
     border: 0;
@@ -111,7 +111,9 @@ img {
     max-width: 90%;
     vertical-align: middle;
 }
-
+#jou em, #kit em {
+    color: #F8FBFC;
+}
 #kit li {
     list-style-image: url("art/tinierpumpkin.png");
 }
