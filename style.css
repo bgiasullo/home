@@ -21,6 +21,7 @@ a:hover, summary:hover {
     align-items: center;
     margin: 8px auto;
     border: 1px dashed #8791AF;
+    padding: 1%;
 }
 #art img, #mtl img {
     margin: 14px;
