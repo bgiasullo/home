@@ -10,23 +10,33 @@ a:hover, summary:hover {
     color: #B0D62A;
 }
 
+#abo li {
+    list-style-image: url("art/tinblst.gif");
+}
+
 .animals {
     display: flex;
     justify-content: center;
-    width: 66%;
+    width: 76%;
     align-items: center;
-    margin: 18px auto;
+    margin: 8px auto;
+    border: 1px dashed #8791AF;
 }
 #art img, #mtl img {
     margin: 14px;
-    border: 4px ridge #F8FBFC;
+    border: 5px ridge #a77047;
     max-width: 65%;
 }
 
 .beerdesc {
     width: 70%;
-    padding: 3%;
+    padding: 2%;
 }
+.beerpix {
+    flex-shrink: 0;
+    padding: 2%;
+}
+
 .beers {
     display: flex;
     border: 1px dashed #FDD7C6;
@@ -34,10 +44,6 @@ a:hover, summary:hover {
     justify-content: center;
     width: 68%;
     align-items: center;
-}
-.beerpix {
-    flex-shrink: 0;
-    padding: 2%;
 }
 
 body {
@@ -47,6 +53,7 @@ body {
     text-align: center;
     background-color: #ECD4A6;
     background-repeat: no-repeat;
+    font-size: 18px;
 }
 .container {
     display: flex;
@@ -165,7 +172,7 @@ ul {
 .woods {
     max-width: 25%;
     margin: 12px;
-    border: 4px ridge #B0BFD1;
+    border: 5px ridge #a77047;
 }
 
 @media only screen and (max-width: 800px) {
