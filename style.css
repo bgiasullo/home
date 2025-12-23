@@ -118,9 +118,6 @@ img {
     justify-content: center;
     gap: 12px;
 }
-.lists {
-    padding: 2%;
-}
 
 .lists li {
     list-style-image: url("art/tinylight.gif");
@@ -173,6 +170,9 @@ ul {
         height: auto;
     }
 
+    .content {
+        padding: 1%;
+    }
     .foodlists {
         flex-wrap: wrap;
     }
@@ -182,5 +182,8 @@ ul {
     }
     .nav ul {
         margin-top: auto;
+    }
+    .woods {
+        max-width: 95%;
     }
 }
