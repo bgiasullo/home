@@ -141,12 +141,12 @@ li {
 
 .pix {
     flex-shrink: 0;
-    padding: 8px;
+    padding: 4px;
 }
 
 summary {
     cursor: pointer;
-    display: inline;
+    list-style: none;
 }
 
 ul {
@@ -156,4 +156,44 @@ ul {
 #woo img {
     margin: 2px;
     max-width: 240px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    #art img {
+        max-width: 99%;
+        margin: 4px auto;
+    }
+
+    #content {
+    padding: 2px;
+    }
+
+    .flexreg {
+    max-width: 99%;
+    gap: 2px;
+    margin: 4px auto;
+    flex-wrap: wrap;
+    }
+
+    .flexwrap {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    }
+
+    #headimage {
+    height: 300px;
+    max-width: 100%;
+    }   
+
+    .listbox {
+        width: fit-content;
+        height: auto;
+    }
+
+    #woo img {
+    max-width: 99%;
+    }
+
 }
