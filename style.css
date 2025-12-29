@@ -104,6 +104,12 @@ hr {
     margin: 32px auto;
 }
 
+iframe {
+    border: 1px solid #064568;
+    width: 500px;
+    height: 280px; 
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -133,6 +139,7 @@ img {
     max-width: 880px;
     margin: auto;
     background-image: url("art/bgwhite.jpg");
+    background-attachment: fixed;
 }
 
 #mtl img, #woo img {
@@ -197,6 +204,11 @@ ul {
     height: 300px;
     max-width: 100%;
     }   
+
+    iframe {
+    width: 95%;
+    height: auto; 
+    }
 
     .listbox {
         width: fit-content;
