@@ -12,7 +12,7 @@ a:hover, summary:hover {
     text-decoration: none;
 }
 
-#art img {
+#art img, #pho img {
     border: 4px solid #B2A37A;
     max-width: 320px;
     margin: 20px;
@@ -46,6 +46,7 @@ button {
 
 details {
     text-align: left;
+    padding: 4px 0;
 }
 
 .flexreg {
@@ -92,11 +93,6 @@ h1, h2 {
 
 .hide:target {
     display: block;
-}
-
-#hom em, #jou em {
-    padding-right: 12px;
-    font-weight: bold;
 }
 
 hr {
@@ -149,7 +145,6 @@ img {
 #nav a {
     color: #dbd2b8;
     text-decoration: none;
-    font-weight: bold;
 }
 
 #nav a:hover {
