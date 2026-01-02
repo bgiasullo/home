@@ -3,49 +3,55 @@
 }
 
 a, summary {
-    color: #064568;
+    color: #631b00;
     text-decoration: underline;
-    text-decoration-color: #154f6e;
+    text-decoration-color: #CD0B01;
     text-decoration-style: dotted;
 }
 
 a:hover, summary:hover {
-    color: #035d8d;
+    color: #CD0B01;
     text-decoration: none;
 }
 
 #art img, #pho img {
     border: 4px solid #B2A37A;
-    max-width: 380px;
-    margin: 20px;
+    max-width: 320px;
+    margin: 8px;
     max-height: 440px;
 }
 
 body {
-    background-image: url("art/bgblue.png");
     text-align: center;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
-    color: #192028;
-    background-attachment: fixed;
+    color: #232323;
+    background-image: url("art/bgtan.png");
 }
 
 button {
     margin: 2px;
     padding: 4px 8px;
-    background-image: url("art/bgleaves.jpg");
-    border: 2px solid #B2A37A;
+    background-image: url("art/bgtan.png");
+    border: 2px solid #A41300;
     font-size: 16px; 
     display: block;
     margin: 4px auto;
+    height: 32px;
+    width: 100px;
+}
+
+button:hover {
+    border: 2px solid #c26b07;
 }
 
 #content {
-    background-image: url("art/bgwhite.jpg");
-    margin-left: 18%;
-    padding: 4px 128px;
+    background-image: url("art/bgtan.png");
+    margin: 0 16%;
+    padding: 4px 88px;
+    background-attachment: fixed;
 }
 
 details {
@@ -74,8 +80,9 @@ details {
 }
 
 h1, h2 {
-    border-bottom: 12px solid transparent;
-    border-image: url("art/borderstround.png") 50 round;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-image: url("art/bgtree.png") 60 round;
     max-width: fit-content;
     margin: auto;
 } 
@@ -130,29 +137,40 @@ img {
 }
 
 #nav {
-    border-right: 30px solid transparent;
-    border-image: url("art/borderstick.png") 50 round;
-    border-image-outset: 18px;
-    max-width: 18%;
+    border-right: 100px solid transparent;
+    border-image: url("art/boredleaves.png") 100 round;
+    border-image-outset: 50px;
+    max-width: 16%;
     position: fixed;
     height: 100%;
-    padding: 44px;
-    min-width: 18%;
+    padding: 44px 2px;
+    min-width: 16%;
+    background-attachment: fixed;
+    background-image: url("art/bgtree.png");
 }
 
 #nav a {
-    color: #dbd2b8;
     text-decoration: none;
-    font-size: 14px;
-}
-
-#nav a:hover {
-    color: #ffbb54;
+    font-size: 16px;
 }
 
 .pix {
     flex-shrink: 0;
     padding: 4px;
+}
+
+#right {
+    border-left: 100px solid transparent;
+    border-image: url("art/boredleaves.png") 100 round;
+    border-image-outset: 32px;
+    max-width: 16%;
+    right: 0;
+    top: 0;
+    height: 100%;
+    min-width: 16%;
+    background-attachment: fixed;
+    background-image: url("art/bgtree.png");
+    position: fixed;
 }
 
 summary {
@@ -183,7 +201,7 @@ ul {
 
     #content {
         padding: 2px;
-        margin-left: auto;
+        margin: auto;
     }
 
     .flexreg {
@@ -209,7 +227,7 @@ ul {
         height: auto;
     }
 
-    #nav {
+    #nav, #right {
         max-width: fit-content;
         position: static;
         padding: 2px;
