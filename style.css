@@ -43,9 +43,9 @@ button {
 }
 
 #content {
-    padding: 4px 68px;
     background-image: url("art/bgwhite.jpg");
     margin-left: 18%;
+    padding: 4px 128px;
 }
 
 details {
