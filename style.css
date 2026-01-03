@@ -14,11 +14,11 @@ a:hover, summary:hover {
     text-decoration: none;
 }
 
-#art img, #pho img {
-    border: 4px solid #B2A37A;
-    max-width: 320px;
+#art img, #pho img, #woo img {
+    border: 2px dotted #644330;
+    max-width: 300px;
     margin: 8px;
-    max-height: 440px;
+    max-height: 380px;
 }
 
 body {
@@ -29,22 +29,6 @@ body {
     font-size: 14px;
     color: #232323;
     background-image: url("art/bgtan.png");
-}
-
-button {
-    margin: 2px;
-    padding: 4px 8px;
-    background-image: url("art/bgtan.png");
-    border: 2px solid #A41300;
-    font-size: 16px; 
-    display: block;
-    margin: 4px auto;
-    height: 32px;
-    width: 100px;
-}
-
-button:hover {
-    border: 2px solid #c26b07;
 }
 
 #content {
@@ -80,9 +64,9 @@ details {
 }
 
 h1, h2 {
-    border-bottom: 10px solid transparent;
-    border-top: 10px solid transparent;
-    border-image: url("art/bgtree.png") 60 round;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-image: url("art/bgtree.png") 44 round;
     max-width: fit-content;
     margin: auto;
 } 
@@ -132,19 +116,14 @@ img {
     overflow-y: auto;
 }
 
-#mtl img, #woo img {
-    border: 3px solid #B2A37A;
-}
-
 #nav {
     border-right: 100px solid transparent;
     border-image: url("art/boredleaves.png") 100 round;
     border-image-outset: 50px;
-    max-width: 16%;
+    width: 16%;
     position: fixed;
     height: 100%;
     padding: 44px 2px;
-    min-width: 16%;
     background-attachment: fixed;
     background-image: url("art/bgtree.png");
 }
@@ -152,6 +131,15 @@ img {
 #nav a {
     text-decoration: none;
     font-size: 16px;
+    margin: 2px;
+    padding: 4px 8px;
+    background-image: url("art/bgtan.png");
+    border: 2px dotted #644330;
+    font-size: 16px; 
+    display: block;
+    margin: 4px auto;
+    height: 32px;
+    width: 100px;
 }
 
 .pix {
@@ -183,14 +171,14 @@ ul {
     list-style-image: url("art/tinyshrm.gif");
 }
 
-#woo img {
-    margin: 8px;
-    max-width: 240px;
+.updates {
+    border: 18px solid transparent;
+    border-image: url("art/bortreeround.png") 32 round;
 }
 
 @media only screen and (max-width: 800px) {
 
-    #art img {
+    #art img, #pho img, #woo img {
         max-width: 99%;
         margin: 4px auto;
     }
@@ -200,7 +188,7 @@ ul {
     }
 
     #content {
-        padding: 2px;
+        padding: 4px;
         margin: auto;
     }
 
@@ -228,13 +216,14 @@ ul {
     }
 
     #nav, #right {
-        max-width: fit-content;
         position: static;
         padding: 2px;
+        width: 100%;
+        border: 0;
     }
 
-    #woo img {
-        max-width: 99%;
+    #nav li {
+        display: inline-block;
     }
 
 }
