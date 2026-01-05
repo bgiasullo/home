@@ -3,14 +3,14 @@
 }
 
 a, summary {
-    color: #631b00;
+    color: #054133;
     text-decoration: underline;
-    text-decoration-color: #CD0B01;
+    text-decoration-color: #5f0c08;
     text-decoration-style: dotted;
 }
 
 a:hover, summary:hover {
-    color: #CD0B01;
+    color: #037057;
     text-decoration: none;
 }
 
@@ -112,8 +112,9 @@ img {
     width: 340px;
     height: 260px;
     overflow-x: hidden;
-    border: 4px solid #B2A37A;
+    border: 2px dotted #644330;
     overflow-y: auto;
+    padding: 8px;
 }
 
 #nav {
@@ -145,6 +146,10 @@ img {
 .pix {
     flex-shrink: 0;
     padding: 4px;
+}
+
+.plainbox {
+    width: 300px;
 }
 
 #right {
@@ -210,9 +215,10 @@ ul {
         height: auto; 
     }
 
-    .listbox {
+    .listbox, .plainbox {
         width: fit-content;
         height: auto;
+        padding: 1px;
     }
 
     #nav, #right {
