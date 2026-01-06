@@ -109,8 +109,8 @@ img {
 }
 
 .listbox {
-    width: 340px;
-    height: 260px;
+    width: 310px;
+    height: 240px;
     overflow-x: hidden;
     border: 2px dotted #644330;
     overflow-y: auto;
@@ -150,6 +150,11 @@ img {
 
 .plainbox {
     width: 300px;
+}
+
+.plainbox img {
+    float: left;
+    padding: 8px;
 }
 
 #right {
