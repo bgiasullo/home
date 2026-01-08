@@ -65,7 +65,6 @@ details {
 
 h1, h2 {
     border-bottom: 8px solid transparent;
-    border-top: 8px solid transparent;
     border-image: url("art/bgtree.png") 44 round;
     max-width: fit-content;
     margin: auto;
