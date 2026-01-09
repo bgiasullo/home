@@ -142,6 +142,12 @@ img {
     width: 100px;
 }
 
+#nav li {
+    list-style-type: none;
+    list-style-image: none;
+    text-align: center;
+}
+
 .pix {
     flex-shrink: 0;
     padding: 4px;
@@ -183,6 +189,8 @@ ul {
 .updates {
     border: 18px solid transparent;
     border-image: url("art/bortreeround.png") 32 round;
+    max-width: fit-content;
+    margin: auto;
 }
 
 @media only screen and (max-width: 800px) {
