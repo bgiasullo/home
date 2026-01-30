@@ -57,11 +57,10 @@ details {
 }
 
 h1, h2 {
-    border-bottom: 6px solid transparent;
-    border-image: url("art/bgcoral.png") 44 round;
-    max-width: fit-content;
+    background-image: url("art/bgdkblue.png");
+    border: 2px dotted #FADA77;
+    color: #FADA77;
     margin: 14px auto;
-    color: #E1BEA0;
 } 
 
 .hide {
