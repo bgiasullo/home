@@ -24,7 +24,6 @@ body {
     color: #faeed8;
     background-color: #545550;
     background-image: url("art/bggray.png");
-    background-attachment: fixed;
 }
 
 #content {
@@ -62,7 +61,7 @@ h1, h2 {
     border-image: url("art/bgcoral.png") 44 round;
     max-width: fit-content;
     margin: 14px auto;
-    color: #FADA77;
+    color: #E1BEA0;
 } 
 
 .hide {
@@ -106,10 +105,10 @@ img {
     width: 310px;
     height: 240px;
     overflow-x: hidden;
-    border: 2px dotted #4E5A8E;
+    border: 2px dotted #FADA77;
     overflow-y: auto;
     padding: 8px;
-    background-color: #DDD1BB;
+    background-image: url("art/bgdkblue.png");
 }
 
 #nav {
