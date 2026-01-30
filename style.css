@@ -3,19 +3,13 @@
 }
 
 a, summary {
-    color: #054133;
+    color: #FADA77;
     text-decoration: underline;
-    text-decoration-color: #5f0c08;
     text-decoration-style: dotted;
 }
 
-a:hover, summary:hover {
-    color: #037057;
-    text-decoration: none;
-}
-
 #art img, #pho img, #woo img {
-    border: 2px dotted #644330;
+    border: 2px dotted #FADA77;
     max-width: 300px;
     margin: 8px;
     max-height: 380px;
@@ -27,15 +21,15 @@ body {
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
-    color: #232323;
-    background-image: url("art/bgtan.png");
+    color: #faeed8;
+    background-color: #545550;
+    background-image: url("art/bggray.png");
+    background-attachment: fixed;
 }
 
 #content {
-    background-image: url("art/bgtan.png");
-    margin: 0 16%;
+    margin: 0 0 0 19%;
     padding: 4px 88px;
-    background-attachment: fixed;
 }
 
 details {
@@ -64,10 +58,11 @@ details {
 }
 
 h1, h2 {
-    border-bottom: 8px solid transparent;
-    border-image: url("art/bgtree.png") 44 round;
+    border-bottom: 6px solid transparent;
+    border-image: url("art/bgcoral.png") 44 round;
     max-width: fit-content;
-    margin: auto;
+    margin: 14px auto;
+    color: #FADA77;
 } 
 
 .hide {
@@ -84,7 +79,7 @@ hr {
 }
 
 iframe {
-    border: 1px solid #064568;
+    border: 1px dotted #FADA77;
     width: 500px;
     height: 280px; 
 }
@@ -111,41 +106,34 @@ img {
     width: 310px;
     height: 240px;
     overflow-x: hidden;
-    border: 2px dotted #644330;
+    border: 2px dotted #4E5A8E;
     overflow-y: auto;
     padding: 8px;
+    background-color: #DDD1BB;
 }
 
 #nav {
-    border-right: 100px solid transparent;
-    border-image: url("art/boredleaves.png") 100 round;
-    border-image-outset: 50px;
-    width: 16%;
+    width: 20%;
     position: fixed;
     height: 100%;
     padding: 44px 2px;
     background-attachment: fixed;
-    background-image: url("art/bgtree.png");
+    background-image: url("art/bgcoral.png");
+    border-right: 4px dotted #FADA77;
 }
 
 #nav a {
     text-decoration: none;
     font-size: 16px;
-    margin: 2px;
     padding: 4px 8px;
-    background-image: url("art/bgtan.png");
-    border: 2px dotted #644330;
+    background-image: url("art/bgdkblue.png");
+    border: 2px dotted #FADA77;
     font-size: 16px; 
     display: block;
     margin: 4px auto;
-    height: 32px;
-    width: 100px;
-}
-
-#nav li {
-    list-style-type: none;
-    list-style-image: none;
-    text-align: center;
+    height: 36px;
+    width: 108px;
+    color: #FADA77;
 }
 
 .pix {
@@ -162,20 +150,6 @@ img {
     padding: 8px;
 }
 
-#right {
-    border-left: 100px solid transparent;
-    border-image: url("art/boredleaves.png") 100 round;
-    border-image-outset: 32px;
-    max-width: 16%;
-    right: 0;
-    top: 0;
-    height: 100%;
-    min-width: 16%;
-    background-attachment: fixed;
-    background-image: url("art/bgtree.png");
-    position: fixed;
-}
-
 summary {
     cursor: pointer;
     list-style: none;
@@ -184,13 +158,6 @@ summary {
 ul {
     text-align: left;
     list-style-image: url("art/tinyshrm.gif");
-}
-
-.updates {
-    border: 18px solid transparent;
-    border-image: url("art/bortreeround.png") 32 round;
-    max-width: fit-content;
-    margin: auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -233,14 +200,14 @@ ul {
         padding: 1px;
     }
 
-    #nav, #right {
+    #nav {
         position: static;
         padding: 2px;
         width: 100%;
         border: 0;
     }
 
-    #nav li {
+    #nav a {
         display: inline-block;
     }
 
