@@ -8,11 +8,17 @@ a, summary {
     text-decoration-style: dotted;
 }
 
-#art img, #pho img, #woo img {
+#art img, #pho img {
     border: 2px dotted #FADA77;
     max-width: 300px;
     margin: 8px;
     max-height: 380px;
+}
+
+#bee {
+    background-image: url("art/bgbubye.gif");
+    background-repeat: repeat-y;
+    background-position: top right;
 }
 
 body {
@@ -158,9 +164,15 @@ ul {
     list-style-image: url("art/tinyshrm.gif");
 }
 
+.woods img {
+    max-width: 300px;
+    border: 2px dotted #97BAEF;
+    margin: 20px;
+}
+
 @media only screen and (max-width: 800px) {
 
-    #art img, #pho img, #woo img {
+    #art img, #pho img, .woods img {
         max-width: 99%;
         margin: 4px auto;
     }
