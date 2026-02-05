@@ -8,13 +8,6 @@ a, summary {
     text-decoration-style: dotted;
 }
 
-#art img, #pho img {
-    border: 2px dotted #FADA77;
-    max-width: 300px;
-    margin: 8px;
-    max-height: 380px;
-}
-
 #bee {
     background-image: url("art/bgbubye.gif");
     background-repeat: repeat-y;
@@ -106,6 +99,10 @@ img {
     list-style-image: url("art/tinybu.gif");
 }
 
+#lis li, #bee li {
+    list-style-image: url("art/tinylight.gif");
+}
+
 .listbox {
     width: 310px;
     height: 240px;
@@ -138,6 +135,12 @@ img {
     height: 36px;
     width: 108px;
     color: #FADA77;
+}
+
+#pho img, #art img {
+    max-width: 222px;
+    margin: 16px;
+    box-shadow: 2px 2px 10px 0 #292727;
 }
 
 .pix {
