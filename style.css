@@ -3,9 +3,8 @@
 }
 
 a, summary {
-    color: #FADA77;
-    text-decoration: underline;
-    text-decoration-style: dotted;
+    color: #f5cb50;
+    text-decoration: none;
 }
 
 #bee {
@@ -20,7 +19,7 @@ body {
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
-    color: #faeed8;
+    color: #dfe1f8;
     background-color: #545550;
     background-image: url("art/bggray.png");
 }
