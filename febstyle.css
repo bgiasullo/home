@@ -53,19 +53,12 @@ details {
     list-style-image: url("art/tinblst.gif");
 }
 
-h1 {
+h1, h2 {
     background-image: url("art/bgdkblue.png");
     border: 2px dotted #FADA77;
     color: #FADA77;
     margin: 14px auto;
-	max-width: fit-content;
-	padding: 2px 24px;
-	font-size: 20px;
 } 
-
-h2 {
-	color: #DABBBA;
-}
 
 .hide {
     display: none;
@@ -75,14 +68,9 @@ h2 {
     display: block;
 }
 
-#hom .plainbox {
-	max-height: 400px;
-	overflow-y: auto;
-}
-
 hr {
     border: 0;
-    margin: 42px auto;
+    margin: 32px auto;
 }
 
 iframe {
@@ -148,11 +136,9 @@ img {
 }
 
 #pho img, #art img {
-	background-color: #2B1D1D;
-    border: 3px double #918474;
-	padding: 8px;
-    max-width: 228px;
-    margin: 18px;
+    max-width: 222px;
+    margin: 16px;
+    box-shadow: 2px 2px 10px 0 #292727;
 }
 
 .pix {
@@ -161,8 +147,12 @@ img {
 }
 
 .plainbox {
-	max-width: 500px;
-	padding: 8px;
+    width: 300px;
+}
+
+.plainbox img {
+    float: left;
+    padding: 8px;
 }
 
 summary {
@@ -209,14 +199,10 @@ ul {
         gap: 8px;
         justify-content: center;
     }
-	
-	#hom .plainbox {
-		max-height: fit-content;
-	}
 
     iframe {
         width: 95%;
-        height: fit-content; 
+        height: auto; 
     }
 
     .listbox, .plainbox {
