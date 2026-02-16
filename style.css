@@ -23,6 +23,16 @@ a, summary {
 	outline-offset: -34px;
 }
 
+.artimg img, #pho img, .woods img {
+	background-color: #452E29;
+    border: 3px double #918474;
+	padding: 8px;
+    max-width: 228px;
+    margin: 18px;
+	outline: 3px double #918474;
+	outline-offset: -10px;
+}
+
 #bee {
     background-image: url("art/bgbubye.gif");
     background-repeat: repeat-y;
@@ -125,7 +135,6 @@ iframe {
 img {
     max-width: 100%;
     vertical-align: middle;
-    max-height: 90vh;
 }
 
 #kit details {
@@ -200,16 +209,6 @@ img {
     color: #FADA77;
 }
 
-#pho img, .artimg img {
-	background-color: #2B1D1D;
-    border: 3px double #918474;
-	padding: 8px;
-    max-width: 228px;
-    margin: 18px;
-	outline: 3px double #918474;
-	outline-offset: -10px;
-}
-
 .pix {
     flex-shrink: 0;
     padding: 4px;
@@ -225,21 +224,11 @@ ul {
     list-style-image: url("art/tinyshrm.gif");
 }
 
-.woods img {
-    max-width: 300px;
-    border: 2px dotted #97BAEF;
-    margin: 20px;
-}
-
 @media only screen and (max-width: 800px) {
 
     #art img, #pho img, .woods img {
         max-width: 99%;
         margin: 4px auto;
-    }
-
-    button {
-        display: inline;
     }
 
     #content {
@@ -266,7 +255,6 @@ ul {
 
     iframe {
         width: 95%;
-        height: fit-content; 
     }
 
     .listbox, .plainbox {
