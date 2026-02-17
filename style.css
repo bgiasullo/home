@@ -8,7 +8,7 @@ a, summary {
 }
 
 .abinner {
-	padding: 8px;
+	padding: 18px;
 	background-color: #2B1D1D;
 }
 
@@ -56,6 +56,7 @@ body {
     color: #dfe1f8;
     background-color: #545550;
     background-image: url("art/bggray.png");
+	background-attachment: fixed;
 }
 
 #content {
@@ -82,7 +83,7 @@ details {
     justify-content: center;
 }
 
-#gam details {
+#gam summary {
 	text-align: center;
 }
 
@@ -137,7 +138,7 @@ img {
     vertical-align: middle;
 }
 
-#kit details {
+#kit summary {
 	text-align: center;
 }
 
