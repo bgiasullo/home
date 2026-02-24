@@ -93,12 +93,13 @@ details {
 
 h1 {
     background-image: url("art/bgdkblue.png");
-    border: 2px dotted #FADA77;
+    border: 1px solid #FADA77;
     color: #FADA77;
     margin: 14px auto;
 	max-width: fit-content;
 	padding: 2px 24px;
 	font-size: 20px;
+	border-radius: 3px;
 } 
 
 h2 {
