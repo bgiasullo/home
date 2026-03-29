@@ -27,6 +27,10 @@ a, summary {
 	outline-offset: -34px;
 }
 
+.art {
+	background-image: url("ext/backarc1.png")
+}
+
 .art, .pho, .woo {
 	padding: 44px;
 }
@@ -42,14 +46,14 @@ a, summary {
 }
 
 .bee {
-    background-image: url("art/bgbubye.gif"), url("art/bggray.png");
+    background-image: url("art/bgbubye.gif"), url("art/bgtextu.png");
     background-repeat: repeat-y, repeat;
     background-position: top right, top left;
-	padding: 12px 66px;
+	padding: 12px 86px;
 }
 
 .bee .flexreg {
-		gap: 18px;
+	gap: 18px;
 }
 
 .bee .plainbox, .lib .plainbox {
@@ -62,7 +66,7 @@ body {
     font-size: 14px;
     color: #F5FFFC;
     background-color: #545550;
-    background-image: url("art/bggray.png");
+    background-image: url("art/bgsoftleaves.png");
 }
 
 details {
@@ -84,7 +88,7 @@ details {
 }
 
 .gam {
-	padding: 32px;
+	padding: 32px 68px;
 }
 
 .gam summary {
@@ -107,7 +111,7 @@ h1 {
 } 
 
 h2 {
-	color: #DABBBA;
+	color: #FFDD8B;
 }
 
 h3 {
@@ -193,7 +197,7 @@ img {
 
 .nav {
     padding: 44px 2px;
-    background-image: url("art/bgcoral.png");
+    background-image: url("art/bgbranches.png");
 	height: 100vh;
 	margin: 0;
 }
@@ -202,14 +206,14 @@ img {
     text-decoration: none;
     font-size: 16px;
     padding: 6px 8px;
-    background-image: url("art/bgdkblue.png");
-    border: 2px dotted #FADA77;
+    background-color: #113E4B;
+    border: 2px dotted #E1C28C;
     font-size: 16px; 
     display: block;
     margin: 4px auto;
     height: 36px;
     width: 108px;
-    color: #FADA77;
+    color: #E1C28C;
 }
 
 ol {
