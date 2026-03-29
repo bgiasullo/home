@@ -12,10 +12,6 @@ a, summary {
 	background-color: #2B1D1D;
 }
 
-.abo {
-	padding: 50px;
-}
-
 .abouter {
 	background-image: url("art/bgbluegold.png");
 	padding: 32px;
@@ -27,11 +23,7 @@ a, summary {
 	outline-offset: -34px;
 }
 
-.art, .pho, .woo {
-	padding: 44px;
-}
-
-.artimg img, .pho img, .woods img {
+.artimg img, #pho img, .woods img {
 	background-color: #452E29;
     border: 3px double #918474;
 	padding: 8px;
@@ -41,28 +33,35 @@ a, summary {
 	outline-offset: -10px;
 }
 
-.bee {
-    background-image: url("art/bgbubye.gif"), url("art/bggray.png");
-    background-repeat: repeat-y, repeat;
-    background-position: top right, top left;
-	padding: 12px 66px;
+#bee {
+    background-image: url("art/bgbubye.gif");
+    background-repeat: repeat-y;
+    background-position: top right;
 }
 
-.bee .flexreg {
+#bee .flexreg {
 		gap: 18px;
 }
 
-.bee .plainbox, .lib .plainbox {
+#bee .plainbox, #lib .plainbox {
 	max-width: 440px;
 }
 
 body {
     text-align: center;
+    margin: 0;
+    padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     color: #F5FFFC;
     background-color: #545550;
     background-image: url("art/bggray.png");
+	background-attachment: fixed;
+}
+
+#content {
+    margin: 0 0 0 19%;
+    padding: 4px 88px;
 }
 
 details {
@@ -83,15 +82,11 @@ details {
     justify-content: center;
 }
 
-.gam {
-	padding: 32px;
-}
-
-.gam summary {
+#gam summary {
 	text-align: center;
 }
 
-.gam li {
+#gam li {
     list-style-image: url("art/tinblst.gif");
 }
 
@@ -114,11 +109,15 @@ h3 {
 	color: #FFC5BB;
 }
 
-.hom {
-	padding: 44px;
+.hide {
+    display: none;
 }
 
-.hom .plainbox {
+.hide:target {
+    display: block;
+}
+
+#hom .plainbox {
 	max-height: 400px;
 	overflow-y: auto;
 }
@@ -139,31 +138,27 @@ img {
     vertical-align: middle;
 }
 
-.jou, .kit, .lib, .lin, .lis {
-	padding: 20px 80px;
-}
-
-.kit summary {
+#kit summary {
 	text-align: center;
 }
 
-.kit .flexwrap, .lib .flexwrap {
+#kit .flexwrap, #lib .flexwrap {
 	gap: 28px;	
 }
 
-.kit ul {
+#kit ul {
     list-style-image: url("art/tinierpumpkin.png");
 }
 
-.lib li {
+#lib li {
     list-style-image: url("art/tinybu.gif");
 }
 
-.lis .flexwrap {
+#lis .flexwrap {
 	gap: 22px;
 }
 
-.lis li, .bee li {
+#lis li, #bee li {
     list-style-image: url("art/tinylight.gif");
 }
 
@@ -177,11 +172,7 @@ img {
     background-image: url("art/bgdkblue.png");
 }
 
-.mtl {
-	padding: 32px;
-}
-
-.mtl img {
+#mtl img {
 	max-width: 70%;
 	margin: 60px auto;
 	border: 3px double #918474;
@@ -191,17 +182,20 @@ img {
 	background-color: #2B1D1D;
 }
 
-.nav {
+#nav {
+    width: 20%;
+    position: fixed;
+    height: 100%;
     padding: 44px 2px;
+    background-attachment: fixed;
     background-image: url("art/bgcoral.png");
-	height: 100vh;
-	margin: 0;
+    border-right: 4px dotted #FADA77;
 }
 
-.nav a {
+#nav a {
     text-decoration: none;
     font-size: 16px;
-    padding: 6px 8px;
+    padding: 4px 8px;
     background-image: url("art/bgdkblue.png");
     border: 2px dotted #FADA77;
     font-size: 16px; 
@@ -230,4 +224,56 @@ summary {
 ul {
     text-align: left;
     list-style-image: url("art/tinyshrm.gif");
+}
+
+@media only screen and (max-width: 800px) {
+
+    #art img, img, #mtl img, #pho img, .woods img {
+        max-width: 99%;
+        margin: 4px auto;
+    }
+
+    #content {
+        padding: 4px;
+        margin: auto;
+    }
+
+    .flexreg {
+        max-width: 99%;
+        gap: 2px;
+        margin: 4px auto;
+        flex-wrap: wrap;
+    }
+
+    .flexwrap {
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+    }
+	
+	#hom .plainbox {
+		max-height: fit-content;
+	}
+
+    iframe {
+        width: 95%;
+    }
+
+    .listbox, .plainbox {
+        width: fit-content;
+        height: auto;
+        padding: 1px;
+    }
+
+    #nav {
+        position: static;
+        padding: 2px;
+        width: 100%;
+        border: 0;
+    }
+
+    #nav a {
+        display: inline-block;
+    }
+
 }
