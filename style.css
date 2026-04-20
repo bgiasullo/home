@@ -226,6 +226,10 @@ ol {
     padding: 4px;
 }
 
+.poe {
+	background-image: url("ext/rummage01.png")
+}
+
 summary {
     cursor: pointer;
     list-style: none;
