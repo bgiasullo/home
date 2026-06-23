@@ -3,8 +3,13 @@
 }
 
 a, summary {
-    color: #f5cb50;
-    text-decoration: none;
+    color: #FE9870;
+	text-decoration: underline dotted 1px;
+}
+
+a:hover, summary:hover {
+	color: #FFE399;
+	text-decoration: none;
 }
 
 .abinner {
@@ -21,7 +26,7 @@ a, summary {
 }
 
 .abo, .bee, .hom, .jou, .kit, .lib, .lin, .lis {
-	padding: 6% 12%;
+	padding: 8% 14%;
 }
 
 .art {
@@ -33,19 +38,28 @@ a, summary {
 }
 
 .artimg img, .pho img, .woods img {
-	background-color: #452E29;
-    border: 3px double #918474;
-	padding: 8px;
+	background-color: #1B2B37;
+    border: 3px ridge #A04016;
+	padding: 6px;
     max-width: 228px;
     margin: 18px;
-	outline: 3px double #918474;
-	outline-offset: -10px;
+	outline: 3px ridge #9C6816;
+	outline-offset: -8px;
 }
 
 .bee {
     background-image: url("art/bgbubye.gif"), url("art/bgtextu.png");
     background-repeat: repeat-y, repeat;
     background-position: top right, top left;
+}
+
+.bee details {
+	display: inline-block;
+	max-width: 300px;
+}
+
+.bee summary {
+	margin: 36px;
 }
 
 .bee .flexreg {
@@ -113,14 +127,15 @@ h3 {
 	color: #FFC5BB;
 }
 
-.hom {
-	background-image: url("art/bgscene.png");
-	background-attachment: fixed;
+.hide {
+	display: none;
 }
 
-.hom .plainbox {
-	max-height: 400px;
-	overflow-y: auto;
+.hide:target {
+	display: block;
+}
+
+.hom {
 	background-color: #554841;
 }
 
@@ -197,22 +212,12 @@ img {
     padding: 44px 2px;
 	height: 100vh;
 	margin: 0;
-	background-color: #574F43;
-	background-image: url("art/bgcloud.png");
+	background-color: #1B2B37;
 }
 
 .nav a {
-    text-decoration: none;
     font-size: 16px;
-    padding: 4px 4px;
-    background-color: #275471;
-    border: 2px ridge #FFEACB;
-    font-size: 16px; 
-    display: block;
-    margin: 2px auto;
-    height: 32px;
-    width: 100px;
-    color: #FFEACB;
+	display: block;
 }
 
 ol {
