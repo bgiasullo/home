@@ -3,7 +3,7 @@
 }
 
 a, summary {
-    color: #FE9870;
+    color: #FFBBAD;
 	text-decoration: underline dotted 1px;
 }
 
@@ -61,11 +61,6 @@ a:hover, summary:hover {
 .bee summary {
 	margin: 36px;
 }
-
-.bee .flexreg {
-	gap: 18px;
-}
-
 .bee .plainbox, .lib .plainbox {
 	max-width: 440px;
 }
@@ -75,7 +70,7 @@ body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;    
 	font-size: 14px;
     color: #F5FFFC;
-    background-color: #574F43;
+    background-color: #1B2B37;
 }
 
 details {
