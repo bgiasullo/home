@@ -21,8 +21,8 @@ a:hover, summary:hover {
 	outline-offset: -10px;
 }
 
-.abo {
-	background-image: url("art/bgbluegold.png");
+.abo, .pho {
+	background-image: url("art/bgdkblue.png");
 }
 
 .abo, .bee, .hom, .jou, .kit, .lib, .lin, .lis {
@@ -56,11 +56,9 @@ a:hover, summary:hover {
 .bee details {
 	display: inline-block;
 	max-width: 300px;
-}
-
-.bee summary {
 	margin: 36px;
 }
+
 .bee .plainbox, .lib .plainbox {
 	max-width: 440px;
 }
@@ -101,6 +99,10 @@ details {
 
 .gam li {
     list-style-image: url("art/tinblst.gif");
+}
+
+.gam, .jou, .kit, .lib, .lin, .woo {
+	background-image: url("art/bgsoftleaves.png")
 }
 
 h1 {
