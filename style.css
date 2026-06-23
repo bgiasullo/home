@@ -26,7 +26,7 @@ a:hover, summary:hover {
 }
 
 .abo, .bee, .hom, .jou, .kit, .lib, .lin, .lis {
-	padding: 8% 14%;
+	padding: 6% 14%;
 }
 
 .art {
@@ -39,12 +39,10 @@ a:hover, summary:hover {
 
 .artimg img, .pho img, .woods img {
 	background-color: #1B2B37;
-    border: 3px ridge #A04016;
-	padding: 6px;
+    border: 4px ridge #A04016;
+	padding: 2px;
     max-width: 228px;
     margin: 18px;
-	outline: 3px ridge #9C6816;
-	outline-offset: -8px;
 }
 
 .bee {
@@ -101,7 +99,7 @@ details {
     list-style-image: url("art/tinblst.gif");
 }
 
-.gam, .jou, .kit, .lib, .lin, .woo {
+.gam, .hom, .jou, .kit, .lib, .lin, .woo {
 	background-image: url("art/bgsoftleaves.png")
 }
 
@@ -121,7 +119,8 @@ h2 {
 }
 
 h3 {
-	color: #FFC5BB;
+	color: #C1CAFF;
+	font-size: 20px;
 }
 
 .hide {
