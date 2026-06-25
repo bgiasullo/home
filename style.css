@@ -29,7 +29,7 @@ a:hover, summary:hover {
 	padding: 5% 14%;
 }
 
-.art {
+.art, .mtl {
 	background-image: url("ext/backarc01.png");
 }
 
@@ -96,7 +96,7 @@ details {
     list-style-image: url("art/tinblst.gif");
 }
 
-.gam, .kit, .lib, .lin, .woo {
+.gam, .lib, .lin, .woo {
 	background-image: url("art/bgsoftleaves.png");
 }
 
@@ -155,8 +155,19 @@ img {
 	background-image: url("art/bggray.png");
 }
 
-.kit summary {
+.kit {
+	background-image: url("ext/rummage02.jpg");
+	background-attachment: fixed;
+}
+
+.kit .abinner {
+	background-color: #132723;
+}
+
+.kit details {
 	text-align: center;
+	display: inline-block;
+	margin: 6px;
 }
 
 .kit .flexwrap, .lib .flexwrap {
@@ -189,7 +200,7 @@ img {
     width: 310px;
     height: 240px;
     overflow-x: hidden;
-    border: 2px dotted #389CD6;
+    border: 3px dotted #389CD6;
     overflow-y: auto;
     padding: 4px;
 	background-color: #4B402A;
@@ -202,11 +213,9 @@ img {
 .mtl img {
 	max-width: 70%;
 	margin: 60px auto;
-	border: 3px double #918474;
-	padding: 8px;
-	outline: 3px double #918474;
-	outline-offset: -10px;
-	background-color: #2B1D1D;
+	background-color: #1B2B37;
+    border: 4px ridge #A04016;
+	padding: 2px;
 }
 
 .nav {
