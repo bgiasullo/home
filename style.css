@@ -39,10 +39,10 @@ a:hover, summary:hover {
 
 .artimg img, .pho img, .woods img {
 	background-color: #1B2B37;
-    border: 4px ridge #A04016;
-	padding: 2px;
+    border: 6px ridge #35302B;
     max-width: 228px;
     margin: 18px;
+	padding: 4px;
 }
 
 .bee {
@@ -56,6 +56,10 @@ a:hover, summary:hover {
 	display: inline-block;
 	max-width: 300px;
 	margin: 36px;
+}
+
+.bee li {
+    list-style-image: url("art/tinylight.gif");
 }
 
 body {
@@ -192,8 +196,8 @@ img {
 	gap: 32px;
 }
 
-.lis li, .bee li {
-    list-style-image: url("art/tinylight.gif");
+.lis li {
+    list-style-image: url("art/tinybu.gif");
 }
 
 .listbox {
@@ -204,6 +208,8 @@ img {
     overflow-y: auto;
     padding: 4px;
 	background-color: #4B402A;
+	background-image: url("art/bgdkbirds.jpg");
+	background-attachment: fixed;
 }
 
 .mtl {
