@@ -37,7 +37,7 @@ a:hover, summary:hover {
 	padding: 44px;
 }
 
-.artimg img, .pho img, .woods img {
+.artimg img, .mtl img, .pho img, .woods img {
 	background-color: #1B2B37;
     border: 6px ridge #35302B;
     max-width: 228px;
@@ -66,7 +66,7 @@ body {
     text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;    
 	font-size: 16px;
-    color: #F5FFFC;
+    color: #F5F4F1;
     background-color: #1B2B37;
 }
 
@@ -156,7 +156,7 @@ img {
 .jou {
 	text-align: left;
 	background-attachment: fixed;
-	background-image: url("art/bggray.png");
+	background-image: url("art/bgpaint.png");
 }
 
 .kit {
@@ -166,6 +166,8 @@ img {
 
 .kit .abinner {
 	background-color: #132723;
+	border: 2px dotted #FF530F;
+	outline: 2px dotted #FF530F;
 }
 
 .kit details {
@@ -180,6 +182,10 @@ img {
 
 .kit ul {
     list-style-image: url("art/tinierpumpkin.png");
+}
+
+li {
+	margin-top: 6px;
 }
 
 .lib li {
@@ -219,9 +225,6 @@ img {
 .mtl img {
 	max-width: 70%;
 	margin: 60px auto;
-	background-color: #1B2B37;
-    border: 4px ridge #A04016;
-	padding: 2px;
 }
 
 .nav {
