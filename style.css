@@ -188,6 +188,10 @@ li {
 	margin-top: 8px;
 }
 
+.lib {
+	background-image: url("art/bgourownbirds.png")
+}
+
 .lib li {
     list-style-image: url("art/tinybu.gif");
 }
