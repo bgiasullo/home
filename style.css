@@ -189,7 +189,8 @@ li {
 }
 
 .lib {
-	background-image: url("art/bgourownbirds.png")
+	background-image: url("art/bgourownbirds.png");
+	background-attachment: fixed;
 }
 
 .lib li {
