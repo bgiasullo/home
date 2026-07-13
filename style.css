@@ -19,6 +19,7 @@ a:hover, summary:hover {
 	border-radius: 4px;
 	outline: 2px dotted #FADA77;
 	outline-offset: -10px;
+	margin: 22px auto;
 }
 
 .abo, .pho {
@@ -189,12 +190,21 @@ li {
 }
 
 .lib {
-	background-image: url("art/bgourownbirds.png");
+	background-image: url("art/bggreen.png");
 	background-attachment: fixed;
 }
 
 .lib li {
-    list-style-image: url("art/tinybu.gif");
+    list-style-image: url("art/tinyshrm.gif");
+}
+
+.libinner {
+	border: 22px solid transparent;
+	border-image: url("art/bordergold.png") 22 round;
+	background-color: #151D13;
+	background-clip: padding-box;
+	padding: 22px;
+	margin: 32px auto;
 }
 
 .lis {
